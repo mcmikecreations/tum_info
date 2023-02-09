@@ -1,0 +1,13 @@
+---
+layout: page
+---
+
+<ul>
+  {% for item in page.grades %}
+  <li> {{ item.grade }}: #{{ item.people }} </li>
+  {% endfor %}
+</ul>
+
+<div class="course-content">
+  {{ content }}
+</div>

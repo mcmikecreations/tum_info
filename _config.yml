@@ -1,0 +1,44 @@
+title: TUM Info
+author:
+  name: Mykola Morozov
+  email: mcmikecreations@gmail.com
+description: >-
+  A bunch of useful information I've collected while studying at the Technical University of Munich.
+baseurl: ""
+url: ""
+github_username:  mcmikecreations
+
+# https://github.com/jekyll/minima
+minima:
+  skin: classic
+  date_format: "%b %-d, %Y"
+  social_links:
+    - { platform: github,         user_url: "https://github.com/mcmikecreations/tum_info" }
+    - { platform: tum,            user_url: "https://www.tum.de/", title:  Official TUM website }
+
+show_excerpts: false
+
+header_pages:
+  - about.md
+  - courses.md
+
+collections:
+  courses:
+    school: "AAA"
+    code: "AA1111"
+    name: "A"
+    semester: "2022WS" # refers to the year of the semester start
+    exam_type: "endterm"
+    grades:
+      - { grade: 1.0, people: 1 }
+    output: true
+
+# Build settings
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+exclude:
+  - .jekyll-cache/
