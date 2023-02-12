@@ -3,12 +3,11 @@ layout: course
 
 school: "CIT"
 code: "IN2111"
-semester: "2022WS" # refers to the year of the semester start
+semester: "2022SS" # refers to the year of the semester start
 exam_type: "endterm"
 name: "3D User Interfaces"
 
-permalink: /courses/cit/in2111/2022ws-endterm
-title: "3D User Interfaces 2022WS Endterm"
+title: "3D User Interfaces 2022SS Endterm"
 grades:
   - { grade: 1.0, people: 1 }
   - { grade: 1.0, people: 7 }
@@ -27,4 +26,4 @@ grades:
   - { grade: 6.0, people: 23 }
 ---
 
-# FAKE
+> Note: this exam was held on Wednesday, August 10th, 2022

@@ -32,6 +32,7 @@ collections:
     grades:
       - { grade: 1.0, people: 1 }
     output: true
+    permalink: /:collection/:path
 
 # Build settings
 remote_theme: jekyll/minima
