@@ -9,7 +9,6 @@ name: "3D User Interfaces"
 
 title: "3D User Interfaces 2022WS Endterm"
 grades:
-  - { grade: 1.0, people: 1 }
   - { grade: 1.0, people: 7 }
   - { grade: 1.3, people: 2 }
   - { grade: 1.7, people: 8 }
@@ -20,7 +19,6 @@ grades:
   - { grade: 3.3, people: 7 }
   - { grade: 3.7, people: 5 }
   - { grade: 4.0, people: 4 }
-  - { grade: 4.3, people: 0 }
   - { grade: 4.7, people: 1 }
   - { grade: 5.0, people: 4 }
   - { grade: 6.0, people: 23 }

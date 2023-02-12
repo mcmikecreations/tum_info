@@ -24,11 +24,12 @@ header_pages:
 
 collections:
   courses:
-    school: "AAA"
-    code: "AA1111"
-    name: "A"
+    school: "CIT"
+    code: "IN0000"
+    name: "Course name"
     semester: "2022WS" # refers to the year of the semester start
     exam_type: "endterm"
+    date: "2022-01-01 12:00:00 +0100"
     grades:
       - { grade: 1.0, people: 1 }
     output: true
