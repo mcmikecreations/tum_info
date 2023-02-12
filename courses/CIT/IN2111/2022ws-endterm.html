@@ -14,11 +14,11 @@
 <meta property="og:url" content="/tum_info/courses/CIT/IN2111/2022ws-endterm" />
 <meta property="og:site_name" content="TUM Info" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-02-12T18:12:25+00:00" />
+<meta property="article:published_time" content="2023-02-12T21:53:51+00:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="3D User Interfaces 2022WS Endterm" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Mykola Morozov"},"dateModified":"2023-02-12T18:12:25+00:00","datePublished":"2023-02-12T18:12:25+00:00","description":"FAKE","headline":"3D User Interfaces 2022WS Endterm","mainEntityOfPage":{"@type":"WebPage","@id":"/tum_info/courses/CIT/IN2111/2022ws-endterm"},"url":"/tum_info/courses/CIT/IN2111/2022ws-endterm"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Mykola Morozov"},"dateModified":"2023-02-12T21:53:51+00:00","datePublished":"2023-02-12T21:53:51+00:00","description":"FAKE","headline":"3D User Interfaces 2022WS Endterm","mainEntityOfPage":{"@type":"WebPage","@id":"/tum_info/courses/CIT/IN2111/2022ws-endterm"},"url":"/tum_info/courses/CIT/IN2111/2022ws-endterm"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/tum_info/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/tum_info/feed.xml" title="TUM Info" />
 </head>
@@ -46,44 +46,121 @@
   </header>
 
   <div class="post-content">
-    <ul>
-  
-  <li> 1.0: #1 </li>
-  
-  <li> 1.0: #7 </li>
-  
-  <li> 1.3: #2 </li>
-  
-  <li> 1.7: #8 </li>
-  
-  <li> 2.0: #9 </li>
-  
-  <li> 2.3: #5 </li>
-  
-  <li> 2.7: #7 </li>
-  
-  <li> 3.0: #6 </li>
-  
-  <li> 3.3: #7 </li>
-  
-  <li> 3.7: #5 </li>
-  
-  <li> 4.0: #4 </li>
-  
-  <li> 4.3: #0 </li>
-  
-  <li> 4.7: #1 </li>
-  
-  <li> 5.0: #4 </li>
-  
-  <li> 6.0: #23 </li>
-  
-</ul>
+    
 
-<div class="course-content">
+
+
+
+
+
+
+<div id="course-content">
+  <table>
+    <tr>
+      <td><b>Registered:</b></td>
+      <td id="course-people-total">0</td>
+    </tr>
+    <tr>
+      <td><b>Attempt made/counted:</b></td>
+      <td id="course-attempts-total">0</td>
+    </tr>
+    <tr>
+      <td><b>Percent. of exams assessed as failed:</b></td>
+      <td id="course-failed-percent">0%</td>
+    </tr>
+    <tr>
+      <td><b>Average total:</b></td>
+      <td id="course-grade-avg">0.0</td>
+    </tr>
+    <tr>
+      <td><b>Average (assessed as passed):</b></td>
+      <td id="course-grade-avg-passed">0.0</td>
+    </tr>
+  </table> 
+  <div id="course-plot"></div>
+  <blockquote>
+    <p>Note: this exam was held on Sunday, 2023/02/12</p>
+  </blockquote>
+  <br>
   <h1 id="fake">FAKE</h1>
 
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
+<script>
+  const grades = [
+    { 'grade': 1.0, 'people': 7 },
+    { 'grade': 1.3, 'people': 2 },
+    { 'grade': 1.7, 'people': 8 },
+    { 'grade': 2.0, 'people': 9 },
+    { 'grade': 2.3, 'people': 5 },
+    { 'grade': 2.7, 'people': 7 },
+    { 'grade': 3.0, 'people': 6 },
+    { 'grade': 3.3, 'people': 7 },
+    { 'grade': 3.7, 'people': 5 },
+    { 'grade': 4.0, 'people': 4 },
+    { 'grade': 4.7, 'people': 1 },
+    { 'grade': 5.0, 'people': 4 },
+    { 'grade': 6.0, 'people': 23 },
+  ];
+
+  const peopleTotal = grades.reduce((partialSum, a) => partialSum + a.people, 0);
+  const attempts = grades.filter(x => x.grade < 6.0);
+  const attemptsTotal = attempts.reduce((partialSum, a) => partialSum + a.people, 0);
+  const failedAttempts = attempts.filter(x => x.grade > 4.0);
+  const failedAttemptsTotal = failedAttempts.reduce((partialSum, a) => partialSum + a.people, 0);
+  const gradeTotal = attempts.reduce((partialSum, a) => partialSum + a.people * a.grade, 0);
+  const passedAttempts = attempts.filter(x => x.grade <= 4.0);
+  const gradePassed = passedAttempts.reduce((partialSum, a) => partialSum + a.people * a.grade, 0);
+
+  const round = function(x, digits)
+  {
+    const pow = Math.pow(10, digits);
+    return Math.round(x * pow) / pow;
+  }
+
+  d3.select('#course-people-total').text(peopleTotal);
+  d3.select('#course-attempts-total').text(attemptsTotal);
+  d3.select('#course-failed-percent').text(`${round(failedAttemptsTotal / attemptsTotal * 100, 2)}%`);
+  d3.select('#course-grade-avg').text(round(gradeTotal / attemptsTotal, 2));
+  d3.select('#course-grade-avg-passed').text(round(gradePassed / (attemptsTotal - failedAttemptsTotal), 2));
+
+  const barColor = function (d)
+  {
+    const v = d.grade;
+    if (v <= 4.0)
+    {
+      const hue = (4.0 - v) * 40.0;
+      return `hsl(${hue}, 100%, 50%)`;
+    }
+    else if (v <= 5.0)
+    {
+      const hue = (5.0 - v) * 25.0 + 25.0;
+      return `hsl(0, 100%, ${hue}%)`;
+    }
+    return 'hsl(0, 0%, 25%)';
+  };
+
+  const wrapper = document.querySelector('.wrapper');
+  const wrapperStyle = getComputedStyle(wrapper);
+
+  document.getElementById('course-plot').append(Plot.plot({
+    marks: [
+      Plot.barX(grades, {x: 'people', y: 'grade', fill: barColor}),
+      Plot.text(grades, {
+        x: 'people',
+        y: 'grade',
+        text: d => `${round(d.people / attemptsTotal * 100.0, 2)}% #${d.people}`,
+        dx: 25})
+    ],
+    height: Math.round(36.6 * grades.length),
+    width: parseInt(wrapperStyle['width']),
+    marginRight: 50,
+    y: { line: true },
+    x: { grid: true }
+  }));
+</script>
 
   </div>
 
