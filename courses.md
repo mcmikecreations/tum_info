@@ -18,7 +18,7 @@ permalink: /courses/
 - {{ code }} {{ code_courses.first.name }}:
     {% for semester in code_semesters %}
     {% assign semester_courses = code_courses | where: "semester", semester %}
-    - {{ semester }} {% for course in semester_courses %}[{{ course.exam_type | capitalize }}]({{ course.url }}){% if forloop.last != true %}, {% endif %}{% endfor %}
+    - {{ semester }} {% for course in semester_courses %}[{{ course.exam_type | capitalize }}]({{ site.baseurl }}{{ course.url }}){% if forloop.last != true %}, {% endif %}{% endfor %}
     {% endfor %}
 {% endfor %}
 
