@@ -1,9 +1,10 @@
 source "https://rubygems.org"
-# gem "jekyll", "~> 4.3.2"
+
+gem "jekyll", "~> 4.3.2"
 gem "minima", "~> 2.5.1"
-gem "github-pages", group: :jekyll_plugins
+
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.15.1"
+  gem "jekyll-feed", "~> 0.17.0"
   gem "jekyll-remote-theme", "~> 0.4.3"
   gem "jekyll-seo-tag", "~> 2.8.0"
 end
