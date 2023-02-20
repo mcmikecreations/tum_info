@@ -10,7 +10,7 @@ github_username:  mcmikecreations
 
 # https://github.com/jekyll/minima
 minima:
-  skin: classic
+  skin: auto
   date_format: "%b %-d, %Y"
   social_links:
     - { platform: github,         user_url: "https://github.com/mcmikecreations/tum_info" }

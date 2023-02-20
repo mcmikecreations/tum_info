@@ -1,0 +1,29 @@
+---
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+div#course-plot svg {
+  background: $background-color !important;
+
+  g > text {
+    fill: $text-color;
+  }
+
+  > rect {
+    fill: $background-color;
+  }
+}
+
+.course-plot-save {
+  cursor: pointer;
+}
+
+:root {
+  --minima-lm-text-color: #{$lm-text-color};
+  --minima-dm-text-color: #{$dm-text-color};
+  --minima-lm-background-color: #{$lm-background-color};
+  --minima-dm-background-color: #{$dm-background-color};
+}
