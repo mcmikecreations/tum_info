@@ -979,5 +979,25 @@ table td {
     width: calc(50% - (30px / 2));
   }
 }
+div#course-plot svg {
+  background: var(--minima-background-color) !important;
+}
+div#course-plot svg g > text {
+  fill: var(--minima-text-color);
+}
+div#course-plot svg > rect {
+  fill: var(--minima-background-color);
+}
 
-/*# sourceMappingURL=style.css.map */
+.course-plot-save {
+  cursor: pointer;
+}
+
+:root {
+  --minima-lm-text-color: #111111;
+  --minima-dm-text-color: #bbbbbb;
+  --minima-lm-background-color: #fdfdfd;
+  --minima-dm-background-color: #181818;
+}
+
+/*# sourceMappingURL=course.css.map */

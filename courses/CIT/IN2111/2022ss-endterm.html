@@ -20,7 +20,20 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Mykola Morozov"},"dateModified":"2022-08-10T11:00:00+00:00","datePublished":"2022-08-10T11:00:00+00:00","description":"A bunch of useful information I’ve collected while studying at the Technical University of Munich.","headline":"3D User Interfaces 2022SS Endterm","mainEntityOfPage":{"@type":"WebPage","@id":"/tum_info/courses/CIT/IN2111/2022ss-endterm"},"url":"/tum_info/courses/CIT/IN2111/2022ss-endterm"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/tum_info/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/tum_info/feed.xml" title="TUM Info" />
+<link rel="stylesheet" href="/tum_info/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/tum_info/feed.xml" title="TUM Info" /><link rel="apple-touch-icon" sizes="180x180" href="/tum_info/assets/icons/apple-touch-icon.png">
+<!--<link rel="icon" type="image/png" sizes="32x32" href="/tum_info/assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/tum_info/assets/icons/favicon-16x16.png">-->
+<link rel="shortcut icon" media="(prefers-color-scheme: light)" type="image/png" href="/tum_info/assets/icons/favicon-light.png">
+<link rel="shortcut icon" media="(prefers-color-scheme: dark)" type="image/png" href="/tum_info/assets/icons/favicon-dark.png">
+<link rel="manifest" href="/tum_info/assets/icons/site.webmanifest">
+<link rel="mask-icon" href="/tum_info/assets/icons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="apple-mobile-web-app-title" content="TUM Info">
+<meta name="application-name" content="TUM Info">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="msapplication-config" content="/tum_info/assets/icons/browserconfig.xml">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#bbbbbb" />
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111" />
+<meta name="color-scheme" content="light dark">
 </head>
 <body><header class="site-header">
 
@@ -58,26 +71,31 @@
   <table>
     <tr>
       <td><b>Registered:</b></td>
-      <td id="course-people-total">0</td>
+      <td id="course-people-total">88</td>
     </tr>
     <tr>
       <td><b>Attempt made/counted:</b></td>
-      <td id="course-attempts-total">0</td>
+      <td id="course-attempts-total">65</td>
     </tr>
     <tr>
       <td><b>Percent. of exams assessed as failed:</b></td>
-      <td id="course-failed-percent">0%</td>
+      <td id="course-failed-percent">7.69%</td>
     </tr>
     <tr>
       <td><b>Average total:</b></td>
-      <td id="course-grade-avg">0.0</td>
+      <td id="course-grade-avg">2.64</td>
     </tr>
     <tr>
       <td><b>Average (assessed as passed):</b></td>
-      <td id="course-grade-avg-passed">0.0</td>
+      <td id="course-grade-avg-passed">2.45</td>
     </tr>
   </table> 
   <div id="course-plot"></div>
+  <p>
+    <a class="course-plot-save" id="course-plot-save-light">Save light PNG</a>
+    or
+    <a class="course-plot-save" id="course-plot-save-dark">Save dark PNG</a>
+  </p>
   <blockquote>
     <p>Note: this exam was held on Wednesday, 2022/08/10</p>
   </blockquote>
@@ -86,10 +104,11 @@
 
 </div>
 
+<link rel="stylesheet" href="/tum_info/assets/css/course.css" />
 <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
-<script>
-  const grades = [
+<script type="text/javascript">
+  var grades = [
     { 'grade': 1.0, 'people': 7 },
     { 'grade': 1.3, 'people': 2 },
     { 'grade': 1.7, 'people': 8 },
@@ -104,63 +123,8 @@
     { 'grade': 5.0, 'people': 4 },
     { 'grade': 6.0, 'people': 23 },
   ];
-
-  const peopleTotal = grades.reduce((partialSum, a) => partialSum + a.people, 0);
-  const attempts = grades.filter(x => x.grade < 6.0);
-  const attemptsTotal = attempts.reduce((partialSum, a) => partialSum + a.people, 0);
-  const failedAttempts = attempts.filter(x => x.grade > 4.0);
-  const failedAttemptsTotal = failedAttempts.reduce((partialSum, a) => partialSum + a.people, 0);
-  const gradeTotal = attempts.reduce((partialSum, a) => partialSum + a.people * a.grade, 0);
-  const passedAttempts = attempts.filter(x => x.grade <= 4.0);
-  const gradePassed = passedAttempts.reduce((partialSum, a) => partialSum + a.people * a.grade, 0);
-
-  const round = function(x, digits)
-  {
-    const pow = Math.pow(10, digits);
-    return Math.round(x * pow) / pow;
-  }
-
-  d3.select('#course-people-total').text(peopleTotal);
-  d3.select('#course-attempts-total').text(attemptsTotal);
-  d3.select('#course-failed-percent').text(`${round(failedAttemptsTotal / attemptsTotal * 100, 2)}%`);
-  d3.select('#course-grade-avg').text(round(gradeTotal / attemptsTotal, 2));
-  d3.select('#course-grade-avg-passed').text(round(gradePassed / (attemptsTotal - failedAttemptsTotal), 2));
-
-  const barColor = function (d)
-  {
-    const v = d.grade;
-    if (v <= 4.0)
-    {
-      const hue = (4.0 - v) * 40.0;
-      return `hsl(${hue}, 100%, 50%)`;
-    }
-    else if (v <= 5.0)
-    {
-      const hue = (5.0 - v) * 25.0 + 25.0;
-      return `hsl(0, 100%, ${hue}%)`;
-    }
-    return 'hsl(0, 0%, 25%)';
-  };
-
-  const wrapper = document.querySelector('.wrapper');
-  const wrapperStyle = getComputedStyle(wrapper);
-
-  document.getElementById('course-plot').append(Plot.plot({
-    marks: [
-      Plot.barX(grades, {x: 'people', y: 'grade', fill: barColor}),
-      Plot.text(grades, {
-        x: 'people',
-        y: 'grade',
-        text: d => `${round(d.people / attemptsTotal * 100.0, 2)}% #${d.people}`,
-        dx: 25})
-    ],
-    height: Math.round(36.6 * grades.length),
-    width: parseInt(wrapperStyle['width']),
-    marginRight: 50,
-    y: { line: true },
-    x: { grid: true }
-  }));
 </script>
+<script type="module" src="/tum_info/assets/js/course.mjs"></script>
 
   </div>
 
