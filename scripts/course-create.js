@@ -6,7 +6,7 @@ module.exports = async ({github, context, core, exec}) => {
     repo: context.repo.repo,
     issue_number: context.issue.number
   });
-  core.info(JSON.stringify(issue));
+  
   const body = issue.data.body;
   
   const regexSchool = /^- school: (.+)$/m;
@@ -43,19 +43,21 @@ ${matchDesc}
 `;
 
   const filePath = `./_courses/${matchSchool}/${matchCode}/${matchSemester}-${matchType}.md`;
-
-  core.info(fileContent);
-  core.info(filePath);
   
-  fs.writeFile(filePath, fileContent);
-
-  await exec.exec('git config user.name github-actions');
-  await exec.exec('git config user.email github-actions@github.com');
-  await exec.exec('git add .');
-  await exec.exec(`git commit -m "Added course ${filePath}"`);
-  await exec.exec('git push');
-
-  core.notice(`Added course "${filePath}"`);
+  fs.writeFile(filePath, fileContent, async function(err, result) {
+    if(err) {
+      core.error(`Error: ${err}`);
+    }
+    else {
+      await exec.exec('git config user.name github-actions');
+      await exec.exec('git config user.email github-actions@github.com');
+      await exec.exec('git add .');
+      await exec.exec(`git commit -m "Added course ${filePath}."`);
+      await exec.exec('git push');
+    
+      core.notice(`Added course "${filePath}."`);
+    }
+  });
   
   return issue;
 }
