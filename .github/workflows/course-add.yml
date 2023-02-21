@@ -31,5 +31,5 @@ jobs:
       - name: 🚀 commit & push changes
         uses: actions-js/push@master
         with:
-          message: Generated ${{ github.event.issue.title }}.
+          message: "Fixed #${{ github.event.issue.number }}. Generated ${{ github.event.issue.title }}."
           github_token: ${{ secrets.PAT }}
