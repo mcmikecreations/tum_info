@@ -1,0 +1,26 @@
+name: Add course
+
+on:
+  issues:
+    types:
+      - labeled
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  add-comment:
+    if: github.event.label.name == 'course'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📂 setup
+        uses: actions/checkout@v3
+
+      - name: 🔨 add course file
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const script = require('./scripts/course-create.js');
+            await script({github, context, core});
