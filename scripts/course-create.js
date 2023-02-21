@@ -1,4 +1,4 @@
-module.exports = async ({github, context, core, exec}) => {
+module.exports = async ({github, context, core, exec, io}) => {
   const fs = require('fs');
 
   const issue = await github.rest.issues.get({
@@ -42,22 +42,22 @@ ${matchGrades.length > 0 ? 'grades:\r\n' + matchGrades.map((match) => `  - { gra
 ${matchDesc}
 `;
 
-  const filePath = `./_courses/${matchSchool}/${matchCode}/${matchSemester}-${matchType}.md`;
+  const folderPath = `./_courses/${matchSchool}/${matchCode}`;
+  await io.mkdirP(folderPath);
+
+  core.info(`Created path "${folderPath}/".`);
+
+  const filePath = `${folderPath}/${matchSemester}-${matchType}.md`;
   
-  fs.writeFile(filePath, fileContent, async function(err, result) {
-    if(err) {
-      core.error(`Error: ${err}`);
-    }
-    else {
-      await exec.exec('git config user.name github-actions');
-      await exec.exec('git config user.email github-actions@github.com');
-      await exec.exec('git add .');
-      await exec.exec(`git commit -m "Added course ${filePath}."`);
-      await exec.exec('git push');
-    
-      core.notice(`Added course "${filePath}."`);
-    }
-  });
+  fs.writeFileSync(filePath, fileContent);
+
+  await exec.exec('git config user.name github-actions');
+  await exec.exec('git config user.email github-actions@github.com');
+  await exec.exec('git add .');
+  await exec.exec(`git commit -m "Added course ${filePath}."`);
+  await exec.exec('git push');
+
+  core.notice(`Added course "${filePath}".`);
   
   return issue;
 }

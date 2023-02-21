@@ -23,4 +23,4 @@ jobs:
         with:
           script: |
             const script = require('./scripts/course-create.js');
-            await script({github, context, core, exec});
+            await script({github, context, core, exec, io});
