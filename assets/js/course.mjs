@@ -1,7 +1,7 @@
 import {
   Canvg,
   presets
-} from 'https://cdn.skypack.dev/canvg@^4.0.1'
+} from 'https://cdn.skypack.dev/canvg@^4.0.1';
 
 const peopleTotal = grades.reduce((partialSum, a) => partialSum + a.people, 0);
 const attempts = grades.filter(x => x.grade < 6.0);
