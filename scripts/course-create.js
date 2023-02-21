@@ -6,8 +6,8 @@ module.exports = async ({github, context, core, exec}) => {
     repo: context.repo.repo,
     issue_number: context.issue.number
   });
-  core.info(issue);
-  const body = issue.body;
+  core.info(JSON.stringify(issue));
+  const body = issue.data.body;
   
   const regexSchool = /^- school: (.+)$/m;
   const regexCode = /^- code: (.+)$/m;
