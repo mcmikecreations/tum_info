@@ -51,13 +51,7 @@ ${matchDesc}
   
   fs.writeFileSync(filePath, fileContent);
 
-  await exec.exec('git config user.name github-actions');
-  await exec.exec('git config user.email github-actions@github.com');
-  await exec.exec('git add .');
-  await exec.exec(`git commit -m "Added course ${filePath}."`);
-  await exec.exec('git push');
-
-  core.notice(`Added course "${filePath}".`);
+  core.notice(`Locally added course "${filePath}".`);
   
-  return issue;
+  return filePath;
 }

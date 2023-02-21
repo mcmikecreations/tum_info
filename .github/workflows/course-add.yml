@@ -11,16 +11,25 @@ permissions:
   id-token: write
 
 jobs:
-  add-comment:
+  add-course:
     if: github.event.label.name == 'course'
     runs-on: ubuntu-latest
     steps:
       - name: 📂 setup
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT }}
 
       - name: 🔨 add course file
         uses: actions/github-script@v6
         with:
+          github-token: ${{ secrets.PAT }}
           script: |
             const script = require('./scripts/course-create.js');
             await script({github, context, core, exec, io});
+
+      - name: 🚀 commit & push changes
+        uses: actions-js/push@master
+        with:
+          message: Generated ${{ github.event.issue.title }}.
+          github_token: ${{ secrets.PAT }}
