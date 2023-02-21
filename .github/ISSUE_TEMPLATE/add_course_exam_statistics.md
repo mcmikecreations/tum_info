@@ -1,5 +1,5 @@
 ---
-name: Add course statistics
+name: Add course exam statistics
 about: Add course exam information to be added to the website.
 title: "[Course] CIT IN0001 2022SS"
 labels: ''
@@ -35,4 +35,4 @@ assignees: ''
 
 ## Description
 
-<replace with any comments you have>
+<remove or replace with any comments you have>
