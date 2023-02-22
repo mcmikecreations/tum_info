@@ -1,4 +1,4 @@
-name: Add course
+name: Add Course
 
 on:
   issues:

@@ -63,6 +63,6 @@ layout: page
 <script type="text/javascript">
   var grades = [{% for item in page.grades %}
     { 'grade': {{ item.grade }}, 'people': {{ item.people }} },{% endfor %}
-  ];
+  ].filter(grade => grade.people > 0);
 </script>
 <script type="module" src="{{ site.baseurl }}/assets/js/course.mjs"></script>
