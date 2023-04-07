@@ -43,16 +43,38 @@ layout: page
       <td><b>Average (assessed as passed):</b></td>
       <td id="course-grade-avg-passed">{{ grade_sum_passed | divided_by: people_passed | round: 2 }}</td>
     </tr>
-  </table> 
+  </table>
+
   <div id="course-plot"></div>
   <p>
     <a class="course-plot-save" id="course-plot-save-light">Save light PNG</a>
     or
     <a class="course-plot-save" id="course-plot-save-dark">Save dark PNG</a>
   </p>
-  <blockquote>
-    <p>Note: this exam was held on {{ page.date | date: "%A, %Y/%m/%d" }}</p>
-  </blockquote>
+  
+
+  <table>
+    <tr>
+      <td><b>Date:</b></td>
+      <td>{{ page.date | date: "%A, %Y/%m/%d" }}</td>
+    </tr>
+    <tr>
+      <td><b>ECTS:</b></td>
+      <td>{{ page.ects }}</td>
+    </tr>
+    <tr>
+      <td><b>Semester hours:</b></td>
+      <td>{{ page.hours }}</td>
+    </tr>
+    <tr>
+      <td><b>Exam mode:</b></td>
+      <td>{{ page.mode | capitalize }}</td>
+    </tr>
+    <tr>
+      <td><b>Language:</b></td>
+      <td>{{ page.lang | capitalize }}</td>
+    </tr>
+  </table>
   <br>
   {{ content }}
 </div>

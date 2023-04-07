@@ -8,6 +8,11 @@ exam_type: "endterm"
 name: "Realtime Computer Graphics"
 date: "2022-08-12 12:00:00 +0100"
 
+ects: 5
+hours: 4 # semester hours
+mode: "written"
+lang: "en"
+
 title: "Realtime Computer Graphics 2022SS Endterm"
 grades:
   - { grade: 1.0, people: 2 }

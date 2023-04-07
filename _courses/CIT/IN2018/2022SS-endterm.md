@@ -8,6 +8,11 @@ exam_type: "endterm"
 name: "Augmented Reality"
 date: "2022-08-12 12:00:00 +0100"
 
+ects: 6
+hours: 5 # semester hours
+mode: "written"
+lang: "en"
+
 title: "Augmented Reality 2022SS Endterm"
 grades:
   - { grade: 1.0, people: 4 }

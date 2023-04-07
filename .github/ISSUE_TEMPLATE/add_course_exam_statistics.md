@@ -16,6 +16,11 @@ assignees: ''
 - name: Realtime Computer Graphics
 - date: 2022-08-12 12:00:00 +0100
 
+- ects: 5
+- semester hours: 4
+- mode: written
+- language: en
+
 ## Grades
 
 - grade: 1.0 people: 1

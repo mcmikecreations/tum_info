@@ -22,6 +22,16 @@ module.exports = async ({github, context, core, exec, io}) => {
   const matchType = body.match(regexType)[1].trim().toLowerCase();
   const matchName = body.match(regexName)[1].trim();
   const matchDate = body.match(regexDate)[1].trim();
+
+  const regexEcts = /^- ects: (\d+)$/m;
+  const regexHours = /^- semester hours: (\d+)$/m;
+  const regexMode = /^- mode: (.+)$/m;
+  const regexLang = /^- language: (.+)$/m;
+  const matchEcts = body.match(regexEcts)[1].trim();
+  const matchHours = body.match(regexHours)[1].trim();
+  const matchMode = body.match(regexMode)[1].trim().toLowerCase();
+  const matchLang = body.match(regexLang)[1].trim().toLowerCase();
+
   const matchGrades = Array.from(body.matchAll(regexGrade)).map((match) => { return { 'grade': match[1], 'people': match[2] }; });
   const literalDesc = '## Description';
   const matchDesc = body.substring(body.indexOf(literalDesc) + literalDesc.length).trim();
@@ -34,6 +44,11 @@ semester: "${matchSemester}" # refers to the year of the semester start
 exam_type: "${matchType}"
 name: "${matchName}"
 date: "${matchDate}"
+
+ects: ${matchEcts}
+hours: ${matchHours} # semester hours
+mode: "${matchMode}"
+lang: "${matchLang}"
 
 title: "${matchName} ${matchSemester} ${matchType.charAt(0).toUpperCase() + matchType.slice(1)}"
 ${matchGrades.length > 0 ? 'grades:\r\n' + matchGrades.map((match) => `  - { grade: ${match.grade}, people: ${match.people} }`).join('\r\n') : ''}
