@@ -3,6 +3,65 @@ import {
   presets
 } from 'https://cdn.skypack.dev/canvg@^4.0.1';
 
+const langMappings = {
+  'de': {
+    marginLeft: 205.0,
+    yLabel: 'note',
+    xLabel: 'leute',
+    labels: [
+      { grade: 6.0, text: ' × Nicht erschienen - nicht ausreichend' },
+      { grade: 4.1, text: ' nicht ausreichend' },
+      { grade: 3.4, text: ' ausreichend' },
+      { grade: 2.4, text: ' befriedigend' },
+      { grade: 1.4, text: ' gut' },
+      { grade: 0.0, text: ' sehr gut' },
+    ]
+  },
+  'en': {
+    marginLeft: 175.0,
+    yLabel: 'grade',
+    xLabel: 'people',
+    labels: [
+      { grade: 6.0, text: ' × Didn\'t show up - not sufficient' },
+      { grade: 4.1, text: ' not sufficient' },
+      { grade: 3.4, text: ' sufficient' },
+      { grade: 2.4, text: ' satisfactory' },
+      { grade: 1.4, text: ' good' },
+      { grade: 0.0, text: ' very good' },
+    ]
+  },
+  'none': {
+    marginLeft: 35.0,
+    yLabel: 'grade',
+    xLabel: 'people',
+    labels: [
+      { grade: 6.0, text: ' ×' },
+      { grade: 4.1, text: '' },
+      { grade: 3.4, text: '' },
+      { grade: 2.4, text: '' },
+      { grade: 1.4, text: '' },
+      { grade: 0.0, text: '' },
+    ]
+  },
+};
+
+const lang = localStorage.getItem('lang');
+const langMapping = langMappings[lang];
+const langLabels = langMapping.labels;
+
+function getGradeLabel(grade) {
+  for (let key of langLabels) {
+    if (grade >= key.grade) {
+      const gradeVal = grade > 5.0 ? 5.0 : grade;
+      return `${gradeVal.toFixed(1)}${key.text}`;
+    }
+  }
+};
+
+grades.forEach((element) => {
+  element.text = getGradeLabel(element.grade);
+});
+
 const peopleTotal = grades.reduce((partialSum, a) => partialSum + a.people, 0);
 const attempts = grades.filter(x => x.grade < 6.0);
 const attemptsTotal = attempts.reduce((partialSum, a) => partialSum + a.people, 0);
@@ -46,13 +105,14 @@ const plotWidth = parseInt(wrapperStyle['width']);
 const plotHeight = Math.round(36.6 * grades.length);
 const plotContainer = document.getElementById('course-plot');
 const plotMarginRight = 60.0;
+const plotMarginLeft = langMapping.marginLeft;
 
 const plot = Plot.plot({
   marks: [
-    Plot.barX(grades, {x: 'people', y: 'grade', fill: barColor}),
+    Plot.barX(grades, {x: 'people', y: 'text', fill: barColor}),
     Plot.text(grades, {
       x: 'people',
-      y: 'grade',
+      y: 'text',
       text: d => `${round(d.people / attemptsTotal * 100.0, 2)}% #${d.people}`,
       fill: 'var(--minima-text-color)',
       dx: plotMarginRight / 2.0})
@@ -60,8 +120,9 @@ const plot = Plot.plot({
   height: plotHeight,
   width: plotWidth,
   marginRight: plotMarginRight,
-  y: { line: true },
-  x: { grid: true }
+  marginLeft: plotMarginLeft,
+  y: { type: "band", label: langMapping.yLabel, line: true },
+  x: { label: langMapping.xLabel, grid: true }
 });
 
 plotContainer.append(plot);
@@ -137,3 +198,12 @@ async function saveImage(mode, format) {
 
 document.getElementById('course-plot-save-light').addEventListener('click', async (event) => await saveImage('light', 'png'));
 document.getElementById('course-plot-save-dark').addEventListener('click', async (event) => await saveImage('dark', 'png'));
+
+const langPicker = document.getElementById('course-plot-lang');
+langPicker.value = lang;
+langPicker.addEventListener('change', (event) => { localStorage.setItem('lang', event.target.value); location.reload(); });
+
+document.getElementById('course-plot-absent').addEventListener('click', (event) => {
+  localStorage.setItem('course-plot-absent', localStorage.getItem('course-plot-absent') === 'false' ? 'true' : 'false');
+  location.reload();
+});
