@@ -34,6 +34,7 @@
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#bbbbbb" />
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111" />
 <meta name="color-scheme" content="light dark">
+<script type="module" src="/tum_info/assets/js/lang.mjs"></script>
 </head>
 <body><header class="site-header">
 
@@ -96,7 +97,15 @@
     <a class="course-plot-save" id="course-plot-save-light">Save light PNG</a>
     or
     <a class="course-plot-save" id="course-plot-save-dark">Save dark PNG</a>
-  </p>
+    or
+    <label for="course-plot-lang">change plot language to</label> <select id="course-plot-lang" name="plot language">
+      <option value="de">Deutsch</option>
+      <option value="en">English</option>
+      <option value="none">None</option>
+   </select>
+   or
+   <a class="course-plot-save" id="course-plot-absent">toggle absent</a>
+  .</p>
   
 
   <table>
@@ -131,19 +140,20 @@
 <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
 <script type="text/javascript">
   var grades = [
-    { 'grade': 1.0, 'people': 18 },
-    { 'grade': 1.3, 'people': 6 },
-    { 'grade': 1.7, 'people': 3 },
-    { 'grade': 2.0, 'people': 5 },
-    { 'grade': 2.3, 'people': 2 },
-    { 'grade': 2.7, 'people': 2 },
-    { 'grade': 3.0, 'people': 3 },
-    { 'grade': 3.3, 'people': 1 },
-    { 'grade': 3.7, 'people': 4 },
-    { 'grade': 4.0, 'people': 7 },
-    { 'grade': 5.0, 'people': 27 },
-    { 'grade': 6.0, 'people': 44 },
+    { 'grade': 1.0, 'people': 18, 'text': null },
+    { 'grade': 1.3, 'people': 6, 'text': null },
+    { 'grade': 1.7, 'people': 3, 'text': null },
+    { 'grade': 2.0, 'people': 5, 'text': null },
+    { 'grade': 2.3, 'people': 2, 'text': null },
+    { 'grade': 2.7, 'people': 2, 'text': null },
+    { 'grade': 3.0, 'people': 3, 'text': null },
+    { 'grade': 3.3, 'people': 1, 'text': null },
+    { 'grade': 3.7, 'people': 4, 'text': null },
+    { 'grade': 4.0, 'people': 7, 'text': null },
+    { 'grade': 5.0, 'people': 27, 'text': null },
+    { 'grade': 6.0, 'people': 44, 'text': null },
   ].filter(grade => grade.people > 0);
+  grades = localStorage.getItem('course-plot-absent') === 'false' ? grades.filter(grade => grade.grade < 6.0) : grades;
 </script>
 <script type="module" src="/tum_info/assets/js/course.mjs"></script>
 
