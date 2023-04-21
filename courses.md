@@ -8,7 +8,7 @@ permalink: /courses/
 
 {% for school in schools %}
 {% assign school_courses = site.courses | where: "school", school %}
-{% assign codes_unique = school_courses | map: "code" | uniq %}
+{% assign codes_unique = school_courses | map: "code" | uniq | sort %}
 
 Feel free to use the in-built browser search to find a specific course, if there are too many of them. Check out how to do it in
 [Chrome](https://support.google.com/chrome/answer/95440?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Csearch-within-a-page),
