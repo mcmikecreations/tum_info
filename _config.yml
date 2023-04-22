@@ -20,7 +20,7 @@ show_excerpts: false
 
 header_pages:
   - about.md
-  - courses.md
+  - courses.html
 
 collections:
   courses:
