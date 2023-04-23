@@ -10,6 +10,21 @@ All matches with real courses and grades are purely coincidental.
 ### Course exam statistics
 
 You can help expand this website with new information by adding your own course exam statistics!
+
+#### All your courses
+
+A handy script was created to extract all grade reports for a TUMOnline student account. To run the script:
+
+1. Fork the repository, clone your fork.
+2. Install Python 3.7 or newer, add python and pip to PATH.
+3. Run `pip install requests`.
+4. From repository root run `python scripts/course-glob.py name=ab12cde@mytum.de pass=42424242`.
+5. If you get errors, report them by creating a new issue.
+6. Check endterm/retake filenames and field in files. Check exam_type, mode, lang fields in files.
+7. Commit changes, push to your fork, create a pull request.
+
+#### Single course
+
 In short, create a new issue based on this template by [going here](https://github.com/mcmikecreations/tum_info/issues/new?assignees=&labels=&template=add_course_exam_statistics.md&title=%5BCourse%5D+CIT+IN0001+2022SS) and replace the values with your own data.
 The description is copy-pasted onto the page directly and follows the markdown format (but you can use plain text too).
 After some time, the statistics you have submitted will appear on the website.

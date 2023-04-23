@@ -70,8 +70,25 @@ All matches with real courses and grades are purely coincidental.</p>
 
 <h3 id="course-exam-statistics">Course exam statistics</h3>
 
-<p>You can help expand this website with new information by adding your own course exam statistics!
-In short, create a new issue based on this template by <a href="https://github.com/mcmikecreations/tum_info/issues/new?assignees=&amp;labels=&amp;template=add_course_exam_statistics.md&amp;title=%5BCourse%5D+CIT+IN0001+2022SS">going here</a> and replace the values with your own data.
+<p>You can help expand this website with new information by adding your own course exam statistics!</p>
+
+<h4 id="all-your-courses">All your courses</h4>
+
+<p>A handy script was created to extract all grade reports for a TUMOnline student account. To run the script:</p>
+
+<ol>
+  <li>Fork the repository, clone your fork.</li>
+  <li>Install Python 3.7 or newer, add python and pip to PATH.</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">pip install requests</code>.</li>
+  <li>From repository root run <code class="language-plaintext highlighter-rouge">python scripts/course-glob.py name=ab12cde@mytum.de pass=42424242</code>.</li>
+  <li>If you get errors, report them by creating a new issue.</li>
+  <li>Check endterm/retake filenames and field in files. Check exam_type, mode, lang fields in files.</li>
+  <li>Commit changes, push to your fork, create a pull request.</li>
+</ol>
+
+<h4 id="single-course">Single course</h4>
+
+<p>In short, create a new issue based on this template by <a href="https://github.com/mcmikecreations/tum_info/issues/new?assignees=&amp;labels=&amp;template=add_course_exam_statistics.md&amp;title=%5BCourse%5D+CIT+IN0001+2022SS">going here</a> and replace the values with your own data.
 The description is copy-pasted onto the page directly and follows the markdown format (but you can use plain text too).
 After some time, the statistics you have submitted will appear on the website.
 For now there’s a manual review step done by me, so don’t worry too much about breaking the website.
