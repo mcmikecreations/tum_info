@@ -1,7 +1,7 @@
 ---
 layout: course
 
-school: "CLA"
+school: "SOT"
 code: "CLA11216"
 semester: "2021WS" # refers to the year of the semester start
 exam_type: "endterm"
