@@ -15,13 +15,14 @@ You can help expand this website with new information by adding your own course 
 
 A handy script was created to extract all grade reports for a TUMOnline student account. To run the script:
 
-1. Fork the repository, clone your fork.
-2. Install Python 3.7 or newer, add python and pip to PATH.
-3. Run `pip install requests`.
-4. From repository root run `python scripts/course-glob.py name=ab12cde@mytum.de pass=42424242`.
-5. If you get errors, report them by creating a new issue.
-6. Check endterm/retake filenames and field in files. Check exam_type, mode, lang fields in files.
-7. Commit changes, push to your fork, create a pull request.
+1. Install git, add it to PATH.
+2. Fork the repository, clone your fork.
+3. Install Python 3.7 or newer, add python and pip to PATH.
+4. Run `pip install requests`.
+5. From repository root run `python scripts/course-glob.py name=ab12cde@mytum.de pass=42424242`.
+6. If you get errors, report them by creating a new issue.
+7. Check endterm/retake filenames and field in files. Check exam_type, mode, lang fields in files.
+8. Commit changes, push to your fork, create a pull request.
 
 #### Single course
 
