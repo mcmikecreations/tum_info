@@ -221,7 +221,7 @@ def perform_achievements(auth):
       id = o['content']['achievementDto']['id']
       semester = o['content']['achievementDto']['semesterLibDto']['key']
       hours = o['content']['achievementDto']['cpCourseLibDto']['semesterHours']
-      ects = o['content']['achievementDto']['cpCourseLibDto']['ectsCredits']
+      ects = o['content']['achievementDto']['credits']
       course_type = o['content']['achievementDto']['cpCourseLibDto']['courseTypeDto']['key']
       if course_type != 'FA':
         raise Exception('Wrong course type: {}'.format(course_type))
