@@ -304,8 +304,14 @@ def perform_exam(auth, achievement):
       if short_name == 'X':
         value = 6.0
       elif short_name == 'U':
+        if 'cheated' not in achievement:
+          achievement['cheated'] = 0
+        achievement['cheated'] += 1
         value = 5.0
       elif short_name == 'Q':
+        if 'withdrew' not in achievement:
+          achievement['withdrew'] = 0
+        achievement['withdrew'] += 1
         continue
       elif short_name == 'B':
         continue
@@ -345,7 +351,12 @@ def achievement_exists(achievement):
 def achievement_save(achievement):
   path_dir = '_courses/{}/{}'.format(achievement['school'], achievement['number'])
   path_file = '{}/{}-{}.md'.format(path_dir, achievement['semester'], achievement['type'])
-  text_grades = list(map(lambda x: '  - {{ grade: {0}, people: {1} }}\r\n'.format(x['value'], x['count']), achievement['grades']))
+  text_grades = list(map(lambda x: '  - {{ grade: {0}, people: {1} }}\n'.format(x['value'], x['count']), achievement['grades']))
+  text_desc = ''
+  if 'cheated' in achievement:
+    text_desc += '{} people cheated. Added to 5.0 column. '.format(achievement['cheated'])
+  if 'withdrew' in achievement:
+    text_desc += '{} people withdrew. Not present on the plot. '.format(achievement['withdrew'])
   text_file = '''---
 layout: course
 
@@ -366,13 +377,13 @@ grades:
 {grades}
 ---
 
-
+{desc}
 '''.format(school=achievement['school'], number=achievement['number'].upper(),
     semester=achievement['semester'], type=achievement['type'],
     name=achievement['name'], date=achievement['date'],
     ects=achievement['ects'], hours=achievement['hours'],
     mode=achievement['mode'], type_cap=achievement['type'].capitalize(),
-    grades=''.join(text_grades))
+    grades=''.join(text_grades), desc=text_desc)
   
   with open(path_file, 'w') as f:
     f.write(text_file)
