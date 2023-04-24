@@ -165,7 +165,7 @@ school: "{school}"
 code: "{number}"
 semester: "{semester}" # refers to the year of the semester start
 exam_type: "{type}"
-name: '{name}'
+name: "{name}"
 date: "{date}"
 
 ects: {ects}
@@ -173,7 +173,7 @@ hours: {hours} # semester hours
 mode: "{mode}"
 lang: "en"
 
-title: '{name} {semester} {type_cap}'
+title: "{name} {semester} {type_cap}"
 grades:
 {grades}
 ---
@@ -181,7 +181,7 @@ grades:
 {desc}
 '''.format(school=achievement['school'], number=achievement['number'].upper(),
     semester=achievement['semester'], type=achievement['type'],
-    name=achievement['name'], date=achievement['date'],
+    name=achievement['name'].replace('"', '\\"'), date=achievement['date'],
     ects=achievement['ects'], hours=achievement['hours'],
     mode=achievement['mode'], type_cap=achievement['type'].capitalize(),
     grades=''.join(text_grades), desc=text_desc)
@@ -194,6 +194,6 @@ grades:
 
 for course in courses:
   achievement = process_achievement(course)
-  if achievement['grades'] == None or achievement_exists(achievement):
+  if achievement['grades'] == None or len(achievement['grades']) == 0 or achievement_exists(achievement):
     continue
   achievement_save(achievement)
