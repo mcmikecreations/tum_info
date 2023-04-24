@@ -16,11 +16,15 @@ Feel free to use the in-built browser search to find a specific course, if there
 
 {% assign schools = site.courses | map: "school" | uniq %}
 
+<br>You can quickly jump to {% for school in schools %}
+<a href="#{{ school }}">{{ school }}</a>{% if forloop.last != true %}, {% else %}.{% endif %}
+{% endfor %}
+
 {% for school in schools %}
 {% assign school_courses = site.courses | where: "school", school %}
 {% assign codes_unique = school_courses | map: "code" | uniq | sort %}
 
-<h3>{{ school }}</h3>
+<h3 id="{{ school }}">{{ school }}</h3>
 
 <table>
   {% for code in codes_unique %}
