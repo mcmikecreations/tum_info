@@ -2,10 +2,18 @@
 schools = {
   'IN': 'CIT',
   'MA': 'CIT',
+  'EI': 'CIT',
   'WI': 'MGT',
   'SZ': 'SZ',
   'MW': 'ED',
+  'BV': 'ED',
   'CLA': 'SOT',
+  'ED': 'SOT',
+  'SOT': 'SOT',
+  'MCTS': 'MCTS',
+  'POL': 'MCTS',
+  'ME': 'MED',
+  'PH': 'NAT',
 }
 
 import sys
@@ -299,7 +307,9 @@ def perform_exam(auth, achievement):
       # X didn't show up
       # U cheated
       # Q withdrew
+      # Z rejected
       # B passed without grade
+      # N didn't pass without grade
       short_name = o['gradeCommentShortName']
       if short_name == 'X':
         value = 6.0
@@ -308,12 +318,19 @@ def perform_exam(auth, achievement):
           achievement['cheated'] = 0
         achievement['cheated'] += 1
         value = 5.0
+      elif short_name == 'Z':
+        if 'rejected' not in achievement:
+          achievement['rejected'] = 0
+        achievement['rejected'] += 1
+        value = 5.0
       elif short_name == 'Q':
         if 'withdrew' not in achievement:
           achievement['withdrew'] = 0
         achievement['withdrew'] += 1
         continue
       elif short_name == 'B':
+        continue
+      elif short_name == 'N':
         continue
       else:
         print('TODO: report to mcmikecreations - unknown type {}'.format(short_name))
@@ -357,6 +374,8 @@ def achievement_save(achievement):
     text_desc += '{} people cheated. Added to 5.0 column. '.format(achievement['cheated'])
   if 'withdrew' in achievement:
     text_desc += '{} people withdrew. Not present on the plot. '.format(achievement['withdrew'])
+  if 'rejected' in achievement:
+    text_desc += '{} people rejected. Added to 5.0 column. '.format(achievement['rejected'])
   text_file = '''---
 layout: course
 
@@ -364,7 +383,7 @@ school: "{school}"
 code: "{number}"
 semester: "{semester}" # refers to the year of the semester start
 exam_type: "{type}"
-name: "{name}"
+name: '{name}'
 date: "{date}"
 
 ects: {ects}
@@ -372,7 +391,7 @@ hours: {hours} # semester hours
 mode: "{mode}"
 lang: "en"
 
-title: "{name} {semester} {type_cap}"
+title: '{name} {semester} {type_cap}'
 grades:
 {grades}
 ---
