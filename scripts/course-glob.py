@@ -383,7 +383,7 @@ school: "{school}"
 code: "{number}"
 semester: "{semester}" # refers to the year of the semester start
 exam_type: "{type}"
-name: "{name}"
+name: '{name}'
 date: "{date}"
 
 ects: {ects}
@@ -391,7 +391,7 @@ hours: {hours} # semester hours
 mode: "{mode}"
 lang: "en"
 
-title: "{name} {semester} {type_cap}"
+title: '{name} {semester} {type_cap}'
 grades:
 {grades}
 ---
