@@ -1,3 +1,13 @@
+# TODO: if script complains, update this dict and rerun
+schools = {
+  'IN': 'CIT',
+  'MA': 'CIT',
+  'WI': 'MGT',
+  'SZ': 'SZ',
+  'MW': 'ED',
+  'CLA': 'SOT',
+}
+
 import sys
 
 args = sys.argv
@@ -19,16 +29,6 @@ If unsure about abbreviation, check tum.de subdomain.
 user_name = list_name[0][5:]
 user_pass = list_pass[0][5:]
 verbose = len(list(filter(lambda x: x.startswith('-v'),args))) > 0
-
-# TODO: if script complains, update this dict and rerun
-schools = {
-  'IN': 'CIT',
-  'MA': 'CIT',
-  'WI': 'MGT',
-  'SZ': 'SZ',
-  'MW': 'ED',
-  'CLA': 'SOT',
-}
 
 # This script does:
 # - acquire a temporary session id and access token to load your data
