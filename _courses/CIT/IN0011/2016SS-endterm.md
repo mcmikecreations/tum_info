@@ -1,0 +1,37 @@
+---
+layout: course
+
+school: "CIT"
+code: "IN0011"
+semester: "2016SS" # refers to the year of the semester start
+exam_type: "endterm"
+name: "Introduction to Theory of Computation"
+date: "2016-09-27 12:00:00 +0100"
+
+ects: 8
+hours: 6.0 # semester hours
+mode: "written"
+lang: "en"
+
+title: "Introduction to Theory of Computation 2016SS Endterm"
+grades:
+  - { grade: 1.0, people: 2 }
+  - { grade: 1.4, people: 2 }
+  - { grade: 1.7, people: 2 }
+  - { grade: 2.0, people: 4 }
+  - { grade: 2.3, people: 1 }
+  - { grade: 2.4, people: 3 }
+  - { grade: 2.7, people: 4 }
+  - { grade: 3.0, people: 8 }
+  - { grade: 3.3, people: 4 }
+  - { grade: 3.4, people: 4 }
+  - { grade: 3.7, people: 20 }
+  - { grade: 4.0, people: 35 }
+  - { grade: 4.3, people: 75 }
+  - { grade: 4.7, people: 55 }
+  - { grade: 5.0, people: 19 }
+  - { grade: 6.0, people: 89 }
+
+---
+
+
