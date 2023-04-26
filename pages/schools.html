@@ -1,0 +1,20 @@
+---
+layout: page
+title: Schools
+permalink: /schools/
+---
+
+{% include browser-search.html %}
+
+<table>
+  {% for school in site.schools %}
+  <tr>
+    <td><b><a href="{{ site.baseurl }}{{ school.url }}">{{ school.code }}: {{ school.name }}</a></b></td>
+    <td>
+      {% for dep in school.deps %}
+        <span>{{ dep.code }}</span>{% if forloop.last != true %}, {% endif %}
+      {% endfor %}
+    </td>
+  </tr>
+  {% endfor %}
+</table>

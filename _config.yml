@@ -20,9 +20,18 @@ show_excerpts: false
 
 header_pages:
   - about.md
-  - courses.html
+  - pages/courses.html
+  - pages/schools.html
 
 collections:
+  schools:
+    code: "CIT"
+    name: "School of Computation, Information and Technology"
+    link: "https://www.cit.tum.de/en/"
+    deps:
+      - { code: "IN", link: "https://www.cs.cit.tum.de/en/", name: "Computer Science" }
+    output: true
+    permalink: /:collection/:path
   courses:
     school: "CIT"
     code: "IN0000"

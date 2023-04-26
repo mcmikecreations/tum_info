@@ -1,0 +1,46 @@
+---
+layout: page
+title: Courses
+permalink: /courses/
+---
+
+{% include browser-search.html %}
+
+{% assign schools = site.courses | map: "school" | uniq %}
+
+You can quickly jump to {% for school in schools %}
+<a href="#{{ school }}">{{ school }}</a>{% if forloop.last != true %}, {% else %}.{% endif %}
+{% endfor %}
+There are {{ site.courses.size }} entries in total.
+
+{% for school in schools %}
+{% assign school_courses = site.courses | where: "school", school %}
+{% assign codes_unique = school_courses | map: "code" | uniq | sort %}
+
+<h3 id="{{ school }}">{{ school }}</h3>
+
+<p>
+  There are {{ school_courses.size }} entries. Detailed overview can be found <a href="{{ site.baseurl }}/schools/{{ school }}">here</a>.
+</p>
+
+<table>
+  {% for code in codes_unique %}
+  {% assign code_courses = school_courses | where: "code", code %}
+  {% assign code_semesters = code_courses | map: "semester" | uniq | sort | reverse %}
+  <tr id="{{ code }}">
+    <td><b>{{ code }} {{ code_courses.first.name }}</b></td>
+    <td>
+      {% for semester in code_semesters %}
+        {% assign semester_courses = code_courses | where: "semester", semester %}
+        {{ semester }}
+        {% for course in semester_courses %}
+          <a href="{{ site.baseurl }}{{ course.url }}">{{ course.exam_type | capitalize }}</a>{% if forloop.last != true %}, {% endif %}
+        {% endfor %}
+      <br>
+      {% endfor %}
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+
+{% endfor %}

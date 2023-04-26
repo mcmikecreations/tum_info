@@ -1,0 +1,74 @@
+---
+layout: page
+---
+
+<script src="{{ site.baseurl }}/assets/js/table-sort.js"></script>
+
+{{ content }}
+
+{% include browser-search.html %}
+
+You can quickly jump to {% for dep in page.deps %}
+<a href="#{{ dep.code }}">{{ dep.code }}</a>{% if forloop.last != true %}, {% else %}.{% endif %}
+{% endfor %}
+
+{% for dep in page.deps %}
+
+<h3 id="{{ dep.code }}">{{ dep.code }}: {{ dep.name }}</h3>
+
+{% assign school_courses = site.courses | where: "school", page.code %}
+{% assign codes_unique = school_courses | map: "code" | uniq | sort %}
+
+<table class="table-sort table-arrows">
+  <tr>
+    <th class="alpha-sort">Module</th>
+    <th>Entries</th>
+    <th>Avg. Total</th>
+    <th>Avg. Passed</th>
+    <th>Perc. Failed</th>
+  </tr>
+  {% for code in codes_unique %}
+  {% if code contains dep.code %}
+  {% else %}
+    {% continue %}
+  {% endif %}
+  {% assign code_courses = school_courses | where: "code", code %}
+  {% assign code_semesters = code_courses | map: "semester" | uniq | sort | reverse %}
+  {% assign course_latest = code_courses | where: "semester", code_semesters.first | first %}
+
+  {% assign people_total = 0 %}
+  {% assign attempts_total = 0 %}
+  {% assign grade_sum = 0.0 %}
+  {% assign people_failed = 0 %}
+  {% assign grade_sum_passed = 0.0 %}
+  {% for item in course_latest.grades %}
+    {% assign people_total = people_total | plus: item.people %}
+    {% if item.grade < 6.0 %}
+      {% assign attempts_total = attempts_total | plus: item.people %}
+      {% assign grade_sum = item.people | times: item.grade | plus: grade_sum %}
+      {% if item.grade > 4.0 %}
+        {% assign people_failed = people_failed | plus: item.people %}
+      {% else %}
+        {% assign grade_sum_passed = item.people | times: item.grade | plus: grade_sum_passed %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  {% assign people_passed = attempts_total | minus: people_failed %}
+  <tr>
+    <td><b><a href="{{ site.baseurl }}{{ course_latest.url }}">{{ code }} {{ course_latest.name }}</a></b></td>
+    <td>
+      {% assign entries = 0 %}
+      {% for semester in code_semesters %}
+        {% assign semester_courses_size = code_courses | where: "semester", semester | size %}
+        {% assign entries = entries | plus: semester_courses_size %}
+      {% endfor %}
+      <a href="{{ site.baseurl }}/courses/#{{ code }}">{{ entries }}</a>
+    </td>
+    <td>{{ grade_sum | divided_by: attempts_total | round: 2 }}</td>
+    <td>{{ grade_sum_passed | divided_by: people_passed | round: 2 }}</td>
+    <td>{{ people_failed | times: 100.0 | divided_by: attempts_total | round: 2 }}%</td>
+  </tr>
+  {% endfor %}
+</table>
+
+{% endfor %}
