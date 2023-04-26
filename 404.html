@@ -78,8 +78,6 @@
 
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
-
-  <img id="img_404" src="/tum_info/assets/images/404_00.png" alt="A 404 cat picture" width="600">
 </div>
 
 <script type="text/javascript">
@@ -87,7 +85,11 @@
     return Math.floor(Math.random() * max);
   }
   const n = getRandomInt(5);
-  document.getElementById('img_404').src = `/tum_info/assets/images/404_${('0000'+n).slice(-2)}.png`;
+  const image = document.createElement("img");
+  image.src = `/tum_info/assets/images/404_${('0000'+n).slice(-2)}.png`;
+  image.alt = 'A 404 cat picture';
+  image.width = 600;
+  document.getElementsByClassName('container')[0].appendChild(image);
 </script>
 
   </div>
