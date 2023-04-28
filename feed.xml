@@ -1,1 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/tum_info/feed.xml" rel="self" type="application/atom+xml" /><link href="/tum_info/" rel="alternate" type="text/html" /><updated>2023-04-26T21:21:15+00:00</updated><id>/tum_info/feed.xml</id><title type="html">TUM Info</title><subtitle>A bunch of useful information I&apos;ve collected while studying at the Technical University of Munich.</subtitle><author><name>Mykola Morozov</name><email>mcmikecreations@gmail.com</email></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/tum_info/feed.xml" rel="self" type="application/atom+xml" /><link href="/tum_info/" rel="alternate" type="text/html" /><updated>2023-04-28T14:16:40+00:00</updated><id>/tum_info/feed.xml</id><title type="html">TUM Info</title><subtitle>A bunch of useful information I&apos;ve collected while studying at the Technical University of Munich.</subtitle><author><name>Mykola Morozov</name><email>mcmikecreations@gmail.com</email></author><entry><title type="html">School pages!</title><link href="/tum_info/2023/04/28/schools.html" rel="alternate" type="text/html" title="School pages!" /><published>2023-04-28T00:00:00+00:00</published><updated>2023-04-28T00:00:00+00:00</updated><id>/tum_info/2023/04/28/schools</id><content type="html" xml:base="/tum_info/2023/04/28/schools.html"><![CDATA[<p>Sup you beautiful bastards! With the new website update, you can now check out the courses <a href="https://mcmikecreations.github.io/tum_info/schools/">per school/department/faculty</a>.</p>
+
+<p>The tables there are sortable and contain some useful info (thanks to Jan for the suggestion). The tables are a bit too big for mobile, but you can scroll them horizontally with your finger.</p>
+
+<p>Also added the posts section with messages regarding website updates.</p>
+
+<p>Thanks to Luca for contributing his grade reports! You can do so too by following <a href="https://mcmikecreations.github.io/tum_info/readme/">these instructions</a>.</p>
+
+<blockquote>
+  <p>⚠️ If you have any feature suggestions, message me! ⚠️</p>
+</blockquote>]]></content><author><name>Mykola Morozov</name><email>mcmikecreations@gmail.com</email></author><summary type="html"><![CDATA[Sup you beautiful bastards! With the new website update, you can now check out the courses per school/department/faculty.]]></summary></entry><entry><title type="html">Added 626 courses!</title><link href="/tum_info/2023/04/26/merge.html" rel="alternate" type="text/html" title="Added 626 courses!" /><published>2023-04-26T00:00:00+00:00</published><updated>2023-04-26T00:00:00+00:00</updated><id>/tum_info/2023/04/26/merge</id><content type="html" xml:base="/tum_info/2023/04/26/merge.html"><![CDATA[<p>Hello and, again, welcome to the Aperture Science computer-aided enrichment center. With the new website update, we now have
+🎊 <strong><a href="https://mcmikecreations.github.io/tum_info/courses/">626 COURSES</a></strong> 🎉, most of which came from a similar project.</p>
+
+<p>Also improved <a href="https://mcmikecreations.github.io/tum_info/404.html">the 404 page</a>.</p>
+
+<p>And a separate thank you to Orgest for making a contribution and improving the grade gathering script.
+In the future, I’ll try to split the schools into separate pages, as the list is getting a bit too long for my liking.</p>]]></content><author><name>Mykola Morozov</name><email>mcmikecreations@gmail.com</email></author><summary type="html"><![CDATA[Hello and, again, welcome to the Aperture Science computer-aided enrichment center. With the new website update, we now have 🎊 626 COURSES 🎉, most of which came from a similar project.]]></summary></entry><entry><title type="html">Contribute your grades!</title><link href="/tum_info/2023/04/24/contribute.html" rel="alternate" type="text/html" title="Contribute your grades!" /><published>2023-04-24T00:00:00+00:00</published><updated>2023-04-24T00:00:00+00:00</updated><id>/tum_info/2023/04/24/contribute</id><content type="html" xml:base="/tum_info/2023/04/24/contribute.html"><![CDATA[<p>Hello again, hard-working excellence chasers! A quick update regarding the website.</p>
+
+<ol>
+  <li>You can now easily contribute your own grades. Just follow <a href="https://mcmikecreations.github.io/tum_info/readme/">instructions in the ReadMe</a> to run a short script that gathers all your achievements and fix minor mistakes manually.</li>
+  <li>I’ve now manually added over 150 courses to the website, feel free to check them out!</li>
+  <li>I’ve updated the courses page to have links for each school for easier navigation.</li>
+</ol>]]></content><author><name>Mykola Morozov</name><email>mcmikecreations@gmail.com</email></author><summary type="html"><![CDATA[Hello again, hard-working excellence chasers! A quick update regarding the website.]]></summary></entry><entry><title type="html">Added 109 courses!</title><link href="/tum_info/2023/04/22/manual.html" rel="alternate" type="text/html" title="Added 109 courses!" /><published>2023-04-22T00:00:00+00:00</published><updated>2023-04-22T00:00:00+00:00</updated><id>/tum_info/2023/04/22/manual</id><content type="html" xml:base="/tum_info/2023/04/22/manual.html"><![CDATA[<p>Hello, wonderful students of TUM! As I mentioned before, I’ve added all grade distributions from a <a href="https://gitlab.lrz.de/about1/informatics-courses">certain GitLab repo</a> to the website:
+<a href="https://mcmikecreations.github.io/tum_info/courses/">https://mcmikecreations.github.io/tum_info/courses/</a>.</p>
+
+<p>Now there is a grand total of 109 easy to access grade distributions for your convenience.</p>
+
+<blockquote>
+  <p>⚠️ I’d like to ask the following. If you know any lists of grade distributions or have your own exam statistics, either send them to me or put them on the website yourself by creating a GitHub issue. ⚠️</p>
+</blockquote>]]></content><author><name>Mykola Morozov</name><email>mcmikecreations@gmail.com</email></author><summary type="html"><![CDATA[Hello, wonderful students of TUM! As I mentioned before, I’ve added all grade distributions from a certain GitLab repo to the website: https://mcmikecreations.github.io/tum_info/courses/.]]></summary></entry><entry><title type="html">Welcome to the website!</title><link href="/tum_info/2023/04/20/welcome.html" rel="alternate" type="text/html" title="Welcome to the website!" /><published>2023-04-20T00:00:00+00:00</published><updated>2023-04-20T00:00:00+00:00</updated><id>/tum_info/2023/04/20/welcome</id><content type="html" xml:base="/tum_info/2023/04/20/welcome.html"><![CDATA[<p>Hey everyone! I’ve noticed a big problem with the grade reports at TUM. Pictures that people share are always scattered between several GitHub/GitLab/LRZ/MWN repos and WhatsApp/Telegram/Matrix/Facebook groups. If you don’t know if you should take a course and want to check out previous grades for it, it’s always a hassle.</p>
+
+<p>Moreover, the “My achievements” page on TUMOnline is inconvenient on desktop and unusable on mobile.</p>
+
+<p>This is why I wanted to contribute my share and developed this small website.</p>
+
+<p>It has only the main fields from exam statistics, is highlight- and mobile-friendly and, of course, supports light and dark themes based on your device settings.</p>
+
+<p>The best part — you can easily contribute too! I created a GitHub issue template that looks like this: <a href="https://github.com/mcmikecreations/tum_info/issues/3">https://github.com/mcmikecreations/tum_info/issues/3</a></p>
+
+<p>You can fill the info in, someone from the development team double-checks if the format is correct, assigns the label, and the bots do the rest to put your submission onto the website!</p>
+
+<p>I hope it supports CIT course numbering too, but haven’t had any examples to check yet. I will try to bring as many exam statistics I find in other repos as possible, but it will be a long process.</p>
+
+<p>If you have any other questions or suggestions, feel free to message me or post them on GitHub. My first question to you: do you want the “Persons involved” row from TUMOnline?</p>
+
+<p>Also I need help with making the website more friendly for people with accessibility issues, like vision impairment, so if anyone is familiar with how to do it in HTML/js and can help, any contribution is welcome.</p>]]></content><author><name>Mykola Morozov</name><email>mcmikecreations@gmail.com</email></author><summary type="html"><![CDATA[Hey everyone! I’ve noticed a big problem with the grade reports at TUM. Pictures that people share are always scattered between several GitHub/GitLab/LRZ/MWN repos and WhatsApp/Telegram/Matrix/Facebook groups. If you don’t know if you should take a course and want to check out previous grades for it, it’s always a hassle.]]></summary></entry></feed>
