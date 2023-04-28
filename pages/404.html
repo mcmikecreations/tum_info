@@ -28,7 +28,7 @@ layout: page
   function getRandomInt(max) {
     return Math.floor(Math.random() * max);
   }
-  const n = getRandomInt(5);
+  const n = getRandomInt(6);
   const image = document.createElement("img");
   image.src = `{{ site.baseurl }}/assets/images/404_${('0000'+n).slice(-2)}.png`;
   image.alt = 'A 404 cat picture';
