@@ -303,14 +303,14 @@ def perform_exam(auth, achievement):
   grades = dict()
   for o in res_achieve_grades:
     value = 0.0
-    if 'gradeCommentShortName' in o:
+    if 'gradeCommentShortName' in o or not o['gradeShortName'][0].isdigit():
       # X didn't show up
       # U cheated
       # Q withdrew
       # Z rejected
       # B passed without grade
       # N didn't pass without grade
-      short_name = o['gradeCommentShortName']
+      short_name = o.get('gradeCommentShortName') or o['gradeShortName']
       if short_name == 'X':
         value = 6.0
       elif short_name == 'U':
