@@ -88,8 +88,8 @@ layout: page
 </div>
 
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/course.css" />
-<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-<script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
+<script src="{{ site.baseurl }}/assets/js/d3@7.js"></script>
+<script src="{{ site.baseurl }}/assets/js/plot@0.6.js"></script>
 <script type="text/javascript">
   var grades = [{% for item in page.grades %}
     { 'grade': {{ item.grade }}, 'people': {{ item.people }}, 'text': null },{% endfor %}
