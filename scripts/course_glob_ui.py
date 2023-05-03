@@ -1,14 +1,46 @@
-from PySide6.QtCore import QSize, Qt
+from PySide6.QtCore import QSize, Qt, QMimeData, QUrl
+from PySide6.QtGui import QDrag, QPixmap, QIcon
 from PySide6.QtWidgets import QApplication, QWidget, QPushButton, QMainWindow, QLabel, QLineEdit, QCheckBox, QGridLayout, QPlainTextEdit
 import sys
+import os
 import webbrowser
 import json
 import course_functions
+import course_glob_resources
+
+try:
+  from ctypes import windll  # Only exists on Windows.
+  myappid = 'mcmikecreations.tum_info.grades.1'
+  windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+except ImportError:
+  pass
 
 def logger(message):
   window.log_label.appendPlainText(str(message))
   window.log_label.repaint()
   print(message)
+
+class FileButton(QPushButton):
+  def __init__(self, title=None, parent=None):
+    super(FileButton, self).__init__(title, parent)
+
+  def mouseMoveEvent(self, e):
+    if e.buttons() != Qt.LeftButton:
+      return
+    
+    mimeData = QMimeData()
+    mimeData.setUrls([QUrl('file:{}'.format(os.path.abspath('grades.json')))])
+
+    drag = QDrag(self)
+    drag.setMimeData(mimeData)
+
+    pixmap = QPixmap(self.size())
+    self.render(pixmap)
+    drag.setPixmap(pixmap)
+
+    #drag.setHotSpot(e.position() - self.rect().topLeft())
+
+    dropAction = drag.exec(Qt.CopyAction)
 
 class MainWindow(QMainWindow):
   def __init__(self):
@@ -16,6 +48,8 @@ class MainWindow(QMainWindow):
 
     self.setWindowTitle('Download grades')
     self.setMinimumSize(QSize(400, 300))
+
+    self.setWindowIcon(QIcon(':/assets/icons/grade.ico'))
 
     username_label = QLabel('Username:')
     self.username_label = username_label
@@ -68,6 +102,7 @@ class MainWindow(QMainWindow):
     layout.addWidget(info_label, 4, 0, 1, -1)
     layout.addWidget(log_label, 5, 0, 1, -1)
     layout.addWidget(source_label, 6, 0, 1, -1)
+    self.layout = layout
 
     container = QWidget()
     container.setLayout(layout)
@@ -86,10 +121,18 @@ class MainWindow(QMainWindow):
       self.username_entry.setEchoMode(QLineEdit.Normal)
       self.password_entry.setEchoMode(QLineEdit.Normal if self.passshow_check.checkState() == Qt.Checked else QLineEdit.Password)
 
+  def removedrag(self):
+    if 'drag_button' in dir(self):
+      self.layout.removeWidget(self.drag_button)
+      drag_button = self.drag_button
+      self.drag_button = None
+      del drag_button
+  
   def download(self):
     try:
       filename = 'grades.json'
       self.log_label.setPlainText('')
+      self.removedrag()
       verbose = self.verbose_check.checkState() == Qt.Checked
       auth = None
       
@@ -107,11 +150,24 @@ class MainWindow(QMainWindow):
       achievements = list(filter(lambda y: y != None, map(lambda x: course_functions.perform_exam(auth, x, logger, verbose), achievements)))
       with open(filename, 'w') as file_object:
         json.dump(achievements, file_object)
-      logger('Finished.')
+      logger('grades.json was saved to the same directory as the program.')
+      logger('Drag grades button into your favorite messanger.')
+      logger('Or find the created grades.json file yourself.')
+      logger('Email: mcmikecreations@gmail.com')
+      logger('Telegram: @mcmikecreations')
+      logger('Facebook: mykolamor')
+      logger('Mastodon: @mykolamor@mastodon.social')
+      self.info_label.setText('Drag grades into your favorite messanger')
+
+      drag_button = FileButton('Grades')
+      self.drag_button = drag_button
+      self.layout.addWidget(drag_button, 4, 1, Qt.AlignRight)
     except Exception as e:
       self.info_label.setText(str(e))
+      self.removedrag()
 
-app = QApplication(sys.argv)
-window = MainWindow()
-window.show()
-app.exec()
+if __name__ == '__main__':
+  app = QApplication(sys.argv)
+  window = MainWindow()
+  window.show()
+  app.exec()
