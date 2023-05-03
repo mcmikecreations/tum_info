@@ -1,0 +1,6 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="assets/icons">
+        <file alias="grade.ico">../assets/icons/grade.ico</file>
+    </qresource>
+</RCC>
