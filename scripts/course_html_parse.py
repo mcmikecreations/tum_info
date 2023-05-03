@@ -1,20 +1,4 @@
 # TODO: if script complains, update this dict and rerun
-schools = {
-  'IN': 'CIT',
-  'MA': 'CIT',
-  'EI': 'CIT',
-  'WI': 'MGT',
-  'SZ': 'SZ',
-  'MW': 'ED',
-  'BV': 'ED',
-  'CLA': 'SOT',
-  'ED': 'SOT',
-  'SOT': 'SOT',
-  'MCTS': 'MCTS',
-  'POL': 'MCTS',
-  'ME': 'MED',
-  'PH': 'NAT',
-}
 ects = {
   0.0: 1,
   0.5: 1,
@@ -34,6 +18,10 @@ import sys
 import re
 import os
 import os.path
+import course_functions
+
+def logger(message):
+  print(message)
 
 args = sys.argv
 soup = None
@@ -42,7 +30,7 @@ with open(args[1]) as fp:
     soup = BeautifulSoup(fp, 'html.parser')
 
 courses = soup.find_all('h3')
-print('Found {} courses.'.format(len(courses)))
+logger('Found {} courses.'.format(len(courses)))
 
 def process_achievement(course):
   achievement = dict()
@@ -55,8 +43,8 @@ def process_achievement(course):
   header_number_regex = r"^([A-Z]+).+$"
   header_dep = re.search(header_number_regex, header_number).group(1)
   header_school = None
-  if header_dep in schools:
-    header_school = schools[header_dep]
+  if header_dep in course_functions.schools:
+    header_school = course_functions.schools[header_dep]
   else:
     raise Exception('Unknown course dep: {}'.format(header_dep))
   header_sem = header_match.group(6) if header_match.group(5) == 'W' else header_match.group(7)
@@ -121,7 +109,7 @@ def process_grades(achievement, grade_list):
       try:
         grade_value = float(grade_value_text.replace(',', '.'))
       except:
-        print('Failed to parse {}. Contact mcmikecreations.'.format(grade_value_text))
+        logger('Failed to parse {}. Contact mcmikecreations.'.format(grade_value_text))
         achievement['grades'] = None
         return achievement
     
@@ -134,66 +122,8 @@ def process_grades(achievement, grade_list):
   achievement['grades'].sort(key=lambda x: x['value'])
   return achievement
 
-# Check if an achievement exists; if not, create the dir as a side-effect
-def achievement_exists(achievement):
-  path_dir = '_courses/{}/{}'.format(achievement['school'], achievement['number'])
-  path_file = '{}/{}-{}.md'.format(path_dir, achievement['semester'], achievement['type'])
-  if os.path.isdir(path_dir):
-    if os.path.isfile(path_file):
-      print('{} {} {} exists. Check endterm/retake. If wrong, add manually.'.format(
-        achievement['number'], achievement['name'], achievement['type']))
-      return True
-    return False
-  os.makedirs(path_dir, exist_ok = True)
-  return False
-
-def achievement_save(achievement):
-  path_dir = '_courses/{}/{}'.format(achievement['school'], achievement['number'])
-  path_file = '{}/{}-{}.md'.format(path_dir, achievement['semester'], achievement['type'])
-  text_grades = list(map(lambda x: '  - {{ grade: {0}, people: {1} }}\n'.format(x['value'], x['count']), achievement['grades']))
-  text_desc = ''
-  if 'cheated' in achievement:
-    text_desc += '{} people cheated. Added to 5.0 column. '.format(achievement['cheated'])
-  if 'withdrew' in achievement:
-    text_desc += '{} people withdrew. Not present on the plot. '.format(achievement['withdrew'])
-  if 'rejected' in achievement:
-    text_desc += '{} people rejected. Added to 5.0 column. '.format(achievement['rejected'])
-  text_file = '''---
-layout: course
-
-school: "{school}"
-code: "{number}"
-semester: "{semester}" # refers to the year of the semester start
-exam_type: "{type}"
-name: "{name}"
-date: "{date}"
-
-ects: {ects}
-hours: {hours} # semester hours
-mode: "{mode}"
-lang: "en"
-
-title: "{name} {semester} {type_cap}"
-grades:
-{grades}
----
-
-{desc}
-'''.format(school=achievement['school'], number=achievement['number'].upper(),
-    semester=achievement['semester'], type=achievement['type'],
-    name=achievement['name'].replace('"', '\\"'), date=achievement['date'],
-    ects=achievement['ects'], hours=achievement['hours'],
-    mode=achievement['mode'], type_cap=achievement['type'].capitalize(),
-    grades=''.join(text_grades), desc=text_desc)
-  
-  with open(path_file, 'w') as f:
-    f.write(text_file)
-    print('Wrote {} {} {}. Check endterm/retake filename and field in file. Check exam_type, mode, lang fields in file.'.format(
-      achievement['number'], achievement['name'], achievement['type']))
-  return achievement
-
 for course in courses:
   achievement = process_achievement(course)
-  if achievement['grades'] == None or len(achievement['grades']) == 0 or achievement_exists(achievement):
+  if achievement['grades'] == None or len(achievement['grades']) == 0 or course_functions.achievement_exists(achievement, logger, True):
     continue
-  achievement_save(achievement)
+  course_functions.achievement_save(achievement, logger, True)
