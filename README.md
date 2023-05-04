@@ -11,7 +11,11 @@ All matches with real courses and grades are purely coincidental.
 
 You can help expand this website with new information by adding your own course exam statistics!
 
-#### All your courses
+#### All your courses program
+
+If you're looking for a simple way to send me your grades, you can contribute using the executable file ([Windows](https://github.com/mcmikecreations/tum_info/raw/main/dist/Grades.exe)). Now you can generate a file with all your grades and send it over Telegram or any other of the communication channels listed in the app!
+
+#### Grade download script
 
 A handy script was created to extract all grade reports for a TUMOnline student account. To run the script:
 
