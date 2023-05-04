@@ -5,3 +5,4 @@ _site
 vendor
 /scripts/__pycache__/*
 /build/*
+/dist/*
