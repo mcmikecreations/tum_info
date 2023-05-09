@@ -4,7 +4,7 @@ import sys
 block_cipher = None
 
 
-if sys.platform.startsWith('darwin'):
+if sys.platform.startswith('darwin'):
     a = Analysis(
         ['course_glob_ui.py'],
         pathex=[],
@@ -55,7 +55,7 @@ if sys.platform.startsWith('darwin'):
         icon='../assets/icons/grade.icns',
         bundle_identifier='mcmikecreations.tum_info.grades',
     )
-elif sys.platform.startsWith('win32') or sys.platform.startsWith('cygwin'):
+elif sys.platform.startswith('win32') or sys.platform.startswith('cygwin'):
     a = Analysis(
         ['course_glob_ui.py'],
         pathex=[],
