@@ -1,6 +1,6 @@
 from PySide6.QtCore import QSize, Qt, QMimeData, QUrl
 from PySide6.QtGui import QDrag, QPixmap, QIcon
-from PySide6.QtWidgets import QApplication, QWidget, QPushButton, QMainWindow, QLabel, QLineEdit, QCheckBox, QGridLayout, QPlainTextEdit
+from PySide6.QtWidgets import QApplication, QWidget, QPushButton, QMainWindow, QLabel, QLineEdit, QCheckBox, QGridLayout, QPlainTextEdit, QFileDialog
 import sys
 import os
 import webbrowser
@@ -29,7 +29,7 @@ class FileButton(QPushButton):
       return
     
     mimeData = QMimeData()
-    mimeData.setUrls([QUrl('file:{}'.format(os.path.abspath('grades.json')))])
+    mimeData.setUrls([QUrl('file:{}'.format(self.fileName))])
 
     drag = QDrag(self)
     drag.setMimeData(mimeData)
@@ -41,6 +41,22 @@ class FileButton(QPushButton):
     #drag.setHotSpot(e.position() - self.rect().topLeft())
 
     dropAction = drag.exec(Qt.CopyAction)
+  
+  def saveFile(self):
+    dialog = QFileDialog(parent=self, caption='Save grades')
+    dialog.setFileMode(QFileDialog.AnyFile)
+    dialog.setNameFilter("JSON (*.json)")
+    dialog.setViewMode(QFileDialog.List)
+    dialog.setAcceptMode(QFileDialog.AcceptSave)
+    fileNames = []
+    succ = False
+    while not succ:
+      if dialog.exec():
+        fileNames = dialog.selectedFiles()
+        if len(fileNames) != 0:
+          self.fileName = fileNames[0]
+          succ = True
+
 
 class MainWindow(QMainWindow):
   def __init__(self):
@@ -130,7 +146,6 @@ class MainWindow(QMainWindow):
   
   def download(self):
     try:
-      filename = 'grades.json'
       self.log_label.setPlainText('')
       self.removedrag()
       verbose = self.verbose_check.checkState() == Qt.Checked
@@ -148,9 +163,13 @@ class MainWindow(QMainWindow):
       achievements = course_functions.perform_achievements(auth, logger, verbose)
       logger('Performing grade stats lookup...')
       achievements = list(filter(lambda y: y != None, map(lambda x: course_functions.perform_exam(auth, x, logger, verbose), achievements)))
-      with open(filename, 'w') as file_object:
+
+      drag_button = FileButton('Grades')
+      drag_button.saveFile()
+
+      with open(drag_button.fileName, 'w') as file_object:
         json.dump(achievements, file_object)
-      logger('grades.json was saved to the same directory as the program.')
+      logger('grades.json was saved to {}.'.format(drag_button.fileName))
       logger('Drag grades button into your favorite messanger.')
       logger('Or find the created grades.json file yourself.')
       logger('Email: mcmikecreations@gmail.com')
@@ -159,7 +178,6 @@ class MainWindow(QMainWindow):
       logger('Mastodon: @mykolamor@mastodon.social')
       self.info_label.setText('Drag grades into your favorite messanger')
 
-      drag_button = FileButton('Grades')
       self.drag_button = drag_button
       self.layout.addWidget(drag_button, 4, 1, Qt.AlignRight)
     except Exception as e:
