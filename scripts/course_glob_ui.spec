@@ -55,7 +55,7 @@ if sys.platform.startswith('darwin'):
         icon='../assets/icons/grade.icns',
         bundle_identifier='mcmikecreations.tum_info.grades',
     )
-elif sys.platform.startswith('win32') or sys.platform.startswith('cygwin'):
+elif sys.platform.startswith('win32') or sys.platform.startswith('cygwin') or sys.platform.startswith('linux'):
     a = Analysis(
         ['course_glob_ui.py'],
         pathex=[],
