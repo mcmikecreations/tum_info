@@ -1,0 +1,3 @@
+[submodule "vendor/offered"]
+	path = vendor/offered
+	url = git@github.com:Vuenc/TUM-Master-Informatics-Offered-Lectures.git

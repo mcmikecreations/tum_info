@@ -2,7 +2,6 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-vendor
 /scripts/__pycache__/*
 /build/*
 /dist/*
