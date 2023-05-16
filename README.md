@@ -59,6 +59,14 @@ For now there's a manual review step done by me, so don't worry too much about b
 When I see that everything is ok, I put a label on the issue and [GitHub Actions](https://github.com/mcmikecreations/tum_info/tree/main/.github/workflows)
 take care of the rest by adding a new page to the website and building it.
 
+### Offered courses
+
+The offered courses database is maintained in [this repository by Vuenc](https://github.com/Vuenc/TUM-Master-Informatics-Offered-Lectures).
+Please direct your contributions there. Once they are accepted, notify me about the update.
+
+**For developers**: to update the website with new courses, edit and run `python scripts/course_offered_parse.py` from root folder.
+It has the same dependencies as building the app above.
+
 ### Feature requests and bug reports
 
 There also are issue templates for such cases [back on GitHub](https://github.com/mcmikecreations/tum_info/issues/new/choose).
@@ -86,3 +94,4 @@ Scripts in the `scripts` folder:
 - `course_glob_ui.spec` is a PyInstaller spec file to build single-file executables for the GUI app.
 - `course_glob_ui_build.sh` is a MacOS script to generate an installer package for the GUI app.
 - `course_html_parse.py` is a deprecated command-line utility script to download grades from an outdated website.
+- `course_offered_parse.py` is a command-line utility script to download offered courses from a vendor repository.

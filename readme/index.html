@@ -47,7 +47,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/tum_info/readme/">Read Me</a><a class="page-link" href="/tum_info/courses/">Courses</a><a class="page-link" href="/tum_info/schools/">Schools</a></div>
+        <div class="trigger"><a class="page-link" href="/tum_info/readme/">Read Me</a><a class="page-link" href="/tum_info/modules/">Modules</a><a class="page-link" href="/tum_info/courses/">Courses</a><a class="page-link" href="/tum_info/schools/">Schools</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -123,6 +123,14 @@ For now there’s a manual review step done by me, so don’t worry too much abo
 When I see that everything is ok, I put a label on the issue and <a href="https://github.com/mcmikecreations/tum_info/tree/main/.github/workflows">GitHub Actions</a>
 take care of the rest by adding a new page to the website and building it.</p>
 
+<h3 id="offered-courses">Offered courses</h3>
+
+<p>The offered courses database is maintained in <a href="https://github.com/Vuenc/TUM-Master-Informatics-Offered-Lectures">this repository by Vuenc</a>.
+Please direct your contributions there. Once they are accepted, notify me about the update.</p>
+
+<p><strong>For developers</strong>: to update the website with new courses, edit and run <code class="language-plaintext highlighter-rouge">python scripts/course_offered_parse.py</code> from root folder.
+It has the same dependencies as building the app above.</p>
+
 <h3 id="feature-requests-and-bug-reports">Feature requests and bug reports</h3>
 
 <p>There also are issue templates for such cases <a href="https://github.com/mcmikecreations/tum_info/issues/new/choose">back on GitHub</a>.
@@ -155,6 +163,7 @@ Afterwards, in the root folder run the following commands:</p>
   <li><code class="language-plaintext highlighter-rouge">course_glob_ui.spec</code> is a PyInstaller spec file to build single-file executables for the GUI app.</li>
   <li><code class="language-plaintext highlighter-rouge">course_glob_ui_build.sh</code> is a MacOS script to generate an installer package for the GUI app.</li>
   <li><code class="language-plaintext highlighter-rouge">course_html_parse.py</code> is a deprecated command-line utility script to download grades from an outdated website.</li>
+  <li><code class="language-plaintext highlighter-rouge">course_offered_parse.py</code> is a command-line utility script to download offered courses from a vendor repository.</li>
 </ul>
 
 
