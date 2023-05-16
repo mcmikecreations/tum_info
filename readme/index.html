@@ -132,6 +132,31 @@ If something is wrong or you want something to get better, here’s what to do:<
   <li>(Optionally) If you want to try and fix the issue, state it in a comment, fork the repo, make the changes, and submit a pull request.</li>
 </ol>
 
+<h2 id="building-the-project-yourself">Building the project yourself</h2>
+
+<p>Building instructions for the grade download app are listed above. To build the website, you need to install <code class="language-plaintext highlighter-rouge">jekyll</code> by following the instructions from the official website.
+Afterwards, in the root folder run the following commands:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">bundle install</code> to install required packages</li>
+  <li><code class="language-plaintext highlighter-rouge">bundle exec jekyll build</code> to build the website to the <code class="language-plaintext highlighter-rouge">_site</code> folder</li>
+  <li><code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> to run the website locally</li>
+</ul>
+
+<p>Scripts in the <code class="language-plaintext highlighter-rouge">scripts</code> folder:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">course-create.js</code> is meant for the GitHub Action to create a course file from a GitHub issue.</li>
+  <li><code class="language-plaintext highlighter-rouge">course_functions.py</code> is a library used by other scripts for TUMOnline-related requests.</li>
+  <li><code class="language-plaintext highlighter-rouge">course_glob.py</code> is a command-line utility script to download all grades from a particular student by username and password.</li>
+  <li><code class="language-plaintext highlighter-rouge">course_glob_ui.py</code> is the main file of the GUI app to download all grades.</li>
+  <li><code class="language-plaintext highlighter-rouge">course_glob_resources.py</code> is the resource file containing icons for the GUI app.</li>
+  <li><code class="language-plaintext highlighter-rouge">course_glob_import.py</code> is an import command-line utility script to add grades of other students when they send them via JSON.</li>
+  <li><code class="language-plaintext highlighter-rouge">course_glob_resources.qrc</code> is a QT resource description file for the GUI icons.</li>
+  <li><code class="language-plaintext highlighter-rouge">course_glob_ui.spec</code> is a PyInstaller spec file to build single-file executables for the GUI app.</li>
+  <li><code class="language-plaintext highlighter-rouge">course_glob_ui_build.sh</code> is a MacOS script to generate an installer package for the GUI app.</li>
+  <li><code class="language-plaintext highlighter-rouge">course_html_parse.py</code> is a deprecated command-line utility script to download grades from an outdated website.</li>
+</ul>
+
 
   </div>
 

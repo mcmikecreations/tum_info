@@ -65,3 +65,24 @@ There also are issue templates for such cases [back on GitHub](https://github.co
 If something is wrong or you want something to get better, here's what to do:
 1. Create a new issue and outline what is wrong and/or what you need.
 2. (Optionally) If you want to try and fix the issue, state it in a comment, fork the repo, make the changes, and submit a pull request.
+
+## Building the project yourself
+
+Building instructions for the grade download app are listed above. To build the website, you need to install `jekyll` by following the instructions from the official website.
+Afterwards, in the root folder run the following commands:
+- `bundle install` to install required packages
+- `bundle exec jekyll build` to build the website to the `_site` folder
+- `bundle exec jekyll serve` to run the website locally
+
+Scripts in the `scripts` folder:
+
+- `course-create.js` is meant for the GitHub Action to create a course file from a GitHub issue.
+- `course_functions.py` is a library used by other scripts for TUMOnline-related requests.
+- `course_glob.py` is a command-line utility script to download all grades from a particular student by username and password.
+- `course_glob_ui.py` is the main file of the GUI app to download all grades.
+- `course_glob_resources.py` is the resource file containing icons for the GUI app.
+- `course_glob_import.py` is an import command-line utility script to add grades of other students when they send them via JSON.
+- `course_glob_resources.qrc` is a QT resource description file for the GUI icons.
+- `course_glob_ui.spec` is a PyInstaller spec file to build single-file executables for the GUI app.
+- `course_glob_ui_build.sh` is a MacOS script to generate an installer package for the GUI app.
+- `course_html_parse.py` is a deprecated command-line utility script to download grades from an outdated website.
