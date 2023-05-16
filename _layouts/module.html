@@ -1,0 +1,43 @@
+---
+layout: page
+---
+
+<script src="{{ site.baseurl }}/assets/js/table-sort.js"></script>
+
+{{ content }}
+
+{% include offered-disclaimer.html %}
+
+{% include browser-search.html %}
+
+{% for module in page.modules %}
+
+<h2>{{ module.name }}</h2>
+
+<table class="table-sort table-arrows">
+  <tr>
+    <th class="alpha-sort">ID</th>
+    <th>Title</th>
+    <th>Creds</th>
+    <th>Theo</th>
+    <th title="Last Offered">Last</th>
+    <th class="disable-sort">Links</th>
+  </tr>
+{% for course in module.courses %}
+  {% assign course_entries = site.courses | where: "code", course.code %}
+  <tr id="{{ course.code }}">
+    <td>{{ course.code }}</td>
+    <td>{% if course.url %}<a href="{{ course.url }}">{{ course.name }}</a>{% else %}{{ course.name }}{% endif %}</td>
+    <td>{{ course.credits }}</td>
+    <td>{% if course.theo %}THEO{% endif %}</td>
+    <td>{% if course.last %}{{ course.last | slice: 2, 4 }}{% endif %}</td>
+    <td>
+      {% if course_entries.size > 0 %}
+      <a title="Exam statistics" href="{{ site.baseurl }}/courses/#{{ course.code }}">exams</a> <a title="Detailed info" href="{{ site.baseurl }}/schools/{{ page.school }}/#{{ course.code }}">deets</a>
+      {% endif %}
+    </td>
+  </tr>
+{% endfor %}
+</table>
+
+{% endfor %}

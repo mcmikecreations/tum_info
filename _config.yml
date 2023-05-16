@@ -20,6 +20,7 @@ show_excerpts: false
 
 header_pages:
   - about.md
+  - pages/modules.html
   - pages/courses.html
   - pages/schools.html
 
@@ -45,6 +46,26 @@ collections:
     date: "2022-01-01 12:00:00 +0100"
     grades:
       - { grade: 1.0, people: 1 }
+    output: true
+    permalink: /:collection/:path
+  modules:
+    school: "CIT"
+    level: "MSc"
+    name: "Informatics"
+    semester:
+      start: "2018SS"
+      end: "2023SS"
+    modules:
+      - 
+        name: "Algorithms (ALG)"
+        courses:
+        - 
+          code: "IN0024"
+          name: "Operations Research"
+          credits: 6
+          theo: true
+          last: "2023SS"
+          url: "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950667748"
     output: true
     permalink: /:collection/:path
 

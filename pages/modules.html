@@ -1,0 +1,20 @@
+---
+layout: page
+title: Modules
+permalink: /modules/
+---
+
+{% include offered-disclaimer.html %}
+
+{% include browser-search.html %}
+
+<table>
+  {% assign modules = site.modules | reverse %}
+  {% for program in modules %}
+  <tr>
+    <td><b>{{ program.school }}</b></td>
+    <td><b><a href="{{ site.baseurl }}{{ program.url }}">{{ program.level }} {{ program.name }}</a></b></td>
+    <td><b>{{ program.semester.start | slice: 2, 6 }}-{{ program.semester.end | slice: 2, 6 }}</b></td>
+  </tr>
+  {% endfor %}
+</table>

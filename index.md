@@ -2,6 +2,7 @@
 layout: home
 ---
 
-If you're interested in course exam statistics, go to the [Courses page](https://mcmikecreations.github.io/tum_info/courses/).
-For a more detailed view of specific schools and their courses, go to the [Schools page](https://mcmikecreations.github.io/tum_info/schools/).
-To add your own data or contribute something else, check out the [Read Me page](https://mcmikecreations.github.io/tum_info/readme/).
+If you're interested in course exam statistics, go to the [Courses page]({{ site.baseurl }}/courses/).
+For a more detailed view of specific schools and their courses, go to the [Schools page]({{ site.baseurl }}/schools/).
+To check out offered elective modules for different programs, go to the [Modules page]({{ site.baseurl }}/modules/).
+To add your own data or contribute something else, check out the [Read Me page]({{ site.baseurl }}/readme/).
