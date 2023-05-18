@@ -13,7 +13,7 @@ You can help expand this website with new information by adding your own course 
 
 #### All your courses program
 
-If you're looking for a simple way to send me your grades, you can contribute using the executable file ([Windows](https://github.com/mcmikecreations/tum_info/releases/download/0.9.0/Grades.exe), [Linux](https://github.com/mcmikecreations/tum_info/releases/download/0.9.0/Grades), [MacOS](https://github.com/mcmikecreations/tum_info/releases/download/0.9.0/Grades.dmg)). You'll find a video guide [here](https://youtu.be/nHjuVhIJRaQ). Now you can generate a file with all your grades and send it over Telegram or any other of the communication channels listed in the app!
+If you're looking for a simple way to send me your grades, you can contribute using the executable file ([Windows](https://github.com/mcmikecreations/tum_info/releases/download/1.0.0/Grades.exe), [Linux](https://github.com/mcmikecreations/tum_info/releases/download/1.0.0/Grades), [MacOS](https://github.com/mcmikecreations/tum_info/releases/download/1.0.0/Grades.dmg)). You'll find a video guide [here](https://youtu.be/nHjuVhIJRaQ). Now you can generate a file with all your grades and send it over Telegram or any other of the communication channels listed in the app!
 
 **For Linux users**: the app may not be executable initially when you download it. You can fix it by running `chmod +x <file_path>`. Alternatively, you can create this script `install_grades.sh`:
 
@@ -21,7 +21,7 @@ If you're looking for a simple way to send me your grades, you can contribute us
 bash
 #!/usr/bin/bash
 
-version="0.9.0"
+version="1.0.0"
 
 wget "https://github.com/mcmikecreations/tum_info/releases/download/$version/Grades"
 chmod +x ./Grades
