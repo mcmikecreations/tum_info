@@ -1,5 +1,6 @@
 ---
 layout: home
+customheaders: "<meta name=\"google-site-verification\" content=\"4qqN8bYRCVGIAtFA-kHT1A4sywKWNPUlq4Wa6VwzdLE\" />"
 ---
 
 If you're interested in course exam statistics, go to the [Courses page]({{ site.baseurl }}/courses/).

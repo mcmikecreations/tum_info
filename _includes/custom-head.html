@@ -13,3 +13,6 @@
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111" />
 <meta name="color-scheme" content="light dark">
 <script type="module" src="{{ site.baseurl }}/assets/js/lang.mjs"></script>
+{% if page.customheaders %}
+  {{ page.customheaders }}
+{% endif %}
