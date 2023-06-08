@@ -11,7 +11,7 @@ date: "2023-02-09 00:00:00 +0100"
 ects: 3
 hours: 2 # semester hours
 mode: "written"
-lang: "en"
+lang: "es"
 
 title: "Spanish B2.1 2022WS Endterm"
 grades:

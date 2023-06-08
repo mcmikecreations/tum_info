@@ -11,7 +11,7 @@ date: "2022-07-25 00:00:00 +0100"
 ects: 3
 hours: 2 # semester hours
 mode: "written"
-lang: "en"
+lang: "es"
 
 title: "Spanish B1.2 2022SS Endterm"
 grades:

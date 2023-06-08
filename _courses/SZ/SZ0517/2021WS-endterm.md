@@ -11,7 +11,7 @@ date: "2022-01-27 12:00:00 +0100"
 ects: 3
 hours: 2.0 # semester hours
 mode: "written"
-lang: "en"
+lang: "fr"
 
 title: "French B2 - Preparation Course for University Exchange 2021WS Endterm"
 grades:

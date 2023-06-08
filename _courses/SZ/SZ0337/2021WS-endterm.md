@@ -11,7 +11,7 @@ date: "2022-02-07 00:00:00 +0100"
 ects: 4
 hours: 3 # semester hours
 mode: "written"
-lang: "en"
+lang: "de"
 
 title: "German as a Foreign Language A1.1 2021WS Endterm"
 grades:

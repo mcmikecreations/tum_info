@@ -11,7 +11,7 @@ date: "2023-02-08 12:00:00 +0100"
 ects: 3
 hours: 2.0 # semester hours
 mode: "written"
-lang: "en"
+lang: "fr"
 
 title: "French A2.1 2022WS Endterm"
 grades:

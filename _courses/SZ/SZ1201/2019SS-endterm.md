@@ -11,7 +11,7 @@ date: "2019-09-12 12:00:00 +0100"
 ects: 3
 hours: 2.0 # semester hours
 mode: "written"
-lang: "en"
+lang: "es"
 
 title: "Spanish A1 2019SS Endterm"
 grades:

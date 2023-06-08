@@ -11,7 +11,7 @@ date: "2019-03-26 12:00:00 +0100"
 ects: 3
 hours: 2.0 # semester hours
 mode: "written"
-lang: "en"
+lang: "fr"
 
 title: "Intensive Course French B1.1 2018WS Endterm"
 grades:

@@ -11,7 +11,7 @@ date: "2018-07-10 12:00:00 +0100"
 ects: 3
 hours: 2 # semester hours
 mode: "written"
-lang: "en"
+lang: "es"
 
 title: "Spanish A2.1 2018SS Endterm"
 grades:

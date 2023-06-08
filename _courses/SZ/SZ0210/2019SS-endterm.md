@@ -11,7 +11,7 @@ date: "2019-07-29 12:00:00 +0100"
 ects: 3
 hours: 2.0 # semester hours
 mode: "written"
-lang: "en"
+lang: "cn"
 
 title: "Chinese A1.2 2019SS Endterm"
 grades:

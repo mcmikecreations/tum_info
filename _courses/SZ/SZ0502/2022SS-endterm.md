@@ -11,7 +11,7 @@ date: "2022-07-26 12:00:00 +0100"
 ects: 3
 hours: 2.0 # semester hours
 mode: "written"
-lang: "en"
+lang: "fr"
 
 title: "French A1.2 2022SS Endterm"
 grades:

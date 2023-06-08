@@ -11,7 +11,7 @@ date: "2019-02-05 12:00:00 +0100"
 ects: 3
 hours: 2.0 # semester hours
 mode: "written"
-lang: "en"
+lang: "fr"
 
 title: "French A2.2 2018WS Endterm"
 grades:
