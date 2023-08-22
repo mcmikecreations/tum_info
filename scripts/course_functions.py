@@ -193,7 +193,8 @@ def perform_achievements(auth, logger, verbose):
       if course_dep in schools:
         course_school = schools[course_dep]
       else:
-        raise Exception('Unknown course dep: {}'.format(course_dep))
+        logger('Unknown course dep: {}'.format(course_dep))
+        course_school = course_dep
       course_names = o['content']['achievementDto']['cpCourseLibDto']['courseTitle']['translations']['translation']
       name = next(map(lambda y: y['value'], filter(lambda x: x['lang'] == 'en', course_names)), name)
       exam_type = 'endterm'

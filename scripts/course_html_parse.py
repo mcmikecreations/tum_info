@@ -46,12 +46,16 @@ def process_achievement(course):
   if header_dep in course_functions.schools:
     header_school = course_functions.schools[header_dep]
   else:
-    raise Exception('Unknown course dep: {}'.format(header_dep))
+    logger('Unknown course dep: {}'.format(header_dep))
+    header_school = header_dep
   header_sem = header_match.group(6) if header_match.group(5) == 'W' else header_match.group(7)
   header_hours = float(header_match.group(4))
-  header_ects = 0
-  if header_hours not in ects:
-    raise Exception('Unknown SWS: {}'.format(header_hours))
+  
+  if header_hours in ects:
+    header_ects = ects[header_hours]
+  else:
+    logger('Unknown SWS: {}'.format(header_hours))
+    header_ects = header_hours
 
   achievement = {
     'id': 0,
@@ -63,7 +67,7 @@ def process_achievement(course):
     'type': 'endterm',
     'semester': '20{}S'.format(header_sem + header_match.group(5)),
     'hours': header_hours,
-    'ects': ects[header_hours],
+    'ects': header_ects,
     'school': header_school,
   }
 
