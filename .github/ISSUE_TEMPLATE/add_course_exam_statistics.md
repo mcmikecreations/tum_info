@@ -1,7 +1,7 @@
 ---
 name: Add course exam statistics
 about: Add course exam information to be added to the website.
-title: "[Course] CIT IN0001 2022SS"
+title: "[Course] CIT IN0001 2023SS"
 labels: ''
 assignees: ''
 
@@ -11,10 +11,10 @@ assignees: ''
 
 - school: CIT
 - code: IN0001
-- semester: 2022SS
+- semester: 2023SS
 - exam type: endterm
 - name: Realtime Computer Graphics
-- date: 2022-08-12 12:00:00 +0100
+- date: 2023-08-12 12:00:00 +0100
 
 - ects: 5
 - semester hours: 4
