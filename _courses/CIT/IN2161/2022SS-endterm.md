@@ -22,8 +22,7 @@ grades:
   - { grade: 2.3, people: 5 }
   - { grade: 2.7, people: 3 }
   - { grade: 4.0, people: 1 }
-  - { grade: 5.0, people: 1 }
-  - { grade: 6.0, people: 12 }
+  - { grade: 6.0, people: 13 }
 ---
 
-One person cheated. Added to 5,0.
+One person cheated. Added to 5.0 x.

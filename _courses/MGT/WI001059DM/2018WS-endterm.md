@@ -25,8 +25,8 @@ grades:
   - { grade: 3.3, people: 35 }
   - { grade: 3.7, people: 25 }
   - { grade: 4.0, people: 22 }
-  - { grade: 5.0, people: 94 }
-  - { grade: 6.0, people: 46 }
+  - { grade: 5.0, people: 92 }
+  - { grade: 6.0, people: 48 }
 ---
 
-2 people cheated, added to 5.0 column. 1 person quit (Rücktritt mit anerkanntem Grund), not present on the plot.
+2 people cheated, added to 5.0 x column. 1 person quit (Rücktritt mit anerkanntem Grund), not present on the plot.

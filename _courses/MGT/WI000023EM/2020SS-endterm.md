@@ -26,8 +26,8 @@ grades:
   - { grade: 3.7, people: 11 }
   - { grade: 4.0, people: 8 }
   - { grade: 4.3, people: 15 }
-  - { grade: 5.0, people: 12 }
-  - { grade: 6.0, people: 19 }
+  - { grade: 5.0, people: 11 }
+  - { grade: 6.0, people: 20 }
 ---
 
-One person cheated. Added to 5,0 column.
+One person cheated. Added to 5.0 x column.
