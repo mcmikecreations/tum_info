@@ -28,9 +28,9 @@ grades:
   - { grade: 4.3, people: 15 }
   - { grade: 4.7, people: 20 }
   - { grade: 5.0, people: 75 }
-  - { grade: 6.0, people: 125 }
+  - { grade: 6.0, people: 124 }
 ---
 
-One person got a Q, added to 5.0 x.
+One person withdrew their work. Not present on the plot.
 
 ![image](https://github.com/mcmikecreations/tum_info/assets/17436789/eda25db9-97ac-4acb-ae85-e564ecee0c54)

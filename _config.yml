@@ -23,6 +23,7 @@ header_pages:
   - pages/modules.html
   - pages/courses.html
   - pages/schools.html
+  - pages/awetum.html
 
 collections:
   schools:
