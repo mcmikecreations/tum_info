@@ -9,13 +9,11 @@
                 "link": "https://www.ei.tum.de/",
                 "name": "Electrical and Computer Engineering"
             },
-        
             {
                 "code": "IN",
                 "link": "https://www.cs.cit.tum.de/en/",
                 "name": "Computer Science"
             },
-        
             {
                 "code": "MA",
                 "link": "https://www.ma.tum.de/en/",
@@ -23,7 +21,6 @@
             }
         ]
     },
-
     {
         "code": "ED",
         "name": "School of Engineering and Design",
@@ -34,25 +31,21 @@
                 "link": "https://www.bv.tum.de/",
                 "name": "Civil Engineering"
             },
-        
             {
                 "code": "MW",
                 "link": "https://www.ed.tum.de/en/",
                 "name": "Mechanical Engineering"
             },
-        
             {
                 "code": "ASG",
                 "link": "https://www.asg.ed.tum.de/en/",
                 "name": "Aerospace and Geodesy"
             },
-        
             {
                 "code": "LRG",
                 "link": "https://fslrg.de/",
                 "name": "Student Council of Aerospace and Geodesy"
             },
-        
             {
                 "code": "FSD",
                 "link": "https://www.fsd.ed.tum.de/",
@@ -60,7 +53,6 @@
             }
         ]
     },
-
     {
         "code": "MCTS",
         "name": "School of Social Sciences and Technology",
@@ -71,7 +63,6 @@
                 "link": "https://www.mcts.tum.de/en/",
                 "name": "Social Sciences and Technology"
             },
-        
             {
                 "code": "POL",
                 "link": "https://www.mcts.tum.de/en/",
@@ -79,7 +70,6 @@
             }
         ]
     },
-
     {
         "code": "MED",
         "name": "School of Medicine",
@@ -92,7 +82,6 @@
             }
         ]
     },
-
     {
         "code": "MGT",
         "name": "School of Management",
@@ -105,7 +94,6 @@
             }
         ]
     },
-
     {
         "code": "NAT",
         "name": "School of Natural Sciences",
@@ -118,7 +106,6 @@
             }
         ]
     },
-
     {
         "code": "SOT",
         "name": "School of Social Sciences and Technology",
@@ -129,13 +116,11 @@
                 "link": "https://www.sot.tum.de/en/wtg/",
                 "name": "Academic Programs WTG"
             },
-        
             {
                 "code": "ED",
                 "link": "https://www.edu.sot.tum.de/en/",
                 "name": "Educational Sciences"
             },
-        
             {
                 "code": "SOT",
                 "link": "https://www.sot.tum.de/en/",
@@ -143,7 +128,6 @@
             }
         ]
     },
-
     {
         "code": "SZ",
         "name": "Language Center",

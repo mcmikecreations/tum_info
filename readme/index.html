@@ -69,9 +69,26 @@ All matches with real courses and grades are purely coincidental.</p>
 
 <h2 id="how-to-contribute">How to contribute</h2>
 
+<h3 id="offered-courses">Offered courses</h3>
+
+<p>The offered courses database is maintained in <a href="https://github.com/Vuenc/TUM-Master-Informatics-Offered-Lectures">this repository by Vuenc</a>.
+Please direct your contributions there. Once they are accepted, notify me about the update.</p>
+
+<p><strong>For developers</strong>: to update the website with new courses, edit and run <code class="language-plaintext highlighter-rouge">python scripts/course_offered_parse.py</code> from root folder.
+It has the same dependencies as building the app above.</p>
+
 <h3 id="course-exam-statistics">Course exam statistics</h3>
 
 <p>You can help expand this website with new information by adding your own course exam statistics!</p>
+
+<h4 id="a-single-course">A single course</h4>
+
+<p>In short, create a new issue based on this template by <a href="https://github.com/mcmikecreations/tum_info/issues/new?assignees=&amp;labels=&amp;template=add_course_exam_statistics.md&amp;title=%5BCourse%5D+CIT+IN0001+2022SS">going here</a> and replace the values with your own data.
+The description is copy-pasted onto the page directly and follows the markdown format (but you can use plain text too).
+After some time, the statistics you have submitted will appear on the website.
+For now there’s a manual review step done by me, so don’t worry too much about breaking the website.
+When I see that everything is ok, I put a label on the issue and <a href="https://github.com/mcmikecreations/tum_info/tree/main/.github/workflows">GitHub Actions</a>
+take care of the rest by adding a new page to the website and building it.</p>
 
 <h4 id="all-your-courses-program">All your courses program</h4>
 
@@ -115,22 +132,14 @@ chmod +x ./Grades
   <li>Commit changes, push to your fork, create a pull request.</li>
 </ol>
 
-<h4 id="single-course">Single course</h4>
+<h3 id="api">API</h3>
 
-<p>In short, create a new issue based on this template by <a href="https://github.com/mcmikecreations/tum_info/issues/new?assignees=&amp;labels=&amp;template=add_course_exam_statistics.md&amp;title=%5BCourse%5D+CIT+IN0001+2022SS">going here</a> and replace the values with your own data.
-The description is copy-pasted onto the page directly and follows the markdown format (but you can use plain text too).
-After some time, the statistics you have submitted will appear on the website.
-For now there’s a manual review step done by me, so don’t worry too much about breaking the website.
-When I see that everything is ok, I put a label on the issue and <a href="https://github.com/mcmikecreations/tum_info/tree/main/.github/workflows">GitHub Actions</a>
-take care of the rest by adding a new page to the website and building it.</p>
+<p>An official unofficial TUM info API is offered with all of the tabular data from the website.</p>
 
-<h3 id="offered-courses">Offered courses</h3>
-
-<p>The offered courses database is maintained in <a href="https://github.com/Vuenc/TUM-Master-Informatics-Offered-Lectures">this repository by Vuenc</a>.
-Please direct your contributions there. Once they are accepted, notify me about the update.</p>
-
-<p><strong>For developers</strong>: to update the website with new courses, edit and run <code class="language-plaintext highlighter-rouge">python scripts/course_offered_parse.py</code> from root folder.
-It has the same dependencies as building the app above.</p>
+<ul>
+  <li><a href="https://mcmikecreations.github.io/tum_info/api/schools.json">schools.json</a> has an unordered list of all supported schools and their departments. This data is used later for grouping and sorting the courses per-school and per-department.</li>
+  <li><a href="https://mcmikecreations.github.io/tum_info/api/courses.json">courses.json</a> has an unordered list of all course exam statistics from the website, including the plot data. This is then grouped and displayed in the general courses page and per-school.</li>
+</ul>
 
 <h3 id="feature-requests-and-bug-reports">Feature requests and bug reports</h3>
 
