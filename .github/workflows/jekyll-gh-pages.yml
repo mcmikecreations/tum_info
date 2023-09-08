@@ -27,6 +27,10 @@ jobs:
         with:
           enable_cache: true
 
+      - name: 🚧 create api
+        run: |
+          mv ./_site/api/schools.html ./_site/api/schools.json
+
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

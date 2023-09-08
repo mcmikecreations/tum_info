@@ -1,0 +1,18 @@
+---
+title: Schools
+permalink: /api/schools
+---
+[{% for school in site.schools %}
+    {
+        "code": "{{ school.code }}",
+        "name": "{{ school.name }}",
+        "link": "{{ school.link }}",
+        "deps": [{% for dep in school.deps %}
+            {
+                "code": "{{ dep.code }}",
+                "link": "{{ dep.link }}",
+                "name": "{{ dep.name }}"
+            }{% unless forloop.last %},{% endunless %}
+        {% endfor %}]
+    }{% unless forloop.last %},{% endunless %}
+{% endfor %}]
