@@ -5,13 +5,13 @@ permalink: /api/schools
 [
 {% for school in site.schools %}    {
         "code": "{{ school.code }}",
-        "name": "{{ school.name }}",
+        "name": "{{ school.name | escape }}",
         "link": "{{ school.link }}",
         "deps": [
 {% for dep in school.deps %}            {
                 "code": "{{ dep.code }}",
                 "link": "{{ dep.link }}",
-                "name": "{{ dep.name }}"
+                "name": "{{ dep.name | escape }}"
             }{% unless forloop.last %},{% endunless %}
 {% endfor %}        ]
     }{% unless forloop.last %},{% endunless %}

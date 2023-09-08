@@ -8,7 +8,7 @@ permalink: /api/courses
         "code": "{{ course.code }}",
         "semester": "{{ course.semester }}",
         "examType": "{{ course.exam_type }}",
-        "name": "{{ course.name }}",
+        "name": "{{ course.name | escape }}",
         "date": "{{ course.date }}",
         "ects": {{ course.ects }},
         "hours": {{ course.hours }},
