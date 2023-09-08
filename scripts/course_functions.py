@@ -14,6 +14,9 @@ schools = {
   'POL': 'MCTS',
   'ME': 'MED',
   'PH': 'NAT',
+  'ASG': 'ED',
+  'LRG': 'ED',
+  'FSD': 'ED',
 }
 
 import os
