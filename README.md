@@ -7,9 +7,26 @@ All matches with real courses and grades are purely coincidental.
 
 ## How to contribute
 
+### Offered courses
+
+The offered courses database is maintained in [this repository by Vuenc](https://github.com/Vuenc/TUM-Master-Informatics-Offered-Lectures).
+Please direct your contributions there. Once they are accepted, notify me about the update.
+
+**For developers**: to update the website with new courses, edit and run `python scripts/course_offered_parse.py` from root folder.
+It has the same dependencies as building the app above.
+
 ### Course exam statistics
 
 You can help expand this website with new information by adding your own course exam statistics!
+
+#### A single course
+
+In short, create a new issue based on this template by [going here](https://github.com/mcmikecreations/tum_info/issues/new?assignees=&labels=&template=add_course_exam_statistics.md&title=%5BCourse%5D+CIT+IN0001+2022SS) and replace the values with your own data.
+The description is copy-pasted onto the page directly and follows the markdown format (but you can use plain text too).
+After some time, the statistics you have submitted will appear on the website.
+For now there's a manual review step done by me, so don't worry too much about breaking the website.
+When I see that everything is ok, I put a label on the issue and [GitHub Actions](https://github.com/mcmikecreations/tum_info/tree/main/.github/workflows)
+take care of the rest by adding a new page to the website and building it.
 
 #### All your courses program
 
@@ -50,22 +67,12 @@ A handy script was created to extract all grade reports for a TUMOnline student 
 7. Check endterm/retake filenames and field in files. Check exam_type, mode, lang fields in files.
 8. Commit changes, push to your fork, create a pull request.
 
-#### Single course
+### API
 
-In short, create a new issue based on this template by [going here](https://github.com/mcmikecreations/tum_info/issues/new?assignees=&labels=&template=add_course_exam_statistics.md&title=%5BCourse%5D+CIT+IN0001+2022SS) and replace the values with your own data.
-The description is copy-pasted onto the page directly and follows the markdown format (but you can use plain text too).
-After some time, the statistics you have submitted will appear on the website.
-For now there's a manual review step done by me, so don't worry too much about breaking the website.
-When I see that everything is ok, I put a label on the issue and [GitHub Actions](https://github.com/mcmikecreations/tum_info/tree/main/.github/workflows)
-take care of the rest by adding a new page to the website and building it.
+An official unofficial TUM info API is offered with all of the tabular data from the website.
 
-### Offered courses
-
-The offered courses database is maintained in [this repository by Vuenc](https://github.com/Vuenc/TUM-Master-Informatics-Offered-Lectures).
-Please direct your contributions there. Once they are accepted, notify me about the update.
-
-**For developers**: to update the website with new courses, edit and run `python scripts/course_offered_parse.py` from root folder.
-It has the same dependencies as building the app above.
+- [schools.json](https://mcmikecreations.github.io/tum_info/api/schools.json) has an unordered list of all supported schools and their departments. This data is used later for grouping and sorting the courses per-school and per-department.
+- [courses.json](https://mcmikecreations.github.io/tum_info/api/courses.json) has an unordered list of all course exam statistics from the website, including the plot data. This is then grouped and displayed in the general courses page and per-school.
 
 ### Feature requests and bug reports
 

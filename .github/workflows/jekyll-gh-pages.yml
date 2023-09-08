@@ -30,6 +30,7 @@ jobs:
       - name: 🚧 create api
         run: |
           mv ./_site/api/schools.html ./_site/api/schools.json
+          mv ./_site/api/courses.html ./_site/api/courses.json
 
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3

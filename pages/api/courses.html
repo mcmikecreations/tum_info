@@ -1,0 +1,24 @@
+---
+title: Courses
+permalink: /api/courses
+---
+[
+{% for course in site.courses %}    {
+        "school": "{{ course.school }}",
+        "code": "{{ course.code }}",
+        "semester": "{{ course.semester }}",
+        "examType": "{{ course.exam_type }}",
+        "name": "{{ course.name }}",
+        "date": "{{ course.date }}",
+        "ects": {{ course.ects }},
+        "hours": {{ course.hours }},
+        "mode": "{{ course.mode }}",
+        "lang": "{{ course.lang }}",
+        "grades": [
+{% for grade in course.grades %}            {
+                "grade": {{ grade.grade }},
+                "people": {{ grade.people }}
+            }{% unless forloop.last %},{% endunless %}
+{% endfor %}        ]
+    }{% unless forloop.last %},{% endunless %}
+{% endfor %}]
