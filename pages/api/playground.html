@@ -1,0 +1,164 @@
+---
+title: Playground
+layout: page
+permalink: /api/playground
+---
+
+<p>
+    Here you can execute custom code upon the API provided by the website.
+    The <code>courses</code> variable contains the <a href="{{ site.baseurl }}/api/courses.json">/api/courses.json</a> object.
+    The <code>schools</code> variable contains the <a href="{{ site.baseurl }}/api/schools.json">/api/schools.json</a> object.
+</p>
+
+<p id="playground-disclaimer">By pressing start you agree to load large files.</p>
+
+<button id="playground-start" onclick="start()">Start</button>
+<div id="playground-wrapper" hidden aria-hidden="true">
+    <button id="playground-execute" onclick="execute()">Execute</button>
+    <br>
+    <style type="text/css">
+        textarea#playground-code {
+            width: 97.5%;
+            margin: 5px 0;
+            padding: 1%;
+            resize: vertical;
+        }
+    </style>
+    <textarea id="playground-code" rows="10"></textarea>
+</div>
+
+<h2>Log</h2>
+<div id="playground-log"></div>
+
+<script type="text/javascript">
+const elemDisclaimer = document.getElementById("playground-disclaimer");
+const elemButton = document.getElementById("playground-start");
+const elemLog = document.getElementById("playground-log");
+const elemWrapper = document.getElementById("playground-wrapper");
+const elemCode = document.getElementById("playground-code");
+const elemExecute = document.getElementById("playground-execute");
+
+if (typeof console  != "undefined") {
+    if (typeof console.log != 'undefined') {
+        console.olog = console.log;
+    }
+    else {
+        console.olog = function() {};
+    }
+    if (typeof console.error != 'undefined') {
+        console.oerror = console.error;
+    }
+    else {
+        console.oerror = function() {};
+    }
+    if (typeof console.info != 'undefined') {
+        console.oinfo = console.info;
+    }
+    else {
+        console.oinfo = function() {};
+    }
+    if (typeof console.debug != 'undefined') {
+        console.odebug = console.debug;
+    }
+    else {
+        console.odebug = function() {};
+    }
+    if (typeof console.warn != 'undefined') {
+        console.owarn = console.warn;
+    }
+    else {
+        console.owarn = function() {};
+    }
+}
+
+console.warn = function(message) {
+    console.owarn(message);
+    let line = document.createElement("p");
+    line.innerHTML = "&#9888;" + message;
+    elemLog.append(line);
+}
+console.log = function(message) {
+    console.olog(message);
+    let line = document.createElement("p");
+    line.innerHTML = message;
+    elemLog.append(line);
+};
+console.error = function(message) {
+    console.oerror(message);
+    let line = document.createElement("p");
+    line.innerHTML = "&#128053;" + message;
+    elemLog.append(line);
+};
+console.info = function(message) {
+    console.oinfo(message);
+    let line = document.createElement("p");
+    line.innerHTML = "&#8505;" + message;
+    elemLog.append(line);
+};
+console.debug = function(message) {
+    console.odebug(message);
+    let line = document.createElement("p");
+    line.innerHTML = "&#128679;" + message;
+    elemLog.append(line);
+};
+
+
+let courses = null;
+let schools = null;
+
+function execute() {
+    elemExecute.setAttribute("disabled", "");
+    try {
+        eval(elemCode.value);
+    }
+    catch (error) {
+        console.error(error.message);
+    }
+    elemExecute.removeAttribute("disabled");
+}
+
+function start() {
+    elemButton.setAttribute("disabled", "");
+    elemWrapper.setAttribute("hidden", "");
+    elemWrapper.setAttribute("aria-hidden", "true");
+    elemLog.innerHTML = '';
+    courses = null;
+    schools = null;
+    fetch("{{ site.baseurl }}/api/courses.json")
+        .then((response) => {
+            if (!response.ok) {
+                throw new Error('Failed to fetch <code>courses.json</code>.');
+            }
+            return response.json();
+        })
+        .then((json) => {
+            courses = json;
+            console.info('Fetched <code>courses.json</code>.');
+            return fetch("{{ site.baseurl }}/api/schools.json");
+        })
+        .then((response) => {
+            if (!response.ok) {
+                throw new Error('Failed to fetch <code>schools.json</code>.');
+            }
+            return response.json();
+        })
+        .then((json) => {
+            schools = json;
+            console.info('Fetched <code>schools.json</code>.');
+            if (elemCode.value == '') {
+                elemCode.value =
+                    "console.debug(\"Easiest overall course may be \" +\n    " +
+                    "courses.toSorted((a, b) => a[\"averageTotal\"] - b[\"averageTotal\"])[0][\"code\"]\n" +
+                    ");";
+            }
+            elemButton.removeAttribute("disabled");
+            elemButton.setAttribute("hidden", "");
+            elemDisclaimer.setAttribute("hidden", "");
+            elemWrapper.removeAttribute("hidden");
+            elemWrapper.removeAttribute("aria-hidden");
+        })
+        .catch((error) => {
+            console.error(error.message);
+        });
+}
+</script>
