@@ -1,18 +1,3 @@
-# TODO: if script complains, update this dict and rerun
-ects = {
-  0.0: 1,
-  0.5: 1,
-  1.0: 2,
-  1.5: 3,
-  2.0: 3,
-  3.0: 4,
-  4.0: 5,
-  5.0: 7,
-  6.0: 8,
-  7.0: 9,
-  9.0: 10,
-}
-
 from bs4 import BeautifulSoup
 import sys
 import re
@@ -51,8 +36,8 @@ def process_achievement(course):
   header_sem = header_match.group(6) if header_match.group(5) == 'W' else header_match.group(7)
   header_hours = float(header_match.group(4))
   
-  if header_hours in ects:
-    header_ects = ects[header_hours]
+  if header_hours in course_functions.ects:
+    header_ects = course_functions.ects[header_hours]
   else:
     logger('Unknown SWS: {}'.format(header_hours))
     header_ects = header_hours

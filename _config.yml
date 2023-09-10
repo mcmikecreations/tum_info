@@ -76,6 +76,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-toc
 
 exclude:
   - .jekyll-cache/

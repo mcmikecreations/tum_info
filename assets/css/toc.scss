@@ -1,0 +1,17 @@
+---
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+div#post-toc ul.section-nav {
+  padding: 15px 30px;
+  margin-left: 0;
+  list-style-type: none;
+  font-family: $code-font-family;
+  font-size: 0.9375em;
+  border: 1px solid $border-color-01;
+  border-radius: 3px;
+  background-color: $code-background-color;
+}

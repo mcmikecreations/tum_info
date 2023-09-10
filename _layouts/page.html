@@ -1,0 +1,21 @@
+---
+layout: base
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {% if page.toc == true %}
+    <div id="post-toc">
+      <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/toc.css" />
+      <h2>Table of Contents</h2>
+      {{ content | toc_only }}
+    </div>
+    {% endif %}
+    {{ content | inject_anchors }}
+  </div>
+
+</article>

@@ -71,6 +71,7 @@ A handy script was created to extract all grade reports for a TUMOnline student 
 
 An official unofficial TUM info API is offered with all of the tabular data from the website.
 
+- [description](https://mcmikecreations.github.io/tum_info/api/description) is a description of supported API endpoints.
 - [schools.json](https://mcmikecreations.github.io/tum_info/api/schools.json) has an unordered list of all supported schools and their departments. This data is used later for grouping and sorting the courses per-school and per-department.
 - [courses.json](https://mcmikecreations.github.io/tum_info/api/courses.json) has an unordered list of all course exam statistics from the website, including the plot data. This is then grouped and displayed in the general courses page and per-school.
 
