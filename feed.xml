@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/tum_info/feed.xml" rel="self" type="application/atom+xml" /><link href="/tum_info/" rel="alternate" type="text/html" /><updated>2023-09-10T09:53:06+00:00</updated><id>/tum_info/feed.xml</id><title type="html">TUM Info</title><subtitle>A bunch of useful information I&apos;ve collected while studying at the Technical University of Munich.</subtitle><author><name>Mykola Morozov</name><email>mcmikecreations@gmail.com</email></author><entry><title type="html">Added AweTUM!</title><link href="/tum_info/2023/09/08/awetum.html" rel="alternate" type="text/html" title="Added AweTUM!" /><published>2023-09-08T00:00:00+00:00</published><updated>2023-09-08T00:00:00+00:00</updated><id>/tum_info/2023/09/08/awetum</id><content type="html" xml:base="/tum_info/2023/09/08/awetum.html"><![CDATA[<p>A beautiful day out here in Bavaria. And an exciting one, where a new major update came to the website!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/tum_info/feed.xml" rel="self" type="application/atom+xml" /><link href="/tum_info/" rel="alternate" type="text/html" /><updated>2023-09-10T13:10:44+00:00</updated><id>/tum_info/feed.xml</id><title type="html">TUM Info</title><subtitle>A bunch of useful information I&apos;ve collected while studying at the Technical University of Munich.</subtitle><author><name>Mykola Morozov</name><email>mcmikecreations@gmail.com</email></author><entry><title type="html">Released the API!</title><link href="/tum_info/2023/09/10/api.html" rel="alternate" type="text/html" title="Released the API!" /><published>2023-09-10T00:00:00+00:00</published><updated>2023-09-10T00:00:00+00:00</updated><id>/tum_info/2023/09/10/api</id><content type="html" xml:base="/tum_info/2023/09/10/api.html"><![CDATA[<p>Top of the morning to you ladies! You asked and I delivered.</p>
+
+<p>An EPIC new website addition to all you thirsty developers is the public API. A short description for it
+can be found on the <a href="https://mcmikecreations.github.io/tum_info/readme/">ReadMe page</a>. But in summary,
+I added a <a href="https://mcmikecreations.github.io/tum_info/api/description">Description page</a> with documentation
+for every available endpoint and a <a href="https://mcmikecreations.github.io/tum_info/api/playground">Playground page</a>
+where you can test out your own code. All course and school data on the website is available in the API,
+so you can write your custom scripts or programs referencing it.</p>
+
+<p>And another call to the website visitors. As the semester is over, don’t hesitate to contribute your grade distributions
+to the website.</p>]]></content><author><name>Mykola Morozov</name><email>mcmikecreations@gmail.com</email></author><summary type="html"><![CDATA[Top of the morning to you ladies! You asked and I delivered.]]></summary></entry><entry><title type="html">Added AweTUM!</title><link href="/tum_info/2023/09/08/awetum.html" rel="alternate" type="text/html" title="Added AweTUM!" /><published>2023-09-08T00:00:00+00:00</published><updated>2023-09-08T00:00:00+00:00</updated><id>/tum_info/2023/09/08/awetum</id><content type="html" xml:base="/tum_info/2023/09/08/awetum.html"><![CDATA[<p>A beautiful day out here in Bavaria. And an exciting one, where a new major update came to the website!</p>
 
 <p>First, I’ve added a new page to the website, <a href="https://mcmikecreations.github.io/tum_info/awetum/">AweTUM</a>,
 featuring links to useful study resources and hobby projects of TUM students. If you have anything to add,
@@ -50,20 +60,4 @@ In the future, I’ll try to split the schools into separate pages, as the list 
 
 <blockquote>
   <p>⚠️ I’d like to ask the following. If you know any lists of grade distributions or have your own exam statistics, either send them to me or put them on the website yourself by creating a GitHub issue. ⚠️</p>
-</blockquote>]]></content><author><name>Mykola Morozov</name><email>mcmikecreations@gmail.com</email></author><summary type="html"><![CDATA[Hello, wonderful students of TUM! As I mentioned before, I’ve added all grade distributions from a certain GitLab repo to the website: https://mcmikecreations.github.io/tum_info/courses/.]]></summary></entry><entry><title type="html">Welcome to the website!</title><link href="/tum_info/2023/04/20/welcome.html" rel="alternate" type="text/html" title="Welcome to the website!" /><published>2023-04-20T00:00:00+00:00</published><updated>2023-04-20T00:00:00+00:00</updated><id>/tum_info/2023/04/20/welcome</id><content type="html" xml:base="/tum_info/2023/04/20/welcome.html"><![CDATA[<p>Hey everyone! I’ve noticed a big problem with the grade reports at TUM. Pictures that people share are always scattered between several GitHub/GitLab/LRZ/MWN repos and WhatsApp/Telegram/Matrix/Facebook groups. If you don’t know if you should take a course and want to check out previous grades for it, it’s always a hassle.</p>
-
-<p>Moreover, the “My achievements” page on TUMOnline is inconvenient on desktop and unusable on mobile.</p>
-
-<p>This is why I wanted to contribute my share and developed this small website.</p>
-
-<p>It has only the main fields from exam statistics, is highlight- and mobile-friendly and, of course, supports light and dark themes based on your device settings.</p>
-
-<p>The best part — you can easily contribute too! I created a GitHub issue template that looks like this: <a href="https://github.com/mcmikecreations/tum_info/issues/3">https://github.com/mcmikecreations/tum_info/issues/3</a></p>
-
-<p>You can fill the info in, someone from the development team double-checks if the format is correct, assigns the label, and the bots do the rest to put your submission onto the website!</p>
-
-<p>I hope it supports CIT course numbering too, but haven’t had any examples to check yet. I will try to bring as many exam statistics I find in other repos as possible, but it will be a long process.</p>
-
-<p>If you have any other questions or suggestions, feel free to message me or post them on GitHub. My first question to you: do you want the “Persons involved” row from TUMOnline?</p>
-
-<p>Also I need help with making the website more friendly for people with accessibility issues, like vision impairment, so if anyone is familiar with how to do it in HTML/js and can help, any contribution is welcome.</p>]]></content><author><name>Mykola Morozov</name><email>mcmikecreations@gmail.com</email></author><summary type="html"><![CDATA[Hey everyone! I’ve noticed a big problem with the grade reports at TUM. Pictures that people share are always scattered between several GitHub/GitLab/LRZ/MWN repos and WhatsApp/Telegram/Matrix/Facebook groups. If you don’t know if you should take a course and want to check out previous grades for it, it’s always a hassle.]]></summary></entry></feed>
+</blockquote>]]></content><author><name>Mykola Morozov</name><email>mcmikecreations@gmail.com</email></author><summary type="html"><![CDATA[Hello, wonderful students of TUM! As I mentioned before, I’ve added all grade distributions from a certain GitLab repo to the website: https://mcmikecreations.github.io/tum_info/courses/.]]></summary></entry></feed>
