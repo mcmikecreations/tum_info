@@ -175,6 +175,7 @@ class MainWindow(QMainWindow):
       logger('Email: mcmikecreations@gmail.com')
       logger('Telegram: @mcmikecreations')
       logger('Facebook: mykolamor')
+      logger('Matrix: @mykolamor:matrix.org')
       logger('Mastodon: @mykolamor@mastodon.social')
       self.info_label.setText('Drag grades into your favorite messanger')
 
