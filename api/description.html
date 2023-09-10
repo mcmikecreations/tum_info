@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Description | TUM Info</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Description" />
+<meta name="author" content="Mykola Morozov" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A bunch of useful information I’ve collected while studying at the Technical University of Munich." />
+<meta property="og:description" content="A bunch of useful information I’ve collected while studying at the Technical University of Munich." />
+<link rel="canonical" href="/tum_info/api/description" />
+<meta property="og:url" content="/tum_info/api/description" />
+<meta property="og:site_name" content="TUM Info" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Description" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Mykola Morozov"},"description":"A bunch of useful information I’ve collected while studying at the Technical University of Munich.","headline":"Description","url":"/tum_info/api/description"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/tum_info/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/tum_info/feed.xml" title="TUM Info" /><link rel="apple-touch-icon" sizes="180x180" href="/tum_info/assets/icons/apple-touch-icon.png">
+<!--<link rel="icon" type="image/png" sizes="32x32" href="/tum_info/assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/tum_info/assets/icons/favicon-16x16.png">-->
+<link rel="shortcut icon" media="(prefers-color-scheme: light)" type="image/png" href="/tum_info/assets/icons/favicon-light.png">
+<link rel="shortcut icon" media="(prefers-color-scheme: dark)" type="image/png" href="/tum_info/assets/icons/favicon-dark.png">
+<link rel="manifest" href="/tum_info/assets/icons/site.webmanifest">
+<link rel="mask-icon" href="/tum_info/assets/icons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="apple-mobile-web-app-title" content="TUM Info">
+<meta name="application-name" content="TUM Info">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="msapplication-config" content="/tum_info/assets/icons/browserconfig.xml">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#bbbbbb" />
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111" />
+<meta name="color-scheme" content="light dark">
+<script type="module" src="/tum_info/assets/js/lang.mjs"></script>
+
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/tum_info/">TUM Info</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/tum_info/readme/">Read Me</a><a class="page-link" href="/tum_info/modules/">Modules</a><a class="page-link" href="/tum_info/courses/">Courses</a><a class="page-link" href="/tum_info/schools/">Schools</a><a class="page-link" href="/tum_info/awetum/">AweTUM</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Description</h1>
+  </header>
+
+  <div class="post-content">
+    
+    <div id="post-toc">
+      <link rel="stylesheet" href="/tum_info/assets/css/toc.css" />
+      <h2>Table of Contents</h2>
+      <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h2"><a href="#courses">/api/courses.json</a></li>
+<li class="toc-entry toc-h2"><a href="#schools">/api/schools.json</a></li>
+</ul>
+    </div>
+    
+    <p>The following is a list of API endpoints the website supports.</p>
+
+<h2 id="courses">
+<a class="anchor" href="#courses" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="/tum_info/api/courses.json">/api/courses.json</a>
+</h2>
+
+<p>
+    The courses endpoint is a list of all course exam statistics present on the website.
+    It contains an unsorted array of all grade report pages without the descriptions.
+</p>
+<p>
+    You can find the grade report summary calculation code in either
+    <a href="https://github.com/mcmikecreations/tum_info/blob/main/_layouts/course.html">course.html</a>
+    or
+    <a href="https://github.com/mcmikecreations/tum_info/blob/main/assets/js/course.mjs">course.mjs</a>.
+    The automatic mapping of <code>hours</code> (semester working hours) to <code>ects</code> for imports can be found in
+    <a href="https://github.com/mcmikecreations/tum_info/blob/main/scripts/course_functions.py">course_functions.py</a>.
+    It is not always correct, but offers an acceptable default.
+</p>
+<ul>
+    <li>
+<code>school</code> is one of the items in the schools API.</li>
+    <li>
+<code>examType</code> is either <code>endterm</code> or <code>retake</code>.</li>
+    <li>
+<code>semester</code> is in the format <code>YYYY(W|S)S</code>
+</li>
+    <li>
+<code>name</code> is the full English name of the course from the TUMOnline website.</li>
+    <li>
+<code>date</code> is the date and time of the exam. When the contributor doesn't specify it, a default is used, so it shouldn't be relied on.</li>
+</ul>
+<p>
+    Imagining this endpoint to be exported from a database, <code>&lt;school,code,semester,examType&gt;</code>
+    would be the unique primary key.
+</p>
+
+<figure class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"school"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CIT"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"IN0004"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"semester"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2011WS"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"examType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"endterm"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Introduction to Computer Organization and Technology - Computer Architecture"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2012-02-15 12:00:00 +0100"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"ects"</span><span class="p">:</span><span class="w"> </span><span class="mi">8</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"hours"</span><span class="p">:</span><span class="w"> </span><span class="mf">6.0</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"mode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"written"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"lang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"en"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"peopleTotal"</span><span class="p">:</span><span class="w"> </span><span class="mi">359</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"peopleFailed"</span><span class="p">:</span><span class="w"> </span><span class="mi">76</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"attemptsTotal"</span><span class="p">:</span><span class="w"> </span><span class="mi">312</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"attemptsFailedPercent"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.24358974358974358</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"averageTotal"</span><span class="p">:</span><span class="w"> </span><span class="mf">3.386217948717949</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"averagePassed"</span><span class="p">:</span><span class="w"> </span><span class="mf">3.0271186440677966</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"grades"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"grade"</span><span class="p">:</span><span class="w"> </span><span class="mf">1.0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"people"</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="err">...</span><span class="w">
+        </span><span class="p">]</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="err">...</span><span class="w">
+</span><span class="p">]</span></code></pre></figure>
+
+<h2 id="schools">
+<a class="anchor" href="#schools" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="/tum_info/api/schools.json">/api/schools.json</a>
+</h2>
+
+<p>
+    The schools endpoint is a list of all supported schools, institutes, and departments present on the website.
+    It contains an unsorted array of all school pages without the descriptions.
+</p>
+<p>
+    Note that this list is incomplete and is expanded manually when a course from a new school or department is added.
+    The course code prefix is compared against <code>deps</code> to assign a school.
+    The automatic mapping of <code>deps</code> to school <code>code</code> for imports can be found in
+    <a href="https://github.com/mcmikecreations/tum_info/blob/main/scripts/course_functions.py">course_functions.py</a>.
+</p>
+
+<figure class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CIT"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"School of Computation, Information and Technology"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"link"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.cit.tum.de/en/"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"deps"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EI"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"link"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.ei.tum.de/"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Electrical and Computer Engineering"</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="err">...</span><span class="w">
+        </span><span class="p">]</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="err">...</span><span class="w">
+</span><span class="p">]</span></code></pre></figure>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/tum_info/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/tum_info/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/tum_info/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+        <ul class="contact-list">
+          <li class="p-name">Mykola Morozov</li>
+          <li><a class="u-email" href="mailto:mcmikecreations@gmail.com">mcmikecreations@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>A bunch of useful information I&#39;ve collected while studying at the Technical University of Munich.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li>
+  <a rel="me" href="https://github.com/mcmikecreations/tum_info" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/tum_info/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+<li>
+  <a rel="me" href="https://www.tum.de/" target="_blank" title="Official TUM website">
+    <svg class="svg-icon grey">
+      <use xlink:href="/tum_info/assets/minima-social-icons.svg#tum"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
