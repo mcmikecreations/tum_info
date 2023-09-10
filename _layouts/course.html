@@ -20,6 +20,9 @@ layout: page
   {% endif %}
 {% endfor %}
 {% assign people_passed = attempts_total | minus: people_failed %}
+{% if people_passed < 1 %}
+{% assign people_passed = 1 %}
+{% endif %}
 
 <div id="course-content">
   <table>
@@ -31,6 +34,9 @@ layout: page
       <td><b>Attempt made/counted:</b></td>
       <td id="course-attempts-total">{{ attempts_total }}</td>
     </tr>
+{% if attempts_total < 1 %}
+{% assign attempts_total = 1 %}
+{% endif %}
     <tr>
       <td><b>Percent. of exams assessed as failed:</b></td>
       <td id="course-failed-percent">{{ people_failed | times: 100.0 | divided_by: attempts_total | round: 2 }}%</td>
