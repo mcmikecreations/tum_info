@@ -43869,6 +43869,74 @@
     },
     {
         "school": "CIT",
+        "code": "IN2041",
+        "semester": "2022WS",
+        "examType": "endterm",
+        "name": "Automata and Formal Languages",
+        "date": "2023-02-24 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 142,
+        "peopleFailed": 17,
+        "attemptsTotal": 46,
+        "attemptsFailedPercent": 0.3695652173913043,
+        "averageTotal": 3.641304347826087,
+        "averagePassed": 2.8551724137931034,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 4
+            },
+            {
+                "grade": 1.7,
+                "people": 1
+            },
+            {
+                "grade": 2.0,
+                "people": 2
+            },
+            {
+                "grade": 2.3,
+                "people": 2
+            },
+            {
+                "grade": 2.7,
+                "people": 4
+            },
+            {
+                "grade": 3.0,
+                "people": 3
+            },
+            {
+                "grade": 3.3,
+                "people": 3
+            },
+            {
+                "grade": 3.7,
+                "people": 4
+            },
+            {
+                "grade": 4.0,
+                "people": 6
+            },
+            {
+                "grade": 4.7,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 16
+            },
+            {
+                "grade": 6.0,
+                "people": 96
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2360",
         "semester": "2022WS",
         "examType": "endterm",
