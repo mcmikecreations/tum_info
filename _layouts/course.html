@@ -100,6 +100,5 @@ layout: page
   var grades = [{% for item in page.grades %}
     { 'grade': {{ item.grade }}, 'people': {{ item.people }}, 'text': null },{% endfor %}
   ].filter(grade => grade.people > 0);
-  grades = localStorage.getItem('course-plot-absent') === 'false' ? grades.filter(grade => grade.grade < 6.0) : grades;
 </script>
 <script type="module" src="{{ site.baseurl }}/assets/js/course.mjs"></script>
