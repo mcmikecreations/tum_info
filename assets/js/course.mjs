@@ -64,6 +64,7 @@ grades.forEach((element) => {
 
 const peopleTotal = grades.reduce((partialSum, a) => partialSum + a.people, 0);
 const attempts = grades.filter(x => x.grade < 6.0);
+const gradesDisplay = localStorage.getItem('course-plot-absent') === 'false' ? attempts : grades;
 const attemptsTotal = attempts.reduce((partialSum, a) => partialSum + a.people, 0);
 const failedAttempts = attempts.filter(x => x.grade > 4.0);
 const failedAttemptsTotal = failedAttempts.reduce((partialSum, a) => partialSum + a.people, 0);
@@ -102,15 +103,15 @@ const barColor = function (d)
 const wrapper = document.querySelector('.wrapper');
 const wrapperStyle = getComputedStyle(wrapper);
 const plotWidth = parseInt(wrapperStyle['width']);
-const plotHeight = Math.round(36.6 * (grades.length + 1));
+const plotHeight = Math.round(36.6 * (gradesDisplay.length + 1));
 const plotContainer = document.getElementById('course-plot');
 const plotMarginRight = 60.0;
 const plotMarginLeft = langMapping.marginLeft;
 
 const plot = Plot.plot({
   marks: [
-    Plot.barX(grades, {x: 'people', y: 'text', fill: barColor}),
-    Plot.text(grades, {
+    Plot.barX(gradesDisplay, {x: 'people', y: 'text', fill: barColor}),
+    Plot.text(gradesDisplay, {
       x: 'people',
       y: 'text',
       text: d => `${round(d.people / attemptsTotal * 100.0, 2)}% #${d.people}`,

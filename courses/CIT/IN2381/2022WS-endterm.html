@@ -159,7 +159,6 @@
     { 'grade': 5.0, 'people': 20, 'text': null },
     { 'grade': 6.0, 'people': 176, 'text': null },
   ].filter(grade => grade.people > 0);
-  grades = localStorage.getItem('course-plot-absent') === 'false' ? grades.filter(grade => grade.grade < 6.0) : grades;
 </script>
 <script type="module" src="/tum_info/assets/js/course.mjs"></script>
 
