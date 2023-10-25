@@ -13512,6 +13512,46 @@
         ]
     },
     {
+        "school": "SZ",
+        "code": "SZ05061",
+        "semester": "2018WS",
+        "examType": "endterm",
+        "name": "French B1.2",
+        "date": "2019-02-03 23:00:00 +0000",
+        "ects": 3,
+        "hours": 2,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 6,
+        "peopleFailed": 0,
+        "attemptsTotal": 5,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 2.46,
+        "averagePassed": 2.46,
+        "grades": [
+            {
+                "grade": 2.0,
+                "people": 2
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 1
+            }
+        ]
+    },
+    {
         "school": "CIT",
         "code": "IN4924",
         "semester": "2018WS",
@@ -15821,6 +15861,66 @@
     },
     {
         "school": "CIT",
+        "code": "MA1101",
+        "semester": "2018WS",
+        "examType": "endterm",
+        "name": "Linear Algebra and Discrete Structures 1",
+        "date": "2019-04-16 23:00:00 +0000",
+        "ects": 10,
+        "hours": 7,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 53,
+        "peopleFailed": 14,
+        "attemptsTotal": 30,
+        "attemptsFailedPercent": 0.4666666666666667,
+        "averageTotal": 3.9633333333333334,
+        "averagePassed": 3.33125,
+        "grades": [
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 2
+            },
+            {
+                "grade": 3.0,
+                "people": 2
+            },
+            {
+                "grade": 3.3,
+                "people": 4
+            },
+            {
+                "grade": 3.7,
+                "people": 2
+            },
+            {
+                "grade": 4.0,
+                "people": 5
+            },
+            {
+                "grade": 4.3,
+                "people": 2
+            },
+            {
+                "grade": 4.7,
+                "people": 10
+            },
+            {
+                "grade": 5.0,
+                "people": 2
+            },
+            {
+                "grade": 6.0,
+                "people": 23
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2209",
         "semester": "2018WS",
         "examType": "endterm",
@@ -15916,6 +16016,50 @@
             {
                 "grade": 6.0,
                 "people": 2
+            }
+        ]
+    },
+    {
+        "school": "SZ",
+        "code": "SZ0504",
+        "semester": "2019SS",
+        "examType": "endterm",
+        "name": "French A2.2",
+        "date": "2019-07-22 23:00:00 +0000",
+        "ects": 3,
+        "hours": 2,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 16,
+        "peopleFailed": 0,
+        "attemptsTotal": 15,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.6466666666666667,
+        "averagePassed": 1.6466666666666667,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 4
+            },
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 1.7,
+                "people": 3
+            },
+            {
+                "grade": 2.0,
+                "people": 5
+            },
+            {
+                "grade": 3.0,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 1
             }
         ]
     },
@@ -17000,6 +17144,82 @@
             {
                 "grade": 1.7,
                 "people": 2
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "MA1102",
+        "semester": "2019SS",
+        "examType": "endterm",
+        "name": "Linear Algebra and Discrete Structures 2",
+        "date": "2019-08-06 23:00:00 +0000",
+        "ects": 10,
+        "hours": 6,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 176,
+        "peopleFailed": 24,
+        "attemptsTotal": 139,
+        "attemptsFailedPercent": 0.17266187050359713,
+        "averageTotal": 3.0589928057553957,
+        "averagePassed": 2.7269565217391305,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 5
+            },
+            {
+                "grade": 1.3,
+                "people": 5
+            },
+            {
+                "grade": 1.7,
+                "people": 11
+            },
+            {
+                "grade": 2.0,
+                "people": 8
+            },
+            {
+                "grade": 2.3,
+                "people": 20
+            },
+            {
+                "grade": 2.7,
+                "people": 12
+            },
+            {
+                "grade": 3.0,
+                "people": 15
+            },
+            {
+                "grade": 3.3,
+                "people": 9
+            },
+            {
+                "grade": 3.7,
+                "people": 19
+            },
+            {
+                "grade": 4.0,
+                "people": 11
+            },
+            {
+                "grade": 4.3,
+                "people": 9
+            },
+            {
+                "grade": 4.7,
+                "people": 7
+            },
+            {
+                "grade": 5.0,
+                "people": 8
+            },
+            {
+                "grade": 6.0,
+                "people": 37
             }
         ]
     },
@@ -18305,6 +18525,78 @@
     },
     {
         "school": "CIT",
+        "code": "MA1002",
+        "semester": "2019SS",
+        "examType": "endterm",
+        "name": "Analysis 2",
+        "date": "2019-10-01 23:00:00 +0000",
+        "ects": 10,
+        "hours": 6,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 95,
+        "peopleFailed": 35,
+        "attemptsTotal": 56,
+        "attemptsFailedPercent": 0.625,
+        "averageTotal": 4.0375,
+        "averagePassed": 3.0238095238095237,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 1
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 2
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 2
+            },
+            {
+                "grade": 3.0,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 4
+            },
+            {
+                "grade": 3.7,
+                "people": 7
+            },
+            {
+                "grade": 4.0,
+                "people": 2
+            },
+            {
+                "grade": 4.3,
+                "people": 10
+            },
+            {
+                "grade": 4.7,
+                "people": 18
+            },
+            {
+                "grade": 5.0,
+                "people": 7
+            },
+            {
+                "grade": 6.0,
+                "people": 39
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2305",
         "semester": "2019SS",
         "examType": "endterm",
@@ -18536,6 +18828,30 @@
             {
                 "grade": 2.0,
                 "people": 3
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "MA8003",
+        "semester": "2019WS",
+        "examType": "endterm",
+        "name": "Introduction to Programming",
+        "date": "2019-10-24 23:00:00 +0000",
+        "ects": 3,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 6,
+        "peopleFailed": 0,
+        "attemptsTotal": 0,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 0.0,
+        "averagePassed": 0.0,
+        "grades": [
+            {
+                "grade": 6.0,
+                "people": 6
             }
         ]
     },
@@ -22645,6 +22961,46 @@
     },
     {
         "school": "SZ",
+        "code": "SZ0488-1",
+        "semester": "2020SS",
+        "examType": "endterm",
+        "name": "English - Controversial Topics in Science and Technology: Gateway to English Master&#39;s C1",
+        "date": "2020-07-20 23:00:00 +0000",
+        "ects": 3,
+        "hours": 2,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 12,
+        "peopleFailed": 0,
+        "attemptsTotal": 12,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.55,
+        "averagePassed": 1.55,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 6
+            },
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 2.0,
+                "people": 2
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            }
+        ]
+    },
+    {
+        "school": "SZ",
         "code": "SZ0211",
         "semester": "2020SS",
         "examType": "endterm",
@@ -22781,6 +23137,78 @@
     },
     {
         "school": "CIT",
+        "code": "MA1304",
+        "semester": "2020SS",
+        "examType": "endterm",
+        "name": "Introduction to Numerical Linear Algebra",
+        "date": "2020-07-23 23:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 55,
+        "peopleFailed": 6,
+        "attemptsTotal": 52,
+        "attemptsFailedPercent": 0.11538461538461539,
+        "averageTotal": 2.703846153846154,
+        "averagePassed": 2.4869565217391303,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 5
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 6
+            },
+            {
+                "grade": 2.0,
+                "people": 4
+            },
+            {
+                "grade": 2.3,
+                "people": 8
+            },
+            {
+                "grade": 2.7,
+                "people": 3
+            },
+            {
+                "grade": 3.0,
+                "people": 8
+            },
+            {
+                "grade": 3.3,
+                "people": 4
+            },
+            {
+                "grade": 3.7,
+                "people": 6
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 5
+            },
+            {
+                "grade": 4.7,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 3
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN4561",
         "semester": "2020SS",
         "examType": "endterm",
@@ -22812,6 +23240,82 @@
             {
                 "grade": 2.0,
                 "people": 1
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "MA2005",
+        "semester": "2020SS",
+        "examType": "endterm",
+        "name": "Ordinary Differential Equations",
+        "date": "2020-07-26 23:00:00 +0000",
+        "ects": 5,
+        "hours": 3,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 116,
+        "peopleFailed": 21,
+        "attemptsTotal": 108,
+        "attemptsFailedPercent": 0.19444444444444445,
+        "averageTotal": 3.212962962962963,
+        "averagePassed": 2.8471264367816094,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 6
+            },
+            {
+                "grade": 1.3,
+                "people": 3
+            },
+            {
+                "grade": 1.7,
+                "people": 6
+            },
+            {
+                "grade": 2.0,
+                "people": 2
+            },
+            {
+                "grade": 2.3,
+                "people": 13
+            },
+            {
+                "grade": 2.7,
+                "people": 7
+            },
+            {
+                "grade": 3.0,
+                "people": 11
+            },
+            {
+                "grade": 3.3,
+                "people": 13
+            },
+            {
+                "grade": 3.7,
+                "people": 17
+            },
+            {
+                "grade": 4.0,
+                "people": 9
+            },
+            {
+                "grade": 4.3,
+                "people": 6
+            },
+            {
+                "grade": 4.7,
+                "people": 5
+            },
+            {
+                "grade": 5.0,
+                "people": 10
+            },
+            {
+                "grade": 6.0,
+                "people": 8
             }
         ]
     },
@@ -26520,6 +27024,82 @@
         ]
     },
     {
+        "school": "CIT",
+        "code": "MA1401",
+        "semester": "2020SS",
+        "examType": "endterm",
+        "name": "Introduction to Probability Theory",
+        "date": "2020-08-27 23:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 93,
+        "peopleFailed": 23,
+        "attemptsTotal": 78,
+        "attemptsFailedPercent": 0.2948717948717949,
+        "averageTotal": 3.217948717948718,
+        "averagePassed": 2.6363636363636362,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 8
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 3
+            },
+            {
+                "grade": 2.0,
+                "people": 5
+            },
+            {
+                "grade": 2.3,
+                "people": 2
+            },
+            {
+                "grade": 2.7,
+                "people": 5
+            },
+            {
+                "grade": 3.0,
+                "people": 12
+            },
+            {
+                "grade": 3.3,
+                "people": 11
+            },
+            {
+                "grade": 3.7,
+                "people": 6
+            },
+            {
+                "grade": 4.0,
+                "people": 2
+            },
+            {
+                "grade": 4.3,
+                "people": 9
+            },
+            {
+                "grade": 4.7,
+                "people": 9
+            },
+            {
+                "grade": 5.0,
+                "people": 5
+            },
+            {
+                "grade": 6.0,
+                "people": 15
+            }
+        ]
+    },
+    {
         "school": "ED",
         "code": "MW2022",
         "semester": "2020SS",
@@ -26592,6 +27172,58 @@
             {
                 "grade": 6.0,
                 "people": 78
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "MA1001",
+        "semester": "2020SS",
+        "examType": "endterm",
+        "name": "Analysis 1",
+        "date": "2020-09-07 23:00:00 +0000",
+        "ects": 10,
+        "hours": 7,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 10,
+        "peopleFailed": 3,
+        "attemptsTotal": 8,
+        "attemptsFailedPercent": 0.375,
+        "averageTotal": 3.7,
+        "averagePassed": 3.12,
+        "grades": [
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 3.0,
+                "people": 2
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 1
+            },
+            {
+                "grade": 4.7,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 2
             }
         ]
     },
@@ -27213,6 +27845,26 @@
                 "grade": 2.3,
                 "people": 1
             }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "MABS20W12",
+        "semester": "2020WS",
+        "examType": "endterm",
+        "name": "Introduction to Quantum Algorithms",
+        "date": "2021-01-03 23:00:00 +0000",
+        "ects": 3,
+        "hours": 2,
+        "mode": "written",
+        "lang": "de",
+        "peopleTotal": 0,
+        "peopleFailed": 0,
+        "attemptsTotal": 0,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 0.0,
+        "averagePassed": 0.0,
+        "grades": [
         ]
     },
     {
@@ -34260,6 +34912,42 @@
             {
                 "grade": 6.0,
                 "people": 38
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "MA2904",
+        "semester": "2021SS",
+        "examType": "endterm",
+        "name": "Mathematical Models in Continuum Mechanics",
+        "date": "2021-10-05 23:00:00 +0000",
+        "ects": 5,
+        "hours": 3,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 6,
+        "peopleFailed": 2,
+        "attemptsTotal": 6,
+        "attemptsFailedPercent": 0.3333333333333333,
+        "averageTotal": 3.45,
+        "averagePassed": 2.675,
+        "grades": [
+            {
+                "grade": 2.0,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.0,
+                "people": 2
+            },
+            {
+                "grade": 5.0,
+                "people": 2
             }
         ]
     },
@@ -42532,6 +43220,126 @@
         ]
     },
     {
+        "school": "CIT",
+        "code": "MA2006",
+        "semester": "2022SS",
+        "examType": "endterm",
+        "name": "Complex Analysis",
+        "date": "2022-10-12 23:00:00 +0000",
+        "ects": 5,
+        "hours": 3,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 61,
+        "peopleFailed": 20,
+        "attemptsTotal": 42,
+        "attemptsFailedPercent": 0.47619047619047616,
+        "averageTotal": 3.9595238095238097,
+        "averagePassed": 3.168181818181818,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 1
+            },
+            {
+                "grade": 2.3,
+                "people": 3
+            },
+            {
+                "grade": 2.7,
+                "people": 4
+            },
+            {
+                "grade": 3.0,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 4
+            },
+            {
+                "grade": 3.7,
+                "people": 4
+            },
+            {
+                "grade": 4.0,
+                "people": 5
+            },
+            {
+                "grade": 4.3,
+                "people": 1
+            },
+            {
+                "grade": 4.7,
+                "people": 9
+            },
+            {
+                "grade": 5.0,
+                "people": 10
+            },
+            {
+                "grade": 6.0,
+                "people": 19
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "MA2404",
+        "semester": "2022SS",
+        "examType": "endterm",
+        "name": "Markov Chains",
+        "date": "2022-10-13 23:00:00 +0000",
+        "ects": 5,
+        "hours": 3,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 40,
+        "peopleFailed": 7,
+        "attemptsTotal": 17,
+        "attemptsFailedPercent": 0.4117647058823529,
+        "averageTotal": 3.6941176470588237,
+        "averagePassed": 3.06,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 1
+            },
+            {
+                "grade": 2.0,
+                "people": 1
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 3
+            },
+            {
+                "grade": 3.7,
+                "people": 2
+            },
+            {
+                "grade": 4.0,
+                "people": 2
+            },
+            {
+                "grade": 4.3,
+                "people": 4
+            },
+            {
+                "grade": 5.0,
+                "people": 3
+            },
+            {
+                "grade": 6.0,
+                "people": 23
+            }
+        ]
+    },
+    {
         "school": "SOT",
         "code": "SOT82508",
         "semester": "2022WS",
@@ -45133,6 +45941,302 @@
     },
     {
         "school": "CIT",
+        "code": "IN2001",
+        "semester": "2023SS",
+        "examType": "endterm",
+        "name": "Algorithms for Scientific Computing",
+        "date": "2023-07-25 23:00:00 +0000",
+        "ects": 8,
+        "hours": 6,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 111,
+        "peopleFailed": 24,
+        "attemptsTotal": 70,
+        "attemptsFailedPercent": 0.34285714285714286,
+        "averageTotal": 3.237142857142857,
+        "averagePassed": 2.4326086956521737,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 3
+            },
+            {
+                "grade": 1.3,
+                "people": 9
+            },
+            {
+                "grade": 1.7,
+                "people": 2
+            },
+            {
+                "grade": 2.0,
+                "people": 8
+            },
+            {
+                "grade": 2.3,
+                "people": 2
+            },
+            {
+                "grade": 2.7,
+                "people": 6
+            },
+            {
+                "grade": 3.0,
+                "people": 3
+            },
+            {
+                "grade": 3.3,
+                "people": 4
+            },
+            {
+                "grade": 3.7,
+                "people": 4
+            },
+            {
+                "grade": 4.0,
+                "people": 5
+            },
+            {
+                "grade": 4.3,
+                "people": 5
+            },
+            {
+                "grade": 4.7,
+                "people": 6
+            },
+            {
+                "grade": 5.0,
+                "people": 13
+            },
+            {
+                "grade": 6.0,
+                "people": 41
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "MA4802",
+        "semester": "2023SS",
+        "examType": "endterm",
+        "name": "Statistical Learning",
+        "date": "2023-07-26 23:00:00 +0000",
+        "ects": 6,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 91,
+        "peopleFailed": 11,
+        "attemptsTotal": 64,
+        "attemptsFailedPercent": 0.171875,
+        "averageTotal": 2.8015625,
+        "averagePassed": 2.3641509433962264,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 12
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 5
+            },
+            {
+                "grade": 2.0,
+                "people": 2
+            },
+            {
+                "grade": 2.3,
+                "people": 7
+            },
+            {
+                "grade": 2.7,
+                "people": 6
+            },
+            {
+                "grade": 3.0,
+                "people": 7
+            },
+            {
+                "grade": 3.3,
+                "people": 7
+            },
+            {
+                "grade": 3.7,
+                "people": 3
+            },
+            {
+                "grade": 4.0,
+                "people": 3
+            },
+            {
+                "grade": 4.3,
+                "people": 1
+            },
+            {
+                "grade": 4.7,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 9
+            },
+            {
+                "grade": 6.0,
+                "people": 27
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2346",
+        "semester": "2023SS",
+        "examType": "endterm",
+        "name": "Introduction to Deep Learning",
+        "date": "2023-07-31 23:00:00 +0000",
+        "ects": 6,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 1053,
+        "peopleFailed": 264,
+        "attemptsTotal": 845,
+        "attemptsFailedPercent": 0.31242603550295855,
+        "averageTotal": 3.4641420118343196,
+        "averagePassed": 2.766265060240964,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 19
+            },
+            {
+                "grade": 1.3,
+                "people": 32
+            },
+            {
+                "grade": 1.7,
+                "people": 39
+            },
+            {
+                "grade": 2.0,
+                "people": 51
+            },
+            {
+                "grade": 2.3,
+                "people": 64
+            },
+            {
+                "grade": 2.7,
+                "people": 75
+            },
+            {
+                "grade": 3.0,
+                "people": 81
+            },
+            {
+                "grade": 3.3,
+                "people": 95
+            },
+            {
+                "grade": 3.7,
+                "people": 93
+            },
+            {
+                "grade": 4.0,
+                "people": 32
+            },
+            {
+                "grade": 5.0,
+                "people": 264
+            },
+            {
+                "grade": 6.0,
+                "people": 208
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "MA4800",
+        "semester": "2023SS",
+        "examType": "endterm",
+        "name": "Foundations of Data Analysis",
+        "date": "2023-08-06 23:00:00 +0000",
+        "ects": 8,
+        "hours": 6,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 382,
+        "peopleFailed": 98,
+        "attemptsTotal": 299,
+        "attemptsFailedPercent": 0.3277591973244147,
+        "averageTotal": 3.47123745819398,
+        "averagePassed": 2.8233830845771144,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 8
+            },
+            {
+                "grade": 1.3,
+                "people": 10
+            },
+            {
+                "grade": 1.7,
+                "people": 13
+            },
+            {
+                "grade": 2.0,
+                "people": 18
+            },
+            {
+                "grade": 2.3,
+                "people": 22
+            },
+            {
+                "grade": 2.7,
+                "people": 26
+            },
+            {
+                "grade": 3.0,
+                "people": 19
+            },
+            {
+                "grade": 3.3,
+                "people": 27
+            },
+            {
+                "grade": 3.7,
+                "people": 35
+            },
+            {
+                "grade": 4.0,
+                "people": 23
+            },
+            {
+                "grade": 4.3,
+                "people": 19
+            },
+            {
+                "grade": 4.7,
+                "people": 21
+            },
+            {
+                "grade": 5.0,
+                "people": 58
+            },
+            {
+                "grade": 6.0,
+                "people": 83
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2010",
         "semester": "2023SS",
         "examType": "endterm",
@@ -45412,6 +46516,62 @@
             {
                 "grade": 6.0,
                 "people": 39
+            }
+        ]
+    },
+    {
+        "school": "SOT",
+        "code": "ED0038",
+        "semester": "2023SS",
+        "examType": "endterm",
+        "name": "Technology, Economy, Society",
+        "date": "2023-08-20 23:00:00 +0000",
+        "ects": 3,
+        "hours": 2,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 211,
+        "peopleFailed": 0,
+        "attemptsTotal": 211,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.3601895734597156,
+        "averagePassed": 1.3601895734597156,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 64
+            },
+            {
+                "grade": 1.2,
+                "people": 30
+            },
+            {
+                "grade": 1.3,
+                "people": 38
+            },
+            {
+                "grade": 1.5,
+                "people": 29
+            },
+            {
+                "grade": 1.7,
+                "people": 21
+            },
+            {
+                "grade": 1.8,
+                "people": 8
+            },
+            {
+                "grade": 2.0,
+                "people": 15
+            },
+            {
+                "grade": 2.3,
+                "people": 5
+            },
+            {
+                "grade": 2.5,
+                "people": 1
             }
         ]
     }
