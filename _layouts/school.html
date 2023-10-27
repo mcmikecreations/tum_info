@@ -36,6 +36,8 @@ You can quickly jump to {% for dep in page.deps %}
   {% assign code_semesters = code_courses | map: "semester" | uniq | sort | reverse %}
   {% assign course_latest = code_courses | where: "semester", code_semesters.first | first %}
 
+  {% assign course_reviews = site.reviews | where: "school", page.code | where: "code", code %}
+
   {% assign people_total = 0 %}
   {% assign attempts_total = 0 %}
   {% assign grade_sum = 0.0 %}
@@ -55,7 +57,13 @@ You can quickly jump to {% for dep in page.deps %}
   {% endfor %}
   {% assign people_passed = attempts_total | minus: people_failed %}
   <tr id="{{ course_latest.code }}">
-    <td><b><a href="{{ site.baseurl }}{{ course_latest.url }}">{{ code }} {{ course_latest.name }}</a></b></td>
+    <td><b>
+      {% if course_reviews.size > 0 %}
+      <a href="{{ site.baseurl }}{{ course_reviews.first.url }}">{{ code }} {{ course_latest.name }}</a>
+      {% else %}
+      <span>{{ code }} {{ course_latest.name }}</span>
+      {% endif %}
+    </b></td>
     <td>
       {% assign entries = 0 %}
       {% for semester in code_semesters %}

@@ -27,8 +27,17 @@ There are {{ site.courses.size }} entries in total.
   {% for code in codes_unique %}
   {% assign code_courses = school_courses | where: "code", code %}
   {% assign code_semesters = code_courses | map: "semester" | uniq | sort | reverse %}
+  {% assign course_reviews = site.reviews | where: "school", school | where: "code", code %}
   <tr id="{{ code }}">
-    <td><b>{{ code }} {{ code_courses.first.name }}</b></td>
+    <td>
+      <b>
+        {% if course_reviews.size > 0 %}
+        <a href="{{ site.baseurl }}{{ course_reviews.first.url }}">{{ code }} {{ code_courses.first.name }}</a>
+        {% else %}
+        <span>{{ code }} {{ code_courses.first.name }}</span>
+        {% endif %}
+      </b>
+    </td>
     <td>
       {% for semester in code_semesters %}
         {% assign semester_courses = code_courses | where: "semester", semester %}
