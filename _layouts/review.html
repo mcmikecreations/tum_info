@@ -2,6 +2,51 @@
 layout: page
 ---
 
+{% assign code_courses = site.courses | where: "school", page.school | where: "code", page.code %}
+
+{% assign code_semesters = code_courses | map: "semester" | uniq | sort | reverse %}
+{% assign course_latest = code_courses | where: "semester", code_semesters.first | first %}
+<table>
+  <tr>
+    <td><b>ECTS:</b></td>
+    <td>{{ course_latest.ects }}</td>
+  </tr>
+  <tr>
+    <td><b>Semester hours:</b></td>
+    <td>{{ course_latest.hours }}</td>
+  </tr>
+  <tr>
+    <td><b>Exam mode:</b></td>
+    <td>{{ course_latest.mode | capitalize }}</td>
+  </tr>
+  <tr>
+    <td><b>Language:</b></td>
+    <td>{{ course_latest.lang | capitalize }}</td>
+  </tr>
+  <tr>
+    <td><b>Links:</b></td>
+    <td>
+      <a href="{{ site.baseurl }}{{ site.schools | where: "code", page.school | map: "url" | first }}#{{ page.code }}">{{ page.school }}</a>,
+      <a href="{{ site.baseurl }}/courses#{{ page.code }}">Courses</a>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Exams:</b></td>
+    <td>
+    {% for semester in code_semesters %}
+    {% assign semester_courses = code_courses | where: "semester", semester %}
+    {{ semester }}
+    {% for course in semester_courses %}
+    <a href="{{ site.baseurl }}{{ course.url }}">{{ course.exam_type | capitalize }}</a>{% if forloop.last != true %}, {% endif %}
+    {% endfor %}
+    <br>
+    {% endfor %}
+    </td>
+  </tr>
+</table>
+
+<h2>Reviews</h2>
+
 <div id="review-container">
   {{ content }}
 </div>
