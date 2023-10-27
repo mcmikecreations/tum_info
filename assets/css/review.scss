@@ -1,6 +1,8 @@
 ---
 ---
 
+@use 'sass:list';
+
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
@@ -18,6 +20,15 @@
 div#review-container {
   display: grid;
   $review-max-width: 29rem;
+  $color-user-1: #e17076;
+  $color-user-2: #7bc862;
+  $color-user-3: #65aadd;
+  $color-user-4: #a695e7;
+  $color-user-5: #ee7aae;
+  $color-user-6: #34c76f;
+  $color-user-7: #6ec9cb;
+  $color-user-8: #faa774;
+  $colors-user: $color-user-1 $color-user-2 $color-user-3 $color-user-4 $color-user-5 $color-user-6 $color-user-7 $color-user-8;
 
   code {
     background: $background-color;
@@ -58,8 +69,25 @@ div#review-container {
 
     @for $i from 1 through 8 {
       &.review-color-#{$i} {
-        &>li:first-child::before {
-          color: var(--color-user-#{$i}) !important;
+        &>li {
+          &:first-child::before {
+            color: list.nth($colors-user, $i) !important;
+          }
+      
+          /*
+          <svg xmlns="http://www.w3.org/2000/svg" width="39" height="34" viewBox="-29.897 -17 39 34">
+            <style>.review-corner-a{fill:red} .review-user-a{fill:blue} @media (prefers-color-scheme:dark){.review-corner-a{fill:green} .review-user-a{fill:cyan}}</style>
+            <circle r="17" cx="-12.807" class="review-corner-a"/>
+            <path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" class="review-corner-a"/>
+          </svg>
+          */
+    
+          &:last-child::after {
+            content: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2239%22%20height%3D%2234%22%20viewBox%3D%22-29.897%20-17%2039%2034%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstyle%3E.review-corner-a%7Bfill%3A#{str-replace(#{$lm-table-header-bg-color},'#','%23')}%7D%20.review-user-a%7Bfill%3A#{str-replace(#{list.nth($colors-user, $i)},'#','%23')}%7D%20%40media%20%28prefers-color-scheme%3Adark%29%7B.review-corner-a%7Bfill%3A#{str-replace(#{$dm-table-header-bg-color},'#','%23')}%7D%7D%3C%2Fstyle%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ccircle%20r%3D%2217%22%20cx%3D%22-12.807%22%20class%3D%22review-user-a%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M3%2017h6V0c-.193%202.84-.876%205.767-2.05%208.782-.904%202.325-2.446%204.485-4.625%206.48A1%201%200%20003%2017z%22%20class%3D%22review-corner-a%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Fsvg%3E");
+            position: absolute;
+            left: -2.4rem;
+            bottom: -0.33rem;
+          }
         }
       }
     }
@@ -70,6 +98,8 @@ div#review-container {
       margin-bottom: .375rem;
       max-width: $review-max-width;
       position: relative;
+      list-style-position: inside;
+      display: table;
       background-color: $table-header-bg-color;
 
       &::marker {
@@ -100,7 +130,7 @@ div#review-container {
         </svg>
         */
   
-        &::before {
+        &::after {
           content: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2239%22%20height%3D%2234%22%20viewBox%3D%22-29.897%20-17%2039%2034%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstyle%3E.review-corner-a%7Bfill%3A#{str-replace(#{$lm-table-header-bg-color},'#','%23')}%7D%20.review-user-a%7Bfill%3A#{str-replace(#{$lm-link-base-color},'#','%23')}%7D%20%40media%20%28prefers-color-scheme%3Adark%29%7B.review-corner-a%7Bfill%3A#{str-replace(#{$dm-table-header-bg-color},'#','%23')}%7D%20.review-user-a%7Bfill%3A#{str-replace(#{$dm-link-base-color},'#','%23')}%7D%7D%3C%2Fstyle%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ccircle%20r%3D%2217%22%20cx%3D%22-12.807%22%20class%3D%22review-user-a%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M3%2017h6V0c-.193%202.84-.876%205.767-2.05%208.782-.904%202.325-2.446%204.485-4.625%206.48A1%201%200%20003%2017z%22%20class%3D%22review-corner-a%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Fsvg%3E");
           position: absolute;
           left: -2.4rem;
@@ -116,11 +146,4 @@ div#review-container {
   --minima-dm-text-color: #{$dm-text-color};
   --minima-lm-background-color: #{$lm-background-color};
   --minima-dm-background-color: #{$dm-background-color};
-  --color-user-1: #e17076;
-  --color-user-2: #7bc862;
-  --color-user-4: #65aadd;
-  --color-user-5: #a695e7;
-  --color-user-6: #ee7aae;
-  --color-user-7: #6ec9cb;
-  --color-user-8: #faa774;
 }
