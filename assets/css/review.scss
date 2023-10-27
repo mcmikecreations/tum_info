@@ -1,0 +1,126 @@
+---
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+@function str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+
+  @return $string;
+}
+
+div#review-container {
+  display: grid;
+  $review-max-width: 29rem;
+
+  code {
+    background: $background-color;
+    white-space: pre-wrap;
+    margin: 0;
+    padding: 1px 2px;
+    border-radius: 4px;
+  }
+
+  p {
+    border-radius: .375rem .375rem 0 .375rem;
+    padding: .3125rem .5rem .375rem;
+    margin-bottom: .625rem;
+    max-width: $review-max-width;
+    justify-self: end;
+    position: relative;
+    background-color: $code-background-color;
+
+    /*
+    <svg xmlns="http://www.w3.org/2000/svg" width="7.193" height="17" viewBox="0 0 7.193 17">
+      <style>.review-corner-q{fill:#{str-replace(#{$lm-code-background-color},'#','#')}} @media (prefers-color-scheme:dark){.review-corner-q{fill:#{str-replace(#{$dm-code-background-color},'#','#')}}}</style>
+      <path d="M6 17H0V0c.193 2.84.876 5.767 2.05 8.782.904 2.325 2.446 4.485 4.625 6.48A1 1 0 0 1 6 17z" class="review-corner-q"/>
+    </svg>
+    */
+
+    &::after {
+      content: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%227.193%22%20height%3D%2217%22%20viewBox%3D%220%200%207.193%2017%22%3E%3Cstyle%3E.review-corner-q%7Bfill%3A#{str-replace(#{$lm-code-background-color},'#','%23')}%7D%20%40media%20%28prefers-color-scheme%3Adark%29%7B.review-corner-q%7Bfill%3A#{str-replace(#{$dm-code-background-color},'#','%23')}%7D%7D%3C%2Fstyle%3E%3Cpath%20d%3D%22M6%2017H0V0c.193%202.84.876%205.767%202.05%208.782.904%202.325%202.446%204.485%204.625%206.48A1%201%200%200%201%206%2017z%22%20class%3D%22review-corner-q%22%2F%3E%3C%2Fsvg%3E");
+      position: absolute;
+      right: -0.45rem;
+      bottom: -0.34rem;
+    }
+  }
+
+  ul {
+    margin-left: 39px;
+    margin-bottom: .625rem;
+    justify-self: baseline;
+
+    @for $i from 1 through 8 {
+      &.review-color-#{$i} {
+        &>li:first-child::before {
+          color: var(--color-user-#{$i}) !important;
+        }
+      }
+    }
+
+    li {
+      border-radius: .375rem;
+      padding: .3125rem .5rem .375rem;
+      margin-bottom: .375rem;
+      max-width: $review-max-width;
+      position: relative;
+      background-color: $table-header-bg-color;
+
+      &::marker {
+        content: none;
+      }
+
+      &:first-child::before {
+        content: 'Students\' response';
+        color: $link-base-color;
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 500;
+        font-size: calc($base-font-size - .125rem);
+        line-height: 1.25rem;
+      }
+  
+      &:last-child {
+        border-radius: .375rem .375rem .375rem 0;
+        margin-bottom: 0;
+  
+        /*
+        <svg xmlns="http://www.w3.org/2000/svg" width="39" height="34" viewBox="-29.897 -17 39 34">
+          <style>.review-corner-a{fill:red} .review-user-a{fill:blue} @media (prefers-color-scheme:dark){.review-corner-a{fill:green} .review-user-a{fill:cyan}}</style>
+          <circle r="17" cx="-12.807" class="review-corner-a"/>
+          <path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" class="review-corner-a"/>
+        </svg>
+        */
+  
+        &::before {
+          content: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2239%22%20height%3D%2234%22%20viewBox%3D%22-29.897%20-17%2039%2034%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstyle%3E.review-corner-a%7Bfill%3A#{str-replace(#{$lm-table-header-bg-color},'#','%23')}%7D%20.review-user-a%7Bfill%3A#{str-replace(#{$lm-link-base-color},'#','%23')}%7D%20%40media%20%28prefers-color-scheme%3Adark%29%7B.review-corner-a%7Bfill%3A#{str-replace(#{$dm-table-header-bg-color},'#','%23')}%7D%20.review-user-a%7Bfill%3A#{str-replace(#{$dm-link-base-color},'#','%23')}%7D%7D%3C%2Fstyle%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ccircle%20r%3D%2217%22%20cx%3D%22-12.807%22%20class%3D%22review-user-a%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M3%2017h6V0c-.193%202.84-.876%205.767-2.05%208.782-.904%202.325-2.446%204.485-4.625%206.48A1%201%200%20003%2017z%22%20class%3D%22review-corner-a%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Fsvg%3E");
+          position: absolute;
+          left: -2.4rem;
+          bottom: -0.33rem;
+        }
+      }
+    }
+  }
+}
+
+:root {
+  --minima-lm-text-color: #{$lm-text-color};
+  --minima-dm-text-color: #{$dm-text-color};
+  --minima-lm-background-color: #{$lm-background-color};
+  --minima-dm-background-color: #{$dm-background-color};
+  --color-user-1: #e17076;
+  --color-user-2: #7bc862;
+  --color-user-4: #65aadd;
+  --color-user-5: #a695e7;
+  --color-user-6: #ee7aae;
+  --color-user-7: #6ec9cb;
+  --color-user-8: #faa774;
+}

@@ -34,6 +34,12 @@ collections:
       - { code: "IN", link: "https://www.cs.cit.tum.de/en/", name: "Computer Science" }
     output: true
     permalink: /:collection/:path
+  reviews:
+    school: "CIT"
+    code: "IN0000"
+    name: "Course name"
+    output: true
+    permalink: /:collection/:path
   courses:
     school: "CIT"
     code: "IN0000"
