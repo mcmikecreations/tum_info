@@ -15793,6 +15793,86 @@
     },
     {
         "school": "CIT",
+        "code": "IN2064",
+        "semester": "2018WS",
+        "examType": "retake",
+        "name": "Machine Learning",
+        "date": "2019-04-10 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 623,
+        "peopleFailed": 330,
+        "attemptsTotal": 503,
+        "attemptsFailedPercent": 0.6560636182902585,
+        "averageTotal": 4.261431411530815,
+        "averagePassed": 2.852601156069364,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 6
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.4,
+                "people": 4
+            },
+            {
+                "grade": 1.7,
+                "people": 5
+            },
+            {
+                "grade": 2.0,
+                "people": 16
+            },
+            {
+                "grade": 2.3,
+                "people": 3
+            },
+            {
+                "grade": 2.4,
+                "people": 17
+            },
+            {
+                "grade": 2.7,
+                "people": 23
+            },
+            {
+                "grade": 3.0,
+                "people": 27
+            },
+            {
+                "grade": 3.3,
+                "people": 14
+            },
+            {
+                "grade": 3.4,
+                "people": 30
+            },
+            {
+                "grade": 3.7,
+                "people": 23
+            },
+            {
+                "grade": 4.0,
+                "people": 4
+            },
+            {
+                "grade": 5.0,
+                "people": 330
+            },
+            {
+                "grade": 6.0,
+                "people": 120
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2097",
         "semester": "2018WS",
         "examType": "endterm",
