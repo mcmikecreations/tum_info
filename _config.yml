@@ -37,7 +37,6 @@ collections:
   reviews:
     school: "CIT"
     code: "IN0000"
-    name: "Course name"
     output: true
     permalink: /:collection/:path
   courses:
