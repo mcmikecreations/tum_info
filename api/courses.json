@@ -46654,5 +46654,77 @@
                 "people": 1
             }
         ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2241",
+        "semester": "2023SS",
+        "examType": "retake",
+        "name": "Social Computing",
+        "date": "2023-09-21 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 89,
+        "peopleFailed": 6,
+        "attemptsTotal": 43,
+        "attemptsFailedPercent": 0.13953488372093023,
+        "averageTotal": 2.2744186046511627,
+        "averagePassed": 1.8783783783783783,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 14
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 6
+            },
+            {
+                "grade": 2.0,
+                "people": 3
+            },
+            {
+                "grade": 2.3,
+                "people": 3
+            },
+            {
+                "grade": 2.7,
+                "people": 4
+            },
+            {
+                "grade": 3.0,
+                "people": 3
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 4.0,
+                "people": 2
+            },
+            {
+                "grade": 4.3,
+                "people": 2
+            },
+            {
+                "grade": 4.7,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 3
+            },
+            {
+                "grade": 6.0,
+                "people": 46
+            }
+        ]
     }
 ]
