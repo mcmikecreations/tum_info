@@ -8,7 +8,7 @@ exam_type: "endterm"
 name: "Advanced Computer Architecture"
 date: "2015-02-04 12:00:00 +0100"
 
-ects: 5
+ects: 6
 hours: 4.0 # semester hours
 mode: "written"
 lang: "en"

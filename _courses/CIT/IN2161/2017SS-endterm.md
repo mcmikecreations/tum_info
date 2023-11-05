@@ -27,5 +27,3 @@ grades:
   - { grade: 5.0, people: 5 }
   - { grade: 6.0, people: 33 }
 ---
-
-

@@ -21,5 +21,3 @@ grades:
   - { grade: 2.3, people: 1 }
 
 ---
-
-

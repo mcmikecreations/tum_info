@@ -24,5 +24,3 @@ grades:
   - { grade: 3.0, people: 1 }
 
 ---
-
-

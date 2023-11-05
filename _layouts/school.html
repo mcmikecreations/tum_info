@@ -34,7 +34,7 @@ You can quickly jump to {% for dep in page.deps %}
   {% endif %}
   {% assign code_courses = school_courses | where: "code", code %}
   {% assign code_semesters = code_courses | map: "semester" | uniq | sort | reverse %}
-  {% assign course_latest = code_courses | where: "semester", code_semesters.first | first %}
+  {% assign course_latest = code_courses | where: "semester", code_semesters.first | last %}
 
   {% assign course_reviews = site.reviews | where: "school", page.code | where: "code", code %}
 
@@ -59,7 +59,7 @@ You can quickly jump to {% for dep in page.deps %}
   <tr id="{{ course_latest.code }}">
     <td><b>
       {% if course_reviews.size > 0 %}
-      <a href="{{ site.baseurl }}{{ course_reviews.first.url }}">{{ code }} {{ course_latest.name }}</a>
+      <a href="{{ site.baseurl }}{{ course_reviews.last.url }}">{{ code }} {{ course_latest.name }}</a>
       {% else %}
       <span>{{ code }} {{ course_latest.name }}</span>
       {% endif %}

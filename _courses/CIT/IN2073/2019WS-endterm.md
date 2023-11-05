@@ -30,5 +30,3 @@ grades:
   - { grade: 5.0, people: 11 }
   - { grade: 6.0, people: 125 }
 ---
-
-

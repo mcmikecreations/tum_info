@@ -5,7 +5,7 @@ layout: page
 {% assign code_courses = site.courses | where: "school", page.school | where: "code", page.code %}
 
 {% assign code_semesters = code_courses | map: "semester" | uniq | sort | reverse %}
-{% assign course_latest = code_courses | where: "semester", code_semesters.first | first %}
+{% assign course_latest = code_courses | where: "semester", code_semesters.first | last %}
 <table>
   <tr>
     <td><b>ECTS:</b></td>
@@ -26,7 +26,7 @@ layout: page
   <tr>
     <td><b>Links:</b></td>
     <td>
-      <a href="{{ site.baseurl }}{{ site.schools | where: "code", page.school | map: "url" | first }}#{{ page.code }}">{{ page.school }}</a>,
+      <a href="{{ site.baseurl }}{{ site.schools | where: "code", page.school | map: "url" | last }}#{{ page.code }}">{{ page.school }}</a>,
       <a href="{{ site.baseurl }}/courses#{{ page.code }}">Courses</a>
     </td>
   </tr>

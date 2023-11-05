@@ -32,9 +32,9 @@ There are {{ site.courses.size }} entries in total.
     <td>
       <b>
         {% if course_reviews.size > 0 %}
-        <a href="{{ site.baseurl }}{{ course_reviews.first.url }}">{{ code }} {{ code_courses.first.name }}</a>
+        <a href="{{ site.baseurl }}{{ course_reviews.last.url }}">{{ code }} {{ code_courses.last.name }}</a>
         {% else %}
-        <span>{{ code }} {{ code_courses.first.name }}</span>
+        <span>{{ code }} {{ code_courses.last.name }}</span>
         {% endif %}
       </b>
     </td>
