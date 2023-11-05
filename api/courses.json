@@ -897,6 +897,158 @@
     },
     {
         "school": "CIT",
+        "code": "IN2197",
+        "semester": "2012WS",
+        "examType": "endterm",
+        "name": "Cryptography",
+        "date": "2013-02-13 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 41,
+        "peopleFailed": 3,
+        "attemptsTotal": 21,
+        "attemptsFailedPercent": 0.14285714285714285,
+        "averageTotal": 2.3333333333333335,
+        "averagePassed": 1.9444444444444444,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 4
+            },
+            {
+                "grade": 1.4,
+                "people": 4
+            },
+            {
+                "grade": 1.7,
+                "people": 1
+            },
+            {
+                "grade": 2.0,
+                "people": 4
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.0,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 2
+            },
+            {
+                "grade": 3.4,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 1
+            },
+            {
+                "grade": 4.7,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 20
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2101",
+        "semester": "2012WS",
+        "examType": "endterm",
+        "name": "Network Security",
+        "date": "2013-02-22 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 123,
+        "peopleFailed": 19,
+        "attemptsTotal": 90,
+        "attemptsFailedPercent": 0.2111111111111111,
+        "averageTotal": 2.7444444444444445,
+        "averagePassed": 2.2352112676056337,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 18
+            },
+            {
+                "grade": 1.4,
+                "people": 7
+            },
+            {
+                "grade": 1.7,
+                "people": 4
+            },
+            {
+                "grade": 2.0,
+                "people": 5
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.4,
+                "people": 6
+            },
+            {
+                "grade": 2.7,
+                "people": 7
+            },
+            {
+                "grade": 3.0,
+                "people": 7
+            },
+            {
+                "grade": 3.3,
+                "people": 5
+            },
+            {
+                "grade": 3.4,
+                "people": 3
+            },
+            {
+                "grade": 3.7,
+                "people": 4
+            },
+            {
+                "grade": 4.0,
+                "people": 4
+            },
+            {
+                "grade": 4.3,
+                "people": 7
+            },
+            {
+                "grade": 4.7,
+                "people": 6
+            },
+            {
+                "grade": 5.0,
+                "people": 6
+            },
+            {
+                "grade": 6.0,
+                "people": 33
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN0009",
         "semester": "2012WS",
         "examType": "endterm",
@@ -981,6 +1133,226 @@
     },
     {
         "school": "CIT",
+        "code": "IN2030",
+        "semester": "2012WS",
+        "examType": "endterm",
+        "name": "Data Mining and Knowledge Discovery",
+        "date": "2013-02-27 11:00:00 +0000",
+        "ects": 3,
+        "hours": 2,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 162,
+        "peopleFailed": 39,
+        "attemptsTotal": 131,
+        "attemptsFailedPercent": 0.29770992366412213,
+        "averageTotal": 3.4877862595419846,
+        "averagePassed": 2.916304347826087,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 4
+            },
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 1.7,
+                "people": 7
+            },
+            {
+                "grade": 2.0,
+                "people": 7
+            },
+            {
+                "grade": 2.3,
+                "people": 14
+            },
+            {
+                "grade": 2.7,
+                "people": 8
+            },
+            {
+                "grade": 3.0,
+                "people": 5
+            },
+            {
+                "grade": 3.3,
+                "people": 13
+            },
+            {
+                "grade": 3.7,
+                "people": 13
+            },
+            {
+                "grade": 4.0,
+                "people": 19
+            },
+            {
+                "grade": 4.3,
+                "people": 7
+            },
+            {
+                "grade": 4.7,
+                "people": 5
+            },
+            {
+                "grade": 5.0,
+                "people": 27
+            },
+            {
+                "grade": 6.0,
+                "people": 31
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2003",
+        "semester": "2012WS",
+        "examType": "endterm",
+        "name": "Efficient Algorithms and Data Structures I",
+        "date": "2013-02-28 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 161,
+        "peopleFailed": 68,
+        "attemptsTotal": 114,
+        "attemptsFailedPercent": 0.5964912280701754,
+        "averageTotal": 3.920175438596491,
+        "averagePassed": 2.7108695652173913,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 4
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 5
+            },
+            {
+                "grade": 2.0,
+                "people": 2
+            },
+            {
+                "grade": 2.3,
+                "people": 3
+            },
+            {
+                "grade": 2.7,
+                "people": 8
+            },
+            {
+                "grade": 3.0,
+                "people": 5
+            },
+            {
+                "grade": 3.3,
+                "people": 11
+            },
+            {
+                "grade": 3.7,
+                "people": 3
+            },
+            {
+                "grade": 4.0,
+                "people": 4
+            },
+            {
+                "grade": 4.3,
+                "people": 19
+            },
+            {
+                "grade": 4.7,
+                "people": 15
+            },
+            {
+                "grade": 5.0,
+                "people": 34
+            },
+            {
+                "grade": 6.0,
+                "people": 47
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2030",
+        "semester": "2012WS",
+        "examType": "retake",
+        "name": "Data Mining and Knowledge Discovery",
+        "date": "2013-03-27 11:00:00 +0000",
+        "ects": 3,
+        "hours": 2,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 37,
+        "peopleFailed": 7,
+        "attemptsTotal": 25,
+        "attemptsFailedPercent": 0.28,
+        "averageTotal": 3.496,
+        "averagePassed": 2.966666666666667,
+        "grades": [
+            {
+                "grade": 1.7,
+                "people": 2
+            },
+            {
+                "grade": 2.0,
+                "people": 1
+            },
+            {
+                "grade": 2.3,
+                "people": 3
+            },
+            {
+                "grade": 2.7,
+                "people": 2
+            },
+            {
+                "grade": 3.0,
+                "people": 2
+            },
+            {
+                "grade": 3.3,
+                "people": 2
+            },
+            {
+                "grade": 3.7,
+                "people": 3
+            },
+            {
+                "grade": 4.0,
+                "people": 3
+            },
+            {
+                "grade": 4.3,
+                "people": 1
+            },
+            {
+                "grade": 4.7,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 5
+            },
+            {
+                "grade": 6.0,
+                "people": 12
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "MA0902",
         "semester": "2012WS",
         "examType": "endterm",
@@ -1053,6 +1425,114 @@
     },
     {
         "school": "CIT",
+        "code": "IN2197",
+        "semester": "2012WS",
+        "examType": "retake",
+        "name": "Cryptography",
+        "date": "2013-04-13 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 14,
+        "peopleFailed": 0,
+        "attemptsTotal": 9,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 2.2777777777777777,
+        "averagePassed": 2.2777777777777777,
+        "grades": [
+            {
+                "grade": 1.7,
+                "people": 5
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.0,
+                "people": 1
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 5
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2101",
+        "semester": "2012WS",
+        "examType": "retake",
+        "name": "Network Security",
+        "date": "2013-04-22 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 25,
+        "peopleFailed": 4,
+        "attemptsTotal": 13,
+        "attemptsFailedPercent": 0.3076923076923077,
+        "averageTotal": 3.5846153846153848,
+        "averagePassed": 3.0555555555555554,
+        "grades": [
+            {
+                "grade": 1.4,
+                "people": 1
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.0,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 3.4,
+                "people": 1
+            },
+            {
+                "grade": 3.7,
+                "people": 2
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 4.7,
+                "people": 3
+            },
+            {
+                "grade": 5.0,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 12
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN001319",
         "semester": "2013SS",
         "examType": "endterm",
@@ -1096,6 +1576,74 @@
             {
                 "grade": 5.0,
                 "people": 5
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2178",
+        "semester": "2013SS",
+        "examType": "endterm",
+        "name": "Security Engineering",
+        "date": "2013-07-25 11:00:00 +0000",
+        "ects": 5,
+        "hours": 3.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 68,
+        "peopleFailed": 20,
+        "attemptsTotal": 42,
+        "attemptsFailedPercent": 0.47619047619047616,
+        "averageTotal": 3.683333333333333,
+        "averagePassed": 2.4863636363636363,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 3
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 1
+            },
+            {
+                "grade": 2.0,
+                "people": 3
+            },
+            {
+                "grade": 2.3,
+                "people": 3
+            },
+            {
+                "grade": 2.7,
+                "people": 3
+            },
+            {
+                "grade": 3.0,
+                "people": 3
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 3.7,
+                "people": 2
+            },
+            {
+                "grade": 4.0,
+                "people": 2
+            },
+            {
+                "grade": 5.0,
+                "people": 20
+            },
+            {
+                "grade": 6.0,
+                "people": 26
             }
         ]
     },
@@ -1408,6 +1956,70 @@
         ]
     },
     {
+        "school": "CIT",
+        "code": "IN2087",
+        "semester": "2013SS",
+        "examType": "endterm",
+        "name": "Software Engineering for Business Applications - Master&#39;s Course",
+        "date": "2013-08-10 10:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 176,
+        "peopleFailed": 9,
+        "attemptsTotal": 169,
+        "attemptsFailedPercent": 0.05325443786982249,
+        "averageTotal": 2.6443786982248523,
+        "averagePassed": 2.511875,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 1
+            },
+            {
+                "grade": 1.3,
+                "people": 5
+            },
+            {
+                "grade": 1.7,
+                "people": 19
+            },
+            {
+                "grade": 2.0,
+                "people": 20
+            },
+            {
+                "grade": 2.3,
+                "people": 45
+            },
+            {
+                "grade": 2.7,
+                "people": 30
+            },
+            {
+                "grade": 3.0,
+                "people": 4
+            },
+            {
+                "grade": 3.3,
+                "people": 19
+            },
+            {
+                "grade": 3.7,
+                "people": 17
+            },
+            {
+                "grade": 5.0,
+                "people": 9
+            },
+            {
+                "grade": 6.0,
+                "people": 7
+            }
+        ]
+    },
+    {
         "school": "ED",
         "code": "MW9020",
         "semester": "2013SS",
@@ -1484,6 +2096,122 @@
         ]
     },
     {
+        "school": "CIT",
+        "code": "IN2178",
+        "semester": "2013SS",
+        "examType": "retake",
+        "name": "Security Engineering",
+        "date": "2013-09-29 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 32,
+        "peopleFailed": 10,
+        "attemptsTotal": 17,
+        "attemptsFailedPercent": 0.5882352941176471,
+        "averageTotal": 4.041176470588235,
+        "averagePassed": 2.6714285714285713,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 1
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 2
+            },
+            {
+                "grade": 3.0,
+                "people": 2
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 10
+            },
+            {
+                "grade": 6.0,
+                "people": 15
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2087",
+        "semester": "2013SS",
+        "examType": "retake",
+        "name": "Software Engineering for Business Applications - Master&#39;s Course",
+        "date": "2013-10-10 10:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 19,
+        "peopleFailed": 2,
+        "attemptsTotal": 16,
+        "attemptsFailedPercent": 0.125,
+        "averageTotal": 2.35,
+        "averagePassed": 2.0214285714285714,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 3
+            },
+            {
+                "grade": 1.3,
+                "people": 3
+            },
+            {
+                "grade": 1.7,
+                "people": 2
+            },
+            {
+                "grade": 2.0,
+                "people": 1
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 3.7,
+                "people": 1
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 3
+            }
+        ]
+    },
+    {
         "school": "ED",
         "code": "MW1108",
         "semester": "2013WS",
@@ -1552,6 +2280,142 @@
             {
                 "grade": 6.0,
                 "people": 20
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2076",
+        "semester": "2013WS",
+        "examType": "endterm",
+        "name": "Advanced Computer Architecture",
+        "date": "2014-02-04 11:00:00 +0000",
+        "ects": 6,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 60,
+        "peopleFailed": 8,
+        "attemptsTotal": 47,
+        "attemptsFailedPercent": 0.1702127659574468,
+        "averageTotal": 2.795744680851064,
+        "averagePassed": 2.4384615384615387,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 6
+            },
+            {
+                "grade": 1.3,
+                "people": 5
+            },
+            {
+                "grade": 1.7,
+                "people": 3
+            },
+            {
+                "grade": 2.0,
+                "people": 2
+            },
+            {
+                "grade": 2.3,
+                "people": 2
+            },
+            {
+                "grade": 2.7,
+                "people": 6
+            },
+            {
+                "grade": 3.0,
+                "people": 2
+            },
+            {
+                "grade": 3.3,
+                "people": 5
+            },
+            {
+                "grade": 3.7,
+                "people": 6
+            },
+            {
+                "grade": 4.0,
+                "people": 2
+            },
+            {
+                "grade": 4.3,
+                "people": 4
+            },
+            {
+                "grade": 4.7,
+                "people": 3
+            },
+            {
+                "grade": 5.0,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 13
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2133",
+        "semester": "2013WS",
+        "examType": "endterm",
+        "name": "Principles of Computer Vision",
+        "date": "2014-02-04 11:00:00 +0000",
+        "ects": 4,
+        "hours": 3.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 47,
+        "peopleFailed": 9,
+        "attemptsTotal": 23,
+        "attemptsFailedPercent": 0.391304347826087,
+        "averageTotal": 3.3347826086956522,
+        "averagePassed": 2.4571428571428573,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 3
+            },
+            {
+                "grade": 1.7,
+                "people": 2
+            },
+            {
+                "grade": 2.7,
+                "people": 2
+            },
+            {
+                "grade": 3.0,
+                "people": 4
+            },
+            {
+                "grade": 3.3,
+                "people": 2
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 3
+            },
+            {
+                "grade": 4.7,
+                "people": 2
+            },
+            {
+                "grade": 5.0,
+                "people": 4
+            },
+            {
+                "grade": 6.0,
+                "people": 24
             }
         ]
     },
@@ -1901,6 +2765,74 @@
     },
     {
         "school": "CIT",
+        "code": "IN2259",
+        "semester": "2013WS",
+        "examType": "endterm",
+        "name": "Distributed Systems",
+        "date": "2014-02-16 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 211,
+        "peopleFailed": 33,
+        "attemptsTotal": 175,
+        "attemptsFailedPercent": 0.18857142857142858,
+        "averageTotal": 2.7274285714285713,
+        "averagePassed": 2.1992957746478874,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 21
+            },
+            {
+                "grade": 1.3,
+                "people": 22
+            },
+            {
+                "grade": 1.7,
+                "people": 11
+            },
+            {
+                "grade": 2.0,
+                "people": 23
+            },
+            {
+                "grade": 2.3,
+                "people": 17
+            },
+            {
+                "grade": 2.7,
+                "people": 9
+            },
+            {
+                "grade": 3.0,
+                "people": 9
+            },
+            {
+                "grade": 3.3,
+                "people": 13
+            },
+            {
+                "grade": 3.7,
+                "people": 11
+            },
+            {
+                "grade": 4.0,
+                "people": 6
+            },
+            {
+                "grade": 5.0,
+                "people": 33
+            },
+            {
+                "grade": 6.0,
+                "people": 36
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2209",
         "semester": "2013WS",
         "examType": "endterm",
@@ -2052,6 +2984,158 @@
         ]
     },
     {
+        "school": "CIT",
+        "code": "IN2067",
+        "semester": "2013WS",
+        "examType": "endterm",
+        "name": "Robotics",
+        "date": "2014-02-27 11:00:00 +0000",
+        "ects": 6,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 118,
+        "peopleFailed": 18,
+        "attemptsTotal": 74,
+        "attemptsFailedPercent": 0.24324324324324326,
+        "averageTotal": 2.731081081081081,
+        "averagePassed": 2.148214285714286,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 13
+            },
+            {
+                "grade": 1.3,
+                "people": 4
+            },
+            {
+                "grade": 1.7,
+                "people": 7
+            },
+            {
+                "grade": 2.0,
+                "people": 6
+            },
+            {
+                "grade": 2.3,
+                "people": 7
+            },
+            {
+                "grade": 2.7,
+                "people": 5
+            },
+            {
+                "grade": 3.0,
+                "people": 3
+            },
+            {
+                "grade": 3.3,
+                "people": 5
+            },
+            {
+                "grade": 3.7,
+                "people": 3
+            },
+            {
+                "grade": 4.0,
+                "people": 3
+            },
+            {
+                "grade": 4.3,
+                "people": 10
+            },
+            {
+                "grade": 4.7,
+                "people": 4
+            },
+            {
+                "grade": 5.0,
+                "people": 4
+            },
+            {
+                "grade": 6.0,
+                "people": 44
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2003",
+        "semester": "2013WS",
+        "examType": "endterm",
+        "name": "Efficient Algorithms and Data Structures I",
+        "date": "2014-02-28 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 123,
+        "peopleFailed": 30,
+        "attemptsTotal": 86,
+        "attemptsFailedPercent": 0.3488372093023256,
+        "averageTotal": 3.3732558139534885,
+        "averagePassed": 2.719642857142857,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 6
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 3
+            },
+            {
+                "grade": 2.0,
+                "people": 4
+            },
+            {
+                "grade": 2.3,
+                "people": 4
+            },
+            {
+                "grade": 2.7,
+                "people": 8
+            },
+            {
+                "grade": 3.0,
+                "people": 12
+            },
+            {
+                "grade": 3.3,
+                "people": 6
+            },
+            {
+                "grade": 3.7,
+                "people": 9
+            },
+            {
+                "grade": 4.0,
+                "people": 3
+            },
+            {
+                "grade": 4.3,
+                "people": 14
+            },
+            {
+                "grade": 4.7,
+                "people": 8
+            },
+            {
+                "grade": 5.0,
+                "people": 8
+            },
+            {
+                "grade": 6.0,
+                "people": 37
+            }
+        ]
+    },
+    {
         "school": "ED",
         "code": "MW2022",
         "semester": "2013WS",
@@ -2188,6 +3272,678 @@
         ]
     },
     {
+        "school": "CIT",
+        "code": "IN2064",
+        "semester": "2013WS",
+        "examType": "endterm",
+        "name": "Machine Learning",
+        "date": "2014-03-27 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 150,
+        "peopleFailed": 31,
+        "attemptsTotal": 96,
+        "attemptsFailedPercent": 0.3229166666666667,
+        "averageTotal": 2.941666666666667,
+        "averagePassed": 2.0307692307692307,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 9
+            },
+            {
+                "grade": 1.3,
+                "people": 11
+            },
+            {
+                "grade": 1.7,
+                "people": 7
+            },
+            {
+                "grade": 2.0,
+                "people": 15
+            },
+            {
+                "grade": 2.3,
+                "people": 9
+            },
+            {
+                "grade": 2.7,
+                "people": 4
+            },
+            {
+                "grade": 3.0,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 4
+            },
+            {
+                "grade": 3.7,
+                "people": 3
+            },
+            {
+                "grade": 4.0,
+                "people": 2
+            },
+            {
+                "grade": 4.3,
+                "people": 4
+            },
+            {
+                "grade": 4.7,
+                "people": 6
+            },
+            {
+                "grade": 5.0,
+                "people": 21
+            },
+            {
+                "grade": 6.0,
+                "people": 54
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2067",
+        "semester": "2013WS",
+        "examType": "retake",
+        "name": "Robotics",
+        "date": "2014-03-27 11:00:00 +0000",
+        "ects": 6,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 36,
+        "peopleFailed": 3,
+        "attemptsTotal": 24,
+        "attemptsFailedPercent": 0.125,
+        "averageTotal": 2.1708333333333334,
+        "averagePassed": 1.8476190476190477,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 8
+            },
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 1.7,
+                "people": 2
+            },
+            {
+                "grade": 2.0,
+                "people": 1
+            },
+            {
+                "grade": 2.3,
+                "people": 3
+            },
+            {
+                "grade": 3.0,
+                "people": 2
+            },
+            {
+                "grade": 3.3,
+                "people": 3
+            },
+            {
+                "grade": 4.3,
+                "people": 2
+            },
+            {
+                "grade": 4.7,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 12
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2003",
+        "semester": "2013WS",
+        "examType": "retake",
+        "name": "Efficient Algorithms and Data Structures I",
+        "date": "2014-03-28 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 60,
+        "peopleFailed": 22,
+        "attemptsTotal": 34,
+        "attemptsFailedPercent": 0.6470588235294118,
+        "averageTotal": 4.288235294117647,
+        "averagePassed": 3.425,
+        "grades": [
+            {
+                "grade": 2.0,
+                "people": 1
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 2
+            },
+            {
+                "grade": 3.7,
+                "people": 6
+            },
+            {
+                "grade": 4.0,
+                "people": 2
+            },
+            {
+                "grade": 4.3,
+                "people": 5
+            },
+            {
+                "grade": 4.7,
+                "people": 6
+            },
+            {
+                "grade": 5.0,
+                "people": 11
+            },
+            {
+                "grade": 6.0,
+                "people": 26
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2259",
+        "semester": "2013WS",
+        "examType": "retake",
+        "name": "Distributed Systems",
+        "date": "2014-04-16 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 96,
+        "peopleFailed": 16,
+        "attemptsTotal": 58,
+        "attemptsFailedPercent": 0.27586206896551724,
+        "averageTotal": 3.446551724137931,
+        "averagePassed": 2.854761904761905,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 1.3,
+                "people": 3
+            },
+            {
+                "grade": 1.7,
+                "people": 1
+            },
+            {
+                "grade": 2.0,
+                "people": 2
+            },
+            {
+                "grade": 2.3,
+                "people": 6
+            },
+            {
+                "grade": 2.7,
+                "people": 6
+            },
+            {
+                "grade": 3.0,
+                "people": 5
+            },
+            {
+                "grade": 3.3,
+                "people": 5
+            },
+            {
+                "grade": 3.7,
+                "people": 4
+            },
+            {
+                "grade": 4.0,
+                "people": 8
+            },
+            {
+                "grade": 5.0,
+                "people": 16
+            },
+            {
+                "grade": 6.0,
+                "people": 38
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2062",
+        "semester": "2013WS",
+        "examType": "endterm",
+        "name": "Techniques in Artificial Intelligence",
+        "date": "2014-04-24 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 362,
+        "peopleFailed": 42,
+        "attemptsTotal": 277,
+        "attemptsFailedPercent": 0.15162454873646208,
+        "averageTotal": 2.637545126353791,
+        "averagePassed": 2.2438297872340427,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 19
+            },
+            {
+                "grade": 1.3,
+                "people": 34
+            },
+            {
+                "grade": 1.7,
+                "people": 36
+            },
+            {
+                "grade": 2.0,
+                "people": 29
+            },
+            {
+                "grade": 2.3,
+                "people": 33
+            },
+            {
+                "grade": 2.7,
+                "people": 26
+            },
+            {
+                "grade": 3.0,
+                "people": 16
+            },
+            {
+                "grade": 3.3,
+                "people": 19
+            },
+            {
+                "grade": 3.7,
+                "people": 13
+            },
+            {
+                "grade": 4.0,
+                "people": 10
+            },
+            {
+                "grade": 4.3,
+                "people": 7
+            },
+            {
+                "grade": 4.7,
+                "people": 6
+            },
+            {
+                "grade": 5.0,
+                "people": 29
+            },
+            {
+                "grade": 6.0,
+                "people": 85
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2064",
+        "semester": "2013WS",
+        "examType": "retake",
+        "name": "Machine Learning",
+        "date": "2014-04-27 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 65,
+        "peopleFailed": 6,
+        "attemptsTotal": 45,
+        "attemptsFailedPercent": 0.13333333333333333,
+        "averageTotal": 2.5555555555555554,
+        "averagePassed": 2.2153846153846155,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 1.3,
+                "people": 5
+            },
+            {
+                "grade": 1.7,
+                "people": 5
+            },
+            {
+                "grade": 2.0,
+                "people": 11
+            },
+            {
+                "grade": 2.3,
+                "people": 3
+            },
+            {
+                "grade": 2.7,
+                "people": 5
+            },
+            {
+                "grade": 3.0,
+                "people": 3
+            },
+            {
+                "grade": 3.3,
+                "people": 2
+            },
+            {
+                "grade": 3.7,
+                "people": 2
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 2
+            },
+            {
+                "grade": 5.0,
+                "people": 4
+            },
+            {
+                "grade": 6.0,
+                "people": 20
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2102",
+        "semester": "2014SS",
+        "examType": "endterm",
+        "name": "Distributed Applications",
+        "date": "2014-07-26 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 191,
+        "peopleFailed": 15,
+        "attemptsTotal": 119,
+        "attemptsFailedPercent": 0.12605042016806722,
+        "averageTotal": 2.7588235294117647,
+        "averagePassed": 2.4692307692307693,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 6
+            },
+            {
+                "grade": 1.3,
+                "people": 9
+            },
+            {
+                "grade": 1.7,
+                "people": 11
+            },
+            {
+                "grade": 2.0,
+                "people": 18
+            },
+            {
+                "grade": 2.3,
+                "people": 14
+            },
+            {
+                "grade": 2.7,
+                "people": 8
+            },
+            {
+                "grade": 3.0,
+                "people": 12
+            },
+            {
+                "grade": 3.3,
+                "people": 10
+            },
+            {
+                "grade": 3.7,
+                "people": 8
+            },
+            {
+                "grade": 4.0,
+                "people": 8
+            },
+            {
+                "grade": 4.3,
+                "people": 5
+            },
+            {
+                "grade": 5.0,
+                "people": 10
+            },
+            {
+                "grade": 6.0,
+                "people": 72
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2114",
+        "semester": "2014SS",
+        "examType": "endterm",
+        "name": "Automotive Software Engineering",
+        "date": "2014-07-26 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 106,
+        "peopleFailed": 7,
+        "attemptsTotal": 91,
+        "attemptsFailedPercent": 0.07692307692307693,
+        "averageTotal": 2.6021978021978023,
+        "averagePassed": 2.4380952380952383,
+        "grades": [
+            {
+                "grade": 1.1,
+                "people": 2
+            },
+            {
+                "grade": 1.4,
+                "people": 11
+            },
+            {
+                "grade": 1.7,
+                "people": 9
+            },
+            {
+                "grade": 2.0,
+                "people": 1
+            },
+            {
+                "grade": 2.1,
+                "people": 13
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.4,
+                "people": 10
+            },
+            {
+                "grade": 2.7,
+                "people": 11
+            },
+            {
+                "grade": 3.1,
+                "people": 12
+            },
+            {
+                "grade": 3.4,
+                "people": 8
+            },
+            {
+                "grade": 3.7,
+                "people": 6
+            },
+            {
+                "grade": 4.1,
+                "people": 3
+            },
+            {
+                "grade": 4.7,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 3
+            },
+            {
+                "grade": 6.0,
+                "people": 15
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2221",
+        "semester": "2014SS",
+        "examType": "endterm",
+        "name": "Protein Prediction I Beginners",
+        "date": "2014-07-26 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 181,
+        "peopleFailed": 0,
+        "attemptsTotal": 160,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 2.566875,
+        "averagePassed": 2.566875,
+        "grades": [
+            {
+                "grade": 1.7,
+                "people": 11
+            },
+            {
+                "grade": 2.0,
+                "people": 26
+            },
+            {
+                "grade": 2.3,
+                "people": 42
+            },
+            {
+                "grade": 2.7,
+                "people": 44
+            },
+            {
+                "grade": 3.0,
+                "people": 15
+            },
+            {
+                "grade": 3.3,
+                "people": 9
+            },
+            {
+                "grade": 3.7,
+                "people": 7
+            },
+            {
+                "grade": 4.0,
+                "people": 6
+            },
+            {
+                "grade": 6.0,
+                "people": 21
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2221",
+        "semester": "2014SS",
+        "examType": "retake",
+        "name": "Protein Prediction I Beginners",
+        "date": "2014-07-26 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 20,
+        "peopleFailed": 0,
+        "attemptsTotal": 19,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 2.5526315789473686,
+        "averagePassed": 2.5526315789473686,
+        "grades": [
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 1
+            },
+            {
+                "grade": 2.0,
+                "people": 3
+            },
+            {
+                "grade": 2.3,
+                "people": 5
+            },
+            {
+                "grade": 2.7,
+                "people": 2
+            },
+            {
+                "grade": 3.0,
+                "people": 3
+            },
+            {
+                "grade": 3.3,
+                "people": 3
+            },
+            {
+                "grade": 3.7,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 1
+            }
+        ]
+    },
+    {
         "school": "ED",
         "code": "MW1108",
         "semester": "2014SS",
@@ -2316,6 +4072,222 @@
             {
                 "grade": 6.0,
                 "people": 1
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2084",
+        "semester": "2014SS",
+        "examType": "endterm",
+        "name": "Software testing: Processes and Methods",
+        "date": "2014-08-12 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 111,
+        "peopleFailed": 20,
+        "attemptsTotal": 94,
+        "attemptsFailedPercent": 0.2127659574468085,
+        "averageTotal": 3.2787234042553193,
+        "averagePassed": 2.92027027027027,
+        "grades": [
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 4
+            },
+            {
+                "grade": 2.0,
+                "people": 10
+            },
+            {
+                "grade": 2.3,
+                "people": 10
+            },
+            {
+                "grade": 2.7,
+                "people": 10
+            },
+            {
+                "grade": 3.0,
+                "people": 11
+            },
+            {
+                "grade": 3.3,
+                "people": 7
+            },
+            {
+                "grade": 3.7,
+                "people": 7
+            },
+            {
+                "grade": 4.0,
+                "people": 14
+            },
+            {
+                "grade": 4.3,
+                "people": 10
+            },
+            {
+                "grade": 4.7,
+                "people": 3
+            },
+            {
+                "grade": 5.0,
+                "people": 7
+            },
+            {
+                "grade": 6.0,
+                "people": 17
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2119",
+        "semester": "2014SS",
+        "examType": "endterm",
+        "name": "User Modeling and Recommender Systems",
+        "date": "2014-08-12 11:00:00 +0000",
+        "ects": 3,
+        "hours": 2,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 121,
+        "peopleFailed": 21,
+        "attemptsTotal": 99,
+        "attemptsFailedPercent": 0.21212121212121213,
+        "averageTotal": 2.9535353535353535,
+        "averagePassed": 2.4551282051282053,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 3
+            },
+            {
+                "grade": 1.3,
+                "people": 8
+            },
+            {
+                "grade": 1.7,
+                "people": 10
+            },
+            {
+                "grade": 2.0,
+                "people": 15
+            },
+            {
+                "grade": 2.3,
+                "people": 9
+            },
+            {
+                "grade": 2.7,
+                "people": 6
+            },
+            {
+                "grade": 3.0,
+                "people": 7
+            },
+            {
+                "grade": 3.3,
+                "people": 8
+            },
+            {
+                "grade": 3.7,
+                "people": 4
+            },
+            {
+                "grade": 4.0,
+                "people": 8
+            },
+            {
+                "grade": 4.3,
+                "people": 5
+            },
+            {
+                "grade": 4.7,
+                "people": 2
+            },
+            {
+                "grade": 5.0,
+                "people": 14
+            },
+            {
+                "grade": 6.0,
+                "people": 22
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2138",
+        "semester": "2014SS",
+        "examType": "endterm",
+        "name": "Robot Motion Planning",
+        "date": "2014-08-12 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 79,
+        "peopleFailed": 8,
+        "attemptsTotal": 57,
+        "attemptsFailedPercent": 0.14035087719298245,
+        "averageTotal": 2.336842105263158,
+        "averagePassed": 1.9306122448979592,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 11
+            },
+            {
+                "grade": 1.3,
+                "people": 8
+            },
+            {
+                "grade": 1.7,
+                "people": 4
+            },
+            {
+                "grade": 2.0,
+                "people": 8
+            },
+            {
+                "grade": 2.3,
+                "people": 7
+            },
+            {
+                "grade": 2.7,
+                "people": 4
+            },
+            {
+                "grade": 3.0,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 5
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 2
+            },
+            {
+                "grade": 5.0,
+                "people": 6
+            },
+            {
+                "grade": 6.0,
+                "people": 22
             }
         ]
     },
@@ -2525,6 +4497,150 @@
     },
     {
         "school": "CIT",
+        "code": "IN2102",
+        "semester": "2014SS",
+        "examType": "retake",
+        "name": "Distributed Applications",
+        "date": "2014-09-26 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 78,
+        "peopleFailed": 7,
+        "attemptsTotal": 50,
+        "attemptsFailedPercent": 0.14,
+        "averageTotal": 2.966,
+        "averagePassed": 2.713953488372093,
+        "grades": [
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 2
+            },
+            {
+                "grade": 2.0,
+                "people": 8
+            },
+            {
+                "grade": 2.3,
+                "people": 9
+            },
+            {
+                "grade": 2.7,
+                "people": 8
+            },
+            {
+                "grade": 3.0,
+                "people": 3
+            },
+            {
+                "grade": 3.3,
+                "people": 3
+            },
+            {
+                "grade": 3.7,
+                "people": 4
+            },
+            {
+                "grade": 4.0,
+                "people": 5
+            },
+            {
+                "grade": 4.3,
+                "people": 4
+            },
+            {
+                "grade": 4.7,
+                "people": 2
+            },
+            {
+                "grade": 5.0,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 28
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2222",
+        "semester": "2014SS",
+        "examType": "retake",
+        "name": "Cognitive Systems",
+        "date": "2014-09-26 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 55,
+        "peopleFailed": 14,
+        "attemptsTotal": 55,
+        "attemptsFailedPercent": 0.2545454545454545,
+        "averageTotal": 3.08,
+        "averagePassed": 2.4560975609756097,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 3
+            },
+            {
+                "grade": 1.3,
+                "people": 4
+            },
+            {
+                "grade": 1.7,
+                "people": 5
+            },
+            {
+                "grade": 2.0,
+                "people": 3
+            },
+            {
+                "grade": 2.3,
+                "people": 5
+            },
+            {
+                "grade": 2.7,
+                "people": 6
+            },
+            {
+                "grade": 3.0,
+                "people": 5
+            },
+            {
+                "grade": 3.3,
+                "people": 5
+            },
+            {
+                "grade": 3.7,
+                "people": 4
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 1
+            },
+            {
+                "grade": 4.7,
+                "people": 2
+            },
+            {
+                "grade": 5.0,
+                "people": 11
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "MA9203",
         "semester": "2014SS",
         "examType": "endterm",
@@ -2648,6 +4764,262 @@
             {
                 "grade": 6.0,
                 "people": 24
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2119",
+        "semester": "2014SS",
+        "examType": "retake",
+        "name": "User Modeling and Recommender Systems",
+        "date": "2014-10-12 11:00:00 +0000",
+        "ects": 3,
+        "hours": 2,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 47,
+        "peopleFailed": 8,
+        "attemptsTotal": 33,
+        "attemptsFailedPercent": 0.24242424242424243,
+        "averageTotal": 2.909090909090909,
+        "averagePassed": 2.436,
+        "grades": [
+            {
+                "grade": 1.3,
+                "people": 3
+            },
+            {
+                "grade": 1.7,
+                "people": 2
+            },
+            {
+                "grade": 2.0,
+                "people": 6
+            },
+            {
+                "grade": 2.3,
+                "people": 4
+            },
+            {
+                "grade": 2.7,
+                "people": 3
+            },
+            {
+                "grade": 3.0,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 3
+            },
+            {
+                "grade": 3.7,
+                "people": 2
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 7
+            },
+            {
+                "grade": 5.0,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 14
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2147",
+        "semester": "2014SS",
+        "examType": "endterm",
+        "name": "Parallel Programming",
+        "date": "2014-10-12 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 131,
+        "peopleFailed": 31,
+        "attemptsTotal": 100,
+        "attemptsFailedPercent": 0.31,
+        "averageTotal": 3.031,
+        "averagePassed": 2.3246376811594205,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 7
+            },
+            {
+                "grade": 1.1,
+                "people": 2
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.4,
+                "people": 8
+            },
+            {
+                "grade": 1.7,
+                "people": 7
+            },
+            {
+                "grade": 2.0,
+                "people": 6
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.4,
+                "people": 10
+            },
+            {
+                "grade": 2.7,
+                "people": 8
+            },
+            {
+                "grade": 3.0,
+                "people": 4
+            },
+            {
+                "grade": 3.1,
+                "people": 1
+            },
+            {
+                "grade": 3.4,
+                "people": 4
+            },
+            {
+                "grade": 3.7,
+                "people": 6
+            },
+            {
+                "grade": 4.0,
+                "people": 4
+            },
+            {
+                "grade": 4.3,
+                "people": 15
+            },
+            {
+                "grade": 4.7,
+                "people": 6
+            },
+            {
+                "grade": 5.0,
+                "people": 10
+            },
+            {
+                "grade": 6.0,
+                "people": 31
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN4724",
+        "semester": "2014SS",
+        "examType": "endterm",
+        "name": "Advanced Seminar Course Internet-scale Distributed Systems",
+        "date": "2014-10-31 11:00:00 +0000",
+        "ects": 4,
+        "hours": 2.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 28,
+        "peopleFailed": 0,
+        "attemptsTotal": 28,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 2.017857142857143,
+        "averagePassed": 2.017857142857143,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 1.3,
+                "people": 4
+            },
+            {
+                "grade": 1.7,
+                "people": 4
+            },
+            {
+                "grade": 2.0,
+                "people": 8
+            },
+            {
+                "grade": 2.3,
+                "people": 2
+            },
+            {
+                "grade": 2.7,
+                "people": 7
+            },
+            {
+                "grade": 3.0,
+                "people": 1
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN9034",
+        "semester": "2014WS",
+        "examType": "endterm",
+        "name": "Intercultural Aspects of Working in Global Teams",
+        "date": "2015-01-31 11:00:00 +0000",
+        "ects": 4,
+        "hours": 2.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 15,
+        "peopleFailed": 0,
+        "attemptsTotal": 15,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.9133333333333333,
+        "averagePassed": 1.9133333333333333,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 3
+            },
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 1.7,
+                "people": 2
+            },
+            {
+                "grade": 2.0,
+                "people": 3
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 2
+            },
+            {
+                "grade": 3.0,
+                "people": 2
             }
         ]
     },
@@ -2818,7 +5190,7 @@
         "examType": "endterm",
         "name": "Advanced Computer Architecture",
         "date": "2015-02-04 11:00:00 +0000",
-        "ects": 5,
+        "ects": 6,
         "hours": 4.0,
         "mode": "written",
         "lang": "en",
@@ -2884,6 +5256,82 @@
             {
                 "grade": 6.0,
                 "people": 25
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2133",
+        "semester": "2014WS",
+        "examType": "endterm",
+        "name": "Principles of Computer Vision",
+        "date": "2015-02-04 11:00:00 +0000",
+        "ects": 4,
+        "hours": 3.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 58,
+        "peopleFailed": 8,
+        "attemptsTotal": 32,
+        "attemptsFailedPercent": 0.25,
+        "averageTotal": 3.171875,
+        "averagePassed": 2.6166666666666667,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 3
+            },
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 1.7,
+                "people": 2
+            },
+            {
+                "grade": 2.0,
+                "people": 1
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 5
+            },
+            {
+                "grade": 3.0,
+                "people": 2
+            },
+            {
+                "grade": 3.3,
+                "people": 2
+            },
+            {
+                "grade": 3.7,
+                "people": 2
+            },
+            {
+                "grade": 4.0,
+                "people": 4
+            },
+            {
+                "grade": 4.3,
+                "people": 1
+            },
+            {
+                "grade": 4.7,
+                "people": 2
+            },
+            {
+                "grade": 5.0,
+                "people": 5
+            },
+            {
+                "grade": 6.0,
+                "people": 26
             }
         ]
     },
@@ -3092,6 +5540,190 @@
         ]
     },
     {
+        "school": "CIT",
+        "code": "IN4032",
+        "semester": "2014WS",
+        "examType": "endterm",
+        "name": "Practical Course - Algorithms for Programming Contests",
+        "date": "2015-02-15 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 49,
+        "peopleFailed": 0,
+        "attemptsTotal": 29,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.8689655172413793,
+        "averagePassed": 1.8689655172413793,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 9
+            },
+            {
+                "grade": 1.3,
+                "people": 3
+            },
+            {
+                "grade": 1.7,
+                "people": 3
+            },
+            {
+                "grade": 2.0,
+                "people": 3
+            },
+            {
+                "grade": 2.3,
+                "people": 4
+            },
+            {
+                "grade": 2.7,
+                "people": 2
+            },
+            {
+                "grade": 3.0,
+                "people": 3
+            },
+            {
+                "grade": 3.3,
+                "people": 2
+            },
+            {
+                "grade": 6.0,
+                "people": 20
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN4051",
+        "semester": "2014WS",
+        "examType": "endterm",
+        "name": "Practical Course Algorithms for Programming Contests",
+        "date": "2015-02-15 11:00:00 +0000",
+        "ects": 10,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 49,
+        "peopleFailed": 0,
+        "attemptsTotal": 29,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.8689655172413793,
+        "averagePassed": 1.8689655172413793,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 9
+            },
+            {
+                "grade": 1.3,
+                "people": 3
+            },
+            {
+                "grade": 1.7,
+                "people": 3
+            },
+            {
+                "grade": 2.0,
+                "people": 3
+            },
+            {
+                "grade": 2.3,
+                "people": 4
+            },
+            {
+                "grade": 2.7,
+                "people": 2
+            },
+            {
+                "grade": 3.0,
+                "people": 3
+            },
+            {
+                "grade": 3.3,
+                "people": 2
+            },
+            {
+                "grade": 6.0,
+                "people": 20
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2075",
+        "semester": "2014WS",
+        "examType": "endterm",
+        "name": "Microprocessors",
+        "date": "2015-02-20 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 42,
+        "peopleFailed": 6,
+        "attemptsTotal": 33,
+        "attemptsFailedPercent": 0.18181818181818182,
+        "averageTotal": 2.496969696969697,
+        "averagePassed": 2.0148148148148146,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 3
+            },
+            {
+                "grade": 1.3,
+                "people": 4
+            },
+            {
+                "grade": 1.7,
+                "people": 6
+            },
+            {
+                "grade": 2.0,
+                "people": 4
+            },
+            {
+                "grade": 2.3,
+                "people": 3
+            },
+            {
+                "grade": 2.7,
+                "people": 4
+            },
+            {
+                "grade": 3.0,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 2
+            },
+            {
+                "grade": 4.7,
+                "people": 2
+            },
+            {
+                "grade": 5.0,
+                "people": 2
+            },
+            {
+                "grade": 6.0,
+                "people": 9
+            }
+        ]
+    },
+    {
         "school": "ED",
         "code": "MW2022",
         "semester": "2014WS",
@@ -3164,6 +5796,410 @@
             {
                 "grade": 6.0,
                 "people": 110
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2041",
+        "semester": "2014WS",
+        "examType": "endterm",
+        "name": "Automata and Formal Languages",
+        "date": "2015-02-26 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 23,
+        "peopleFailed": 8,
+        "attemptsTotal": 12,
+        "attemptsFailedPercent": 0.6666666666666666,
+        "averageTotal": 3.966666666666667,
+        "averagePassed": 2.325,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 2
+            },
+            {
+                "grade": 4.7,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 5
+            },
+            {
+                "grade": 6.0,
+                "people": 11
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2005",
+        "semester": "2014WS",
+        "examType": "endterm",
+        "name": "Scientific Computing I",
+        "date": "2015-02-27 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 79,
+        "peopleFailed": 22,
+        "attemptsTotal": 61,
+        "attemptsFailedPercent": 0.36065573770491804,
+        "averageTotal": 3.5344262295081967,
+        "averagePassed": 2.835897435897436,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 1.3,
+                "people": 3
+            },
+            {
+                "grade": 1.7,
+                "people": 4
+            },
+            {
+                "grade": 2.0,
+                "people": 5
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 2
+            },
+            {
+                "grade": 3.0,
+                "people": 2
+            },
+            {
+                "grade": 3.3,
+                "people": 7
+            },
+            {
+                "grade": 3.7,
+                "people": 3
+            },
+            {
+                "grade": 4.0,
+                "people": 10
+            },
+            {
+                "grade": 4.3,
+                "people": 5
+            },
+            {
+                "grade": 4.7,
+                "people": 5
+            },
+            {
+                "grade": 5.0,
+                "people": 12
+            },
+            {
+                "grade": 6.0,
+                "people": 18
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2067",
+        "semester": "2014WS",
+        "examType": "endterm",
+        "name": "Robotics",
+        "date": "2015-02-27 11:00:00 +0000",
+        "ects": 6,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 133,
+        "peopleFailed": 6,
+        "attemptsTotal": 103,
+        "attemptsFailedPercent": 0.05825242718446602,
+        "averageTotal": 2.377669902912621,
+        "averagePassed": 2.2257731958762887,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 15
+            },
+            {
+                "grade": 1.3,
+                "people": 10
+            },
+            {
+                "grade": 1.7,
+                "people": 15
+            },
+            {
+                "grade": 2.0,
+                "people": 10
+            },
+            {
+                "grade": 2.3,
+                "people": 11
+            },
+            {
+                "grade": 2.7,
+                "people": 9
+            },
+            {
+                "grade": 3.0,
+                "people": 10
+            },
+            {
+                "grade": 3.3,
+                "people": 4
+            },
+            {
+                "grade": 3.7,
+                "people": 8
+            },
+            {
+                "grade": 4.0,
+                "people": 5
+            },
+            {
+                "grade": 4.3,
+                "people": 1
+            },
+            {
+                "grade": 4.7,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 4
+            },
+            {
+                "grade": 6.0,
+                "people": 30
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2088",
+        "semester": "2014WS",
+        "examType": "endterm",
+        "name": "Software Architectures",
+        "date": "2015-02-27 11:00:00 +0000",
+        "ects": 3,
+        "hours": 2,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 117,
+        "peopleFailed": 23,
+        "attemptsTotal": 91,
+        "attemptsFailedPercent": 0.25274725274725274,
+        "averageTotal": 3.4087912087912087,
+        "averagePassed": 2.8705882352941177,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 1
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 6
+            },
+            {
+                "grade": 2.0,
+                "people": 7
+            },
+            {
+                "grade": 2.3,
+                "people": 6
+            },
+            {
+                "grade": 2.7,
+                "people": 15
+            },
+            {
+                "grade": 3.0,
+                "people": 7
+            },
+            {
+                "grade": 3.3,
+                "people": 6
+            },
+            {
+                "grade": 3.7,
+                "people": 8
+            },
+            {
+                "grade": 4.0,
+                "people": 11
+            },
+            {
+                "grade": 5.0,
+                "people": 23
+            },
+            {
+                "grade": 6.0,
+                "people": 26
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2210",
+        "semester": "2014WS",
+        "examType": "endterm",
+        "name": "Tracking and Detection in Computer Vision",
+        "date": "2015-02-27 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 83,
+        "peopleFailed": 14,
+        "attemptsTotal": 63,
+        "attemptsFailedPercent": 0.2222222222222222,
+        "averageTotal": 2.577777777777778,
+        "averagePassed": 1.9979591836734694,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 13
+            },
+            {
+                "grade": 1.3,
+                "people": 6
+            },
+            {
+                "grade": 1.7,
+                "people": 6
+            },
+            {
+                "grade": 2.0,
+                "people": 3
+            },
+            {
+                "grade": 2.3,
+                "people": 6
+            },
+            {
+                "grade": 2.7,
+                "people": 5
+            },
+            {
+                "grade": 3.0,
+                "people": 2
+            },
+            {
+                "grade": 3.3,
+                "people": 5
+            },
+            {
+                "grade": 3.7,
+                "people": 3
+            },
+            {
+                "grade": 4.3,
+                "people": 7
+            },
+            {
+                "grade": 4.7,
+                "people": 2
+            },
+            {
+                "grade": 5.0,
+                "people": 5
+            },
+            {
+                "grade": 6.0,
+                "people": 20
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN305004",
+        "semester": "2014WS",
+        "examType": "endterm",
+        "name": "Architectures for Managing Big Data in the Enterprise",
+        "date": "2015-02-27 11:00:00 +0000",
+        "ects": 3,
+        "hours": 2.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 66,
+        "peopleFailed": 11,
+        "attemptsTotal": 48,
+        "attemptsFailedPercent": 0.22916666666666666,
+        "averageTotal": 3.3833333333333333,
+        "averagePassed": 2.902702702702703,
+        "grades": [
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 1.7,
+                "people": 1
+            },
+            {
+                "grade": 2.0,
+                "people": 6
+            },
+            {
+                "grade": 2.3,
+                "people": 2
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.0,
+                "people": 9
+            },
+            {
+                "grade": 3.3,
+                "people": 9
+            },
+            {
+                "grade": 3.7,
+                "people": 3
+            },
+            {
+                "grade": 4.0,
+                "people": 4
+            },
+            {
+                "grade": 5.0,
+                "people": 11
+            },
+            {
+                "grade": 6.0,
+                "people": 18
             }
         ]
     },
@@ -3321,6 +6357,66 @@
     },
     {
         "school": "CIT",
+        "code": "IN2003",
+        "semester": "2014WS",
+        "examType": "retake",
+        "name": "Efficient Algorithms and Data Structures I",
+        "date": "2015-03-28 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 65,
+        "peopleFailed": 12,
+        "attemptsTotal": 28,
+        "attemptsFailedPercent": 0.42857142857142855,
+        "averageTotal": 3.592857142857143,
+        "averagePassed": 2.675,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 3
+            },
+            {
+                "grade": 1.7,
+                "people": 1
+            },
+            {
+                "grade": 2.0,
+                "people": 3
+            },
+            {
+                "grade": 3.0,
+                "people": 3
+            },
+            {
+                "grade": 3.7,
+                "people": 3
+            },
+            {
+                "grade": 4.0,
+                "people": 3
+            },
+            {
+                "grade": 4.3,
+                "people": 1
+            },
+            {
+                "grade": 4.7,
+                "people": 5
+            },
+            {
+                "grade": 5.0,
+                "people": 6
+            },
+            {
+                "grade": 6.0,
+                "people": 37
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN901001",
         "semester": "2014WS",
         "examType": "endterm",
@@ -3361,6 +6457,290 @@
     },
     {
         "school": "CIT",
+        "code": "IN2081",
+        "semester": "2014WS",
+        "examType": "endterm",
+        "name": "Patterns in Software Engineering",
+        "date": "2015-04-10 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 305,
+        "peopleFailed": 19,
+        "attemptsTotal": 250,
+        "attemptsFailedPercent": 0.076,
+        "averageTotal": 2.3816,
+        "averagePassed": 2.1662337662337663,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 24
+            },
+            {
+                "grade": 1.3,
+                "people": 29
+            },
+            {
+                "grade": 1.7,
+                "people": 38
+            },
+            {
+                "grade": 2.0,
+                "people": 37
+            },
+            {
+                "grade": 2.3,
+                "people": 21
+            },
+            {
+                "grade": 2.7,
+                "people": 36
+            },
+            {
+                "grade": 3.0,
+                "people": 18
+            },
+            {
+                "grade": 3.3,
+                "people": 12
+            },
+            {
+                "grade": 3.7,
+                "people": 10
+            },
+            {
+                "grade": 4.0,
+                "people": 6
+            },
+            {
+                "grade": 5.0,
+                "people": 19
+            },
+            {
+                "grade": 6.0,
+                "people": 55
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2062",
+        "semester": "2014WS",
+        "examType": "endterm",
+        "name": "Techniques in Artificial Intelligence",
+        "date": "2015-04-24 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 394,
+        "peopleFailed": 244,
+        "attemptsTotal": 394,
+        "attemptsFailedPercent": 0.6192893401015228,
+        "averageTotal": 4.049238578680203,
+        "averagePassed": 2.6053333333333333,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 12
+            },
+            {
+                "grade": 1.3,
+                "people": 15
+            },
+            {
+                "grade": 1.7,
+                "people": 15
+            },
+            {
+                "grade": 2.0,
+                "people": 12
+            },
+            {
+                "grade": 2.3,
+                "people": 8
+            },
+            {
+                "grade": 2.7,
+                "people": 19
+            },
+            {
+                "grade": 3.0,
+                "people": 15
+            },
+            {
+                "grade": 3.3,
+                "people": 20
+            },
+            {
+                "grade": 3.7,
+                "people": 23
+            },
+            {
+                "grade": 4.0,
+                "people": 11
+            },
+            {
+                "grade": 4.3,
+                "people": 16
+            },
+            {
+                "grade": 4.7,
+                "people": 14
+            },
+            {
+                "grade": 5.0,
+                "people": 214
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2064",
+        "semester": "2014WS",
+        "examType": "retake",
+        "name": "Machine Learning",
+        "date": "2015-04-27 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 63,
+        "peopleFailed": 16,
+        "attemptsTotal": 45,
+        "attemptsFailedPercent": 0.35555555555555557,
+        "averageTotal": 3.537777777777778,
+        "averagePassed": 2.893103448275862,
+        "grades": [
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 1
+            },
+            {
+                "grade": 2.0,
+                "people": 2
+            },
+            {
+                "grade": 2.3,
+                "people": 5
+            },
+            {
+                "grade": 2.7,
+                "people": 6
+            },
+            {
+                "grade": 3.0,
+                "people": 4
+            },
+            {
+                "grade": 3.3,
+                "people": 4
+            },
+            {
+                "grade": 4.0,
+                "people": 6
+            },
+            {
+                "grade": 4.3,
+                "people": 5
+            },
+            {
+                "grade": 4.7,
+                "people": 4
+            },
+            {
+                "grade": 5.0,
+                "people": 7
+            },
+            {
+                "grade": 6.0,
+                "people": 18
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2010",
+        "semester": "2015SS",
+        "examType": "endterm",
+        "name": "Modelling and Simulation",
+        "date": "2015-07-13 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 135,
+        "peopleFailed": 26,
+        "attemptsTotal": 83,
+        "attemptsFailedPercent": 0.3132530120481928,
+        "averageTotal": 3.2855421686746986,
+        "averagePassed": 2.687719298245614,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 3
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 10
+            },
+            {
+                "grade": 2.0,
+                "people": 6
+            },
+            {
+                "grade": 2.3,
+                "people": 3
+            },
+            {
+                "grade": 2.7,
+                "people": 6
+            },
+            {
+                "grade": 3.0,
+                "people": 11
+            },
+            {
+                "grade": 3.3,
+                "people": 3
+            },
+            {
+                "grade": 3.7,
+                "people": 7
+            },
+            {
+                "grade": 4.0,
+                "people": 7
+            },
+            {
+                "grade": 4.3,
+                "people": 12
+            },
+            {
+                "grade": 4.7,
+                "people": 7
+            },
+            {
+                "grade": 5.0,
+                "people": 7
+            },
+            {
+                "grade": 6.0,
+                "people": 52
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN4120",
         "semester": "2015SS",
         "examType": "endterm",
@@ -3396,6 +6776,66 @@
             {
                 "grade": 6.0,
                 "people": 2
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2080",
+        "semester": "2015SS",
+        "examType": "endterm",
+        "name": "Modelling of Distributed Systems",
+        "date": "2015-07-20 11:00:00 +0000",
+        "ects": 4,
+        "hours": 3.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 63,
+        "peopleFailed": 9,
+        "attemptsTotal": 31,
+        "attemptsFailedPercent": 0.2903225806451613,
+        "averageTotal": 3.7161290322580647,
+        "averagePassed": 3.190909090909091,
+        "grades": [
+            {
+                "grade": 1.7,
+                "people": 1
+            },
+            {
+                "grade": 2.0,
+                "people": 1
+            },
+            {
+                "grade": 2.3,
+                "people": 3
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.0,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 7
+            },
+            {
+                "grade": 3.7,
+                "people": 4
+            },
+            {
+                "grade": 4.0,
+                "people": 4
+            },
+            {
+                "grade": 5.0,
+                "people": 9
+            },
+            {
+                "grade": 6.0,
+                "people": 32
             }
         ]
     },
@@ -3621,6 +7061,78 @@
     },
     {
         "school": "CIT",
+        "code": "IN2222",
+        "semester": "2015SS",
+        "examType": "endterm",
+        "name": "Cognitive Systems",
+        "date": "2015-07-26 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 185,
+        "peopleFailed": 7,
+        "attemptsTotal": 140,
+        "attemptsFailedPercent": 0.05,
+        "averageTotal": 2.119285714285714,
+        "averagePassed": 1.974436090225564,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 23
+            },
+            {
+                "grade": 1.3,
+                "people": 25
+            },
+            {
+                "grade": 1.7,
+                "people": 15
+            },
+            {
+                "grade": 2.0,
+                "people": 20
+            },
+            {
+                "grade": 2.3,
+                "people": 17
+            },
+            {
+                "grade": 2.7,
+                "people": 15
+            },
+            {
+                "grade": 3.0,
+                "people": 5
+            },
+            {
+                "grade": 3.3,
+                "people": 5
+            },
+            {
+                "grade": 3.7,
+                "people": 5
+            },
+            {
+                "grade": 4.0,
+                "people": 3
+            },
+            {
+                "grade": 4.7,
+                "people": 3
+            },
+            {
+                "grade": 5.0,
+                "people": 4
+            },
+            {
+                "grade": 6.0,
+                "people": 45
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN0006",
         "semester": "2015SS",
         "examType": "endterm",
@@ -3684,6 +7196,90 @@
             {
                 "grade": 6.0,
                 "people": 162
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2031",
+        "semester": "2015SS",
+        "examType": "endterm",
+        "name": "Application and Implementation of Database Systems",
+        "date": "2015-07-29 11:00:00 +0000",
+        "ects": 6,
+        "hours": 5.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 378,
+        "peopleFailed": 52,
+        "attemptsTotal": 271,
+        "attemptsFailedPercent": 0.1918819188191882,
+        "averageTotal": 2.7132841328413284,
+        "averagePassed": 2.2050228310502282,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 64
+            },
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 1.4,
+                "people": 15
+            },
+            {
+                "grade": 1.7,
+                "people": 15
+            },
+            {
+                "grade": 2.0,
+                "people": 16
+            },
+            {
+                "grade": 2.4,
+                "people": 14
+            },
+            {
+                "grade": 2.7,
+                "people": 16
+            },
+            {
+                "grade": 3.0,
+                "people": 29
+            },
+            {
+                "grade": 3.3,
+                "people": 3
+            },
+            {
+                "grade": 3.4,
+                "people": 15
+            },
+            {
+                "grade": 3.7,
+                "people": 23
+            },
+            {
+                "grade": 4.0,
+                "people": 7
+            },
+            {
+                "grade": 4.3,
+                "people": 7
+            },
+            {
+                "grade": 4.7,
+                "people": 9
+            },
+            {
+                "grade": 5.0,
+                "people": 36
+            },
+            {
+                "grade": 6.0,
+                "people": 107
             }
         ]
     },
@@ -3868,6 +7464,286 @@
         ]
     },
     {
+        "school": "CIT",
+        "code": "IN2052",
+        "semester": "2015SS",
+        "examType": "endterm",
+        "name": "Petri Nets",
+        "date": "2015-08-12 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 69,
+        "peopleFailed": 18,
+        "attemptsTotal": 45,
+        "attemptsFailedPercent": 0.4,
+        "averageTotal": 3.7177777777777776,
+        "averagePassed": 3.1222222222222222,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 1.7,
+                "people": 1
+            },
+            {
+                "grade": 2.3,
+                "people": 3
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.0,
+                "people": 4
+            },
+            {
+                "grade": 3.3,
+                "people": 5
+            },
+            {
+                "grade": 3.7,
+                "people": 5
+            },
+            {
+                "grade": 4.0,
+                "people": 6
+            },
+            {
+                "grade": 4.3,
+                "people": 7
+            },
+            {
+                "grade": 4.7,
+                "people": 7
+            },
+            {
+                "grade": 5.0,
+                "people": 4
+            },
+            {
+                "grade": 6.0,
+                "people": 24
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2239",
+        "semester": "2015SS",
+        "examType": "endterm",
+        "name": "Algorithmic Game Theory",
+        "date": "2015-08-12 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 169,
+        "peopleFailed": 42,
+        "attemptsTotal": 138,
+        "attemptsFailedPercent": 0.30434782608695654,
+        "averageTotal": 3.3304347826086955,
+        "averagePassed": 2.8375,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 1
+            },
+            {
+                "grade": 1.2,
+                "people": 4
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.5,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 2
+            },
+            {
+                "grade": 1.8,
+                "people": 3
+            },
+            {
+                "grade": 1.9,
+                "people": 1
+            },
+            {
+                "grade": 2.0,
+                "people": 7
+            },
+            {
+                "grade": 2.1,
+                "people": 1
+            },
+            {
+                "grade": 2.2,
+                "people": 1
+            },
+            {
+                "grade": 2.3,
+                "people": 8
+            },
+            {
+                "grade": 2.5,
+                "people": 1
+            },
+            {
+                "grade": 2.6,
+                "people": 3
+            },
+            {
+                "grade": 2.7,
+                "people": 3
+            },
+            {
+                "grade": 2.8,
+                "people": 7
+            },
+            {
+                "grade": 2.9,
+                "people": 1
+            },
+            {
+                "grade": 3.0,
+                "people": 7
+            },
+            {
+                "grade": 3.1,
+                "people": 3
+            },
+            {
+                "grade": 3.2,
+                "people": 2
+            },
+            {
+                "grade": 3.3,
+                "people": 12
+            },
+            {
+                "grade": 3.4,
+                "people": 3
+            },
+            {
+                "grade": 3.5,
+                "people": 8
+            },
+            {
+                "grade": 3.6,
+                "people": 3
+            },
+            {
+                "grade": 3.7,
+                "people": 6
+            },
+            {
+                "grade": 4.0,
+                "people": 7
+            },
+            {
+                "grade": 4.3,
+                "people": 30
+            },
+            {
+                "grade": 4.7,
+                "people": 6
+            },
+            {
+                "grade": 5.0,
+                "people": 6
+            },
+            {
+                "grade": 6.0,
+                "people": 31
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2227",
+        "semester": "2015SS",
+        "examType": "endterm",
+        "name": "Compiler Construction I",
+        "date": "2015-08-13 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 74,
+        "peopleFailed": 9,
+        "attemptsTotal": 51,
+        "attemptsFailedPercent": 0.17647058823529413,
+        "averageTotal": 2.8176470588235296,
+        "averagePassed": 2.447619047619048,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 1.3,
+                "people": 7
+            },
+            {
+                "grade": 1.7,
+                "people": 4
+            },
+            {
+                "grade": 2.0,
+                "people": 5
+            },
+            {
+                "grade": 2.3,
+                "people": 5
+            },
+            {
+                "grade": 2.7,
+                "people": 3
+            },
+            {
+                "grade": 3.0,
+                "people": 4
+            },
+            {
+                "grade": 3.3,
+                "people": 5
+            },
+            {
+                "grade": 3.7,
+                "people": 4
+            },
+            {
+                "grade": 4.0,
+                "people": 3
+            },
+            {
+                "grade": 4.3,
+                "people": 5
+            },
+            {
+                "grade": 4.7,
+                "people": 2
+            },
+            {
+                "grade": 5.0,
+                "people": 2
+            },
+            {
+                "grade": 6.0,
+                "people": 23
+            }
+        ]
+    },
+    {
         "school": "ED",
         "code": "MW2022",
         "semester": "2015SS",
@@ -4017,6 +7893,294 @@
     },
     {
         "school": "CIT",
+        "code": "IN2304",
+        "semester": "2015SS",
+        "examType": "endterm",
+        "name": "Online and Approximation Algorithms",
+        "date": "2015-10-05 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 20,
+        "peopleFailed": 2,
+        "attemptsTotal": 13,
+        "attemptsFailedPercent": 0.15384615384615385,
+        "averageTotal": 2.6615384615384614,
+        "averagePassed": 2.2363636363636363,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 2.0,
+                "people": 2
+            },
+            {
+                "grade": 2.3,
+                "people": 2
+            },
+            {
+                "grade": 2.7,
+                "people": 2
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 2
+            },
+            {
+                "grade": 6.0,
+                "people": 7
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2241",
+        "semester": "2015SS",
+        "examType": "endterm",
+        "name": "Social Computing",
+        "date": "2015-10-07 23:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 170,
+        "peopleFailed": 21,
+        "attemptsTotal": 85,
+        "attemptsFailedPercent": 0.24705882352941178,
+        "averageTotal": 2.7411764705882353,
+        "averagePassed": 2.0578125,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 18
+            },
+            {
+                "grade": 1.3,
+                "people": 3
+            },
+            {
+                "grade": 1.7,
+                "people": 6
+            },
+            {
+                "grade": 2.0,
+                "people": 8
+            },
+            {
+                "grade": 2.3,
+                "people": 8
+            },
+            {
+                "grade": 2.7,
+                "people": 8
+            },
+            {
+                "grade": 3.0,
+                "people": 5
+            },
+            {
+                "grade": 3.3,
+                "people": 4
+            },
+            {
+                "grade": 3.7,
+                "people": 2
+            },
+            {
+                "grade": 4.0,
+                "people": 2
+            },
+            {
+                "grade": 4.3,
+                "people": 4
+            },
+            {
+                "grade": 4.7,
+                "people": 3
+            },
+            {
+                "grade": 5.0,
+                "people": 14
+            },
+            {
+                "grade": 6.0,
+                "people": 85
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2076",
+        "semester": "2015WS",
+        "examType": "endterm",
+        "name": "Advanced Computer Architecture",
+        "date": "2016-02-04 11:00:00 +0000",
+        "ects": 6,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 107,
+        "peopleFailed": 19,
+        "attemptsTotal": 75,
+        "attemptsFailedPercent": 0.25333333333333335,
+        "averageTotal": 3.038666666666667,
+        "averagePassed": 2.4785714285714286,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 1
+            },
+            {
+                "grade": 1.2,
+                "people": 2
+            },
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 1.4,
+                "people": 1
+            },
+            {
+                "grade": 1.5,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 2
+            },
+            {
+                "grade": 1.8,
+                "people": 3
+            },
+            {
+                "grade": 1.9,
+                "people": 4
+            },
+            {
+                "grade": 2.0,
+                "people": 2
+            },
+            {
+                "grade": 2.1,
+                "people": 2
+            },
+            {
+                "grade": 2.2,
+                "people": 2
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.4,
+                "people": 3
+            },
+            {
+                "grade": 2.5,
+                "people": 3
+            },
+            {
+                "grade": 2.6,
+                "people": 4
+            },
+            {
+                "grade": 2.7,
+                "people": 2
+            },
+            {
+                "grade": 2.8,
+                "people": 1
+            },
+            {
+                "grade": 2.9,
+                "people": 2
+            },
+            {
+                "grade": 3.0,
+                "people": 5
+            },
+            {
+                "grade": 3.1,
+                "people": 4
+            },
+            {
+                "grade": 3.3,
+                "people": 3
+            },
+            {
+                "grade": 3.4,
+                "people": 2
+            },
+            {
+                "grade": 3.6,
+                "people": 1
+            },
+            {
+                "grade": 3.8,
+                "people": 1
+            },
+            {
+                "grade": 4.0,
+                "people": 2
+            },
+            {
+                "grade": 4.1,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 3
+            },
+            {
+                "grade": 4.4,
+                "people": 1
+            },
+            {
+                "grade": 4.5,
+                "people": 2
+            },
+            {
+                "grade": 4.6,
+                "people": 2
+            },
+            {
+                "grade": 4.7,
+                "people": 1
+            },
+            {
+                "grade": 4.8,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 8
+            },
+            {
+                "grade": 6.0,
+                "people": 32
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2125",
         "semester": "2015WS",
         "examType": "endterm",
@@ -4076,6 +8240,54 @@
             {
                 "grade": 6.0,
                 "people": 7
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2160",
+        "semester": "2015WS",
+        "examType": "endterm",
+        "name": "Randomized Algorithms",
+        "date": "2016-02-10 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 21,
+        "peopleFailed": 3,
+        "attemptsTotal": 10,
+        "attemptsFailedPercent": 0.3,
+        "averageTotal": 2.77,
+        "averagePassed": 1.8142857142857143,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 1.7,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.7,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 3
+            },
+            {
+                "grade": 6.0,
+                "people": 11
             }
         ]
     },
@@ -4233,6 +8445,146 @@
     },
     {
         "school": "CIT",
+        "code": "IN2259",
+        "semester": "2015WS",
+        "examType": "endterm",
+        "name": "Distributed Systems",
+        "date": "2016-02-16 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 264,
+        "peopleFailed": 49,
+        "attemptsTotal": 199,
+        "attemptsFailedPercent": 0.24623115577889448,
+        "averageTotal": 3.163316582914573,
+        "averagePassed": 2.5633333333333335,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 9
+            },
+            {
+                "grade": 1.3,
+                "people": 15
+            },
+            {
+                "grade": 1.7,
+                "people": 13
+            },
+            {
+                "grade": 2.0,
+                "people": 16
+            },
+            {
+                "grade": 2.3,
+                "people": 13
+            },
+            {
+                "grade": 2.7,
+                "people": 18
+            },
+            {
+                "grade": 3.0,
+                "people": 27
+            },
+            {
+                "grade": 3.3,
+                "people": 13
+            },
+            {
+                "grade": 3.7,
+                "people": 15
+            },
+            {
+                "grade": 4.0,
+                "people": 11
+            },
+            {
+                "grade": 5.0,
+                "people": 49
+            },
+            {
+                "grade": 6.0,
+                "people": 65
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2252",
+        "semester": "2015WS",
+        "examType": "endterm",
+        "name": "High Performance Computing - Algorithms and Applications",
+        "date": "2016-02-17 11:00:00 +0000",
+        "ects": 4,
+        "hours": 3.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 41,
+        "peopleFailed": 8,
+        "attemptsTotal": 26,
+        "attemptsFailedPercent": 0.3076923076923077,
+        "averageTotal": 3.046153846153846,
+        "averagePassed": 2.361111111111111,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 3
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 4
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 2
+            },
+            {
+                "grade": 3.0,
+                "people": 3
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 3.7,
+                "people": 2
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 3
+            },
+            {
+                "grade": 4.7,
+                "people": 4
+            },
+            {
+                "grade": 5.0,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 15
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "MA0902",
         "semester": "2015WS",
         "examType": "endterm",
@@ -4376,6 +8728,70 @@
             {
                 "grade": 6.0,
                 "people": 143
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2311",
+        "semester": "2015WS",
+        "examType": "endterm",
+        "name": "Turbulent Flow Simulation on HPC-Systems",
+        "date": "2016-02-19 11:00:00 +0000",
+        "ects": 5,
+        "hours": 3.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 9,
+        "peopleFailed": 0,
+        "attemptsTotal": 9,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.5444444444444445,
+        "averagePassed": 1.5444444444444445,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 1.3,
+                "people": 5
+            },
+            {
+                "grade": 1.7,
+                "people": 1
+            },
+            {
+                "grade": 3.7,
+                "people": 1
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2315",
+        "semester": "2015WS",
+        "examType": "endterm",
+        "name": "Network Coding",
+        "date": "2016-02-19 11:00:00 +0000",
+        "ects": 6,
+        "hours": 5.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 5,
+        "peopleFailed": 0,
+        "attemptsTotal": 4,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.0,
+        "averagePassed": 1.0,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 4
+            },
+            {
+                "grade": 6.0,
+                "people": 1
             }
         ]
     },
@@ -4621,6 +9037,78 @@
     },
     {
         "school": "CIT",
+        "code": "IN2211",
+        "semester": "2015WS",
+        "examType": "endterm",
+        "name": "Auction Theory and Market Design",
+        "date": "2016-02-27 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 37,
+        "peopleFailed": 3,
+        "attemptsTotal": 32,
+        "attemptsFailedPercent": 0.09375,
+        "averageTotal": 2.28125,
+        "averagePassed": 2.0344827586206895,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 5
+            },
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 1.7,
+                "people": 5
+            },
+            {
+                "grade": 2.0,
+                "people": 7
+            },
+            {
+                "grade": 2.3,
+                "people": 4
+            },
+            {
+                "grade": 2.7,
+                "people": 2
+            },
+            {
+                "grade": 3.0,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 4.0,
+                "people": 2
+            },
+            {
+                "grade": 4.3,
+                "people": 1
+            },
+            {
+                "grade": 4.7,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 5
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN4595",
         "semester": "2015WS",
         "examType": "endterm",
@@ -4652,6 +9140,74 @@
             {
                 "grade": 5.0,
                 "people": 6
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2323",
+        "semester": "2015WS",
+        "examType": "endterm",
+        "name": "Mining Massive Datasets",
+        "date": "2016-03-01 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 113,
+        "peopleFailed": 34,
+        "attemptsTotal": 83,
+        "attemptsFailedPercent": 0.40963855421686746,
+        "averageTotal": 3.792771084337349,
+        "averagePassed": 2.9551020408163264,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 1.3,
+                "people": 3
+            },
+            {
+                "grade": 1.7,
+                "people": 1
+            },
+            {
+                "grade": 2.0,
+                "people": 5
+            },
+            {
+                "grade": 2.3,
+                "people": 2
+            },
+            {
+                "grade": 2.7,
+                "people": 6
+            },
+            {
+                "grade": 3.0,
+                "people": 6
+            },
+            {
+                "grade": 3.3,
+                "people": 7
+            },
+            {
+                "grade": 3.7,
+                "people": 9
+            },
+            {
+                "grade": 4.0,
+                "people": 8
+            },
+            {
+                "grade": 5.0,
+                "people": 34
+            },
+            {
+                "grade": 6.0,
+                "people": 30
             }
         ]
     },
@@ -4776,6 +9332,302 @@
             {
                 "grade": 6.0,
                 "people": 201
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2012",
+        "semester": "2015WS",
+        "examType": "retake",
+        "name": "Parallel Numerics",
+        "date": "2016-04-09 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 21,
+        "peopleFailed": 7,
+        "attemptsTotal": 16,
+        "attemptsFailedPercent": 0.4375,
+        "averageTotal": 3.56875,
+        "averagePassed": 2.6666666666666665,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 2.0,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.0,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 2
+            },
+            {
+                "grade": 3.7,
+                "people": 1
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 1
+            },
+            {
+                "grade": 4.7,
+                "people": 4
+            },
+            {
+                "grade": 5.0,
+                "people": 2
+            },
+            {
+                "grade": 6.0,
+                "people": 5
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2081",
+        "semester": "2015WS",
+        "examType": "endterm",
+        "name": "Patterns in Software Engineering",
+        "date": "2016-04-10 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 391,
+        "peopleFailed": 32,
+        "attemptsTotal": 324,
+        "attemptsFailedPercent": 0.09876543209876543,
+        "averageTotal": 2.629320987654321,
+        "averagePassed": 2.390068493150685,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 19
+            },
+            {
+                "grade": 1.3,
+                "people": 30
+            },
+            {
+                "grade": 1.7,
+                "people": 29
+            },
+            {
+                "grade": 2.0,
+                "people": 49
+            },
+            {
+                "grade": 2.3,
+                "people": 42
+            },
+            {
+                "grade": 2.7,
+                "people": 33
+            },
+            {
+                "grade": 3.0,
+                "people": 32
+            },
+            {
+                "grade": 3.3,
+                "people": 22
+            },
+            {
+                "grade": 3.7,
+                "people": 19
+            },
+            {
+                "grade": 4.0,
+                "people": 17
+            },
+            {
+                "grade": 4.3,
+                "people": 6
+            },
+            {
+                "grade": 4.7,
+                "people": 6
+            },
+            {
+                "grade": 5.0,
+                "people": 20
+            },
+            {
+                "grade": 6.0,
+                "people": 67
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2259",
+        "semester": "2015WS",
+        "examType": "retake",
+        "name": "Distributed Systems",
+        "date": "2016-04-16 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 95,
+        "peopleFailed": 11,
+        "attemptsTotal": 62,
+        "attemptsFailedPercent": 0.1774193548387097,
+        "averageTotal": 2.9387096774193546,
+        "averagePassed": 2.4941176470588236,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 1.3,
+                "people": 4
+            },
+            {
+                "grade": 1.7,
+                "people": 4
+            },
+            {
+                "grade": 2.0,
+                "people": 7
+            },
+            {
+                "grade": 2.3,
+                "people": 11
+            },
+            {
+                "grade": 2.7,
+                "people": 4
+            },
+            {
+                "grade": 3.0,
+                "people": 6
+            },
+            {
+                "grade": 3.3,
+                "people": 9
+            },
+            {
+                "grade": 3.7,
+                "people": 2
+            },
+            {
+                "grade": 4.0,
+                "people": 2
+            },
+            {
+                "grade": 5.0,
+                "people": 11
+            },
+            {
+                "grade": 6.0,
+                "people": 33
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2062",
+        "semester": "2015WS",
+        "examType": "endterm",
+        "name": "Techniques in Artificial Intelligence",
+        "date": "2016-04-24 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 540,
+        "peopleFailed": 276,
+        "attemptsTotal": 539,
+        "attemptsFailedPercent": 0.5120593692022264,
+        "averageTotal": 3.782003710575139,
+        "averagePassed": 2.5889733840304183,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 35
+            },
+            {
+                "grade": 1.3,
+                "people": 7
+            },
+            {
+                "grade": 1.4,
+                "people": 15
+            },
+            {
+                "grade": 1.7,
+                "people": 18
+            },
+            {
+                "grade": 2.0,
+                "people": 16
+            },
+            {
+                "grade": 2.3,
+                "people": 16
+            },
+            {
+                "grade": 2.4,
+                "people": 11
+            },
+            {
+                "grade": 2.7,
+                "people": 21
+            },
+            {
+                "grade": 3.0,
+                "people": 29
+            },
+            {
+                "grade": 3.3,
+                "people": 28
+            },
+            {
+                "grade": 3.4,
+                "people": 5
+            },
+            {
+                "grade": 3.7,
+                "people": 37
+            },
+            {
+                "grade": 4.0,
+                "people": 25
+            },
+            {
+                "grade": 4.3,
+                "people": 23
+            },
+            {
+                "grade": 4.7,
+                "people": 21
+            },
+            {
+                "grade": 5.0,
+                "people": 232
+            },
+            {
+                "grade": 6.0,
+                "people": 1
             }
         ]
     },
@@ -5125,6 +9977,86 @@
     },
     {
         "school": "CIT",
+        "code": "IN2221",
+        "semester": "2016SS",
+        "examType": "endterm",
+        "name": "Protein Prediction I Beginners",
+        "date": "2016-07-26 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 190,
+        "peopleFailed": 46,
+        "attemptsTotal": 174,
+        "attemptsFailedPercent": 0.26436781609195403,
+        "averageTotal": 3.2482758620689656,
+        "averagePassed": 2.61875,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 7
+            },
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 1.4,
+                "people": 6
+            },
+            {
+                "grade": 1.7,
+                "people": 13
+            },
+            {
+                "grade": 2.0,
+                "people": 14
+            },
+            {
+                "grade": 2.3,
+                "people": 11
+            },
+            {
+                "grade": 2.4,
+                "people": 4
+            },
+            {
+                "grade": 2.7,
+                "people": 17
+            },
+            {
+                "grade": 3.0,
+                "people": 15
+            },
+            {
+                "grade": 3.3,
+                "people": 15
+            },
+            {
+                "grade": 3.4,
+                "people": 1
+            },
+            {
+                "grade": 3.7,
+                "people": 12
+            },
+            {
+                "grade": 4.0,
+                "people": 11
+            },
+            {
+                "grade": 5.0,
+                "people": 46
+            },
+            {
+                "grade": 6.0,
+                "people": 16
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2178",
         "semester": "2016SS",
         "examType": "endterm",
@@ -5192,6 +10124,158 @@
             {
                 "grade": 6.0,
                 "people": 56
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2083",
+        "semester": "2016SS",
+        "examType": "endterm",
+        "name": "Project Organisation and Management in Software Engineering",
+        "date": "2016-08-12 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 305,
+        "peopleFailed": 52,
+        "attemptsTotal": 272,
+        "attemptsFailedPercent": 0.19117647058823528,
+        "averageTotal": 2.7849264705882355,
+        "averagePassed": 2.303181818181818,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 35
+            },
+            {
+                "grade": 1.3,
+                "people": 11
+            },
+            {
+                "grade": 1.7,
+                "people": 26
+            },
+            {
+                "grade": 2.0,
+                "people": 24
+            },
+            {
+                "grade": 2.3,
+                "people": 28
+            },
+            {
+                "grade": 2.7,
+                "people": 27
+            },
+            {
+                "grade": 3.0,
+                "people": 29
+            },
+            {
+                "grade": 3.3,
+                "people": 23
+            },
+            {
+                "grade": 3.7,
+                "people": 10
+            },
+            {
+                "grade": 4.0,
+                "people": 7
+            },
+            {
+                "grade": 4.3,
+                "people": 8
+            },
+            {
+                "grade": 4.7,
+                "people": 12
+            },
+            {
+                "grade": 5.0,
+                "people": 32
+            },
+            {
+                "grade": 6.0,
+                "people": 33
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2119",
+        "semester": "2016SS",
+        "examType": "endterm",
+        "name": "User Modeling and Recommender Systems",
+        "date": "2016-08-12 11:00:00 +0000",
+        "ects": 3,
+        "hours": 2,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 160,
+        "peopleFailed": 21,
+        "attemptsTotal": 129,
+        "attemptsFailedPercent": 0.16279069767441862,
+        "averageTotal": 2.4829457364341083,
+        "averagePassed": 2.05,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 10
+            },
+            {
+                "grade": 1.3,
+                "people": 21
+            },
+            {
+                "grade": 1.7,
+                "people": 23
+            },
+            {
+                "grade": 2.0,
+                "people": 19
+            },
+            {
+                "grade": 2.3,
+                "people": 8
+            },
+            {
+                "grade": 2.7,
+                "people": 6
+            },
+            {
+                "grade": 3.0,
+                "people": 7
+            },
+            {
+                "grade": 3.3,
+                "people": 4
+            },
+            {
+                "grade": 3.7,
+                "people": 6
+            },
+            {
+                "grade": 4.0,
+                "people": 4
+            },
+            {
+                "grade": 4.3,
+                "people": 7
+            },
+            {
+                "grade": 4.7,
+                "people": 4
+            },
+            {
+                "grade": 5.0,
+                "people": 10
+            },
+            {
+                "grade": 6.0,
+                "people": 31
             }
         ]
     },
@@ -5628,6 +10712,82 @@
             {
                 "grade": 6.0,
                 "people": 28
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2241",
+        "semester": "2016SS",
+        "examType": "endterm",
+        "name": "Social Computing",
+        "date": "2016-10-07 23:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 167,
+        "peopleFailed": 29,
+        "attemptsTotal": 77,
+        "attemptsFailedPercent": 0.37662337662337664,
+        "averageTotal": 2.9935064935064934,
+        "averagePassed": 1.8583333333333334,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 16
+            },
+            {
+                "grade": 1.3,
+                "people": 3
+            },
+            {
+                "grade": 1.7,
+                "people": 10
+            },
+            {
+                "grade": 2.0,
+                "people": 3
+            },
+            {
+                "grade": 2.3,
+                "people": 4
+            },
+            {
+                "grade": 2.7,
+                "people": 3
+            },
+            {
+                "grade": 3.0,
+                "people": 6
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 3.7,
+                "people": 1
+            },
+            {
+                "grade": 4.0,
+                "people": 1
+            },
+            {
+                "grade": 4.3,
+                "people": 4
+            },
+            {
+                "grade": 4.7,
+                "people": 3
+            },
+            {
+                "grade": 5.0,
+                "people": 22
+            },
+            {
+                "grade": 6.0,
+                "people": 90
             }
         ]
     },
@@ -6972,6 +12132,82 @@
             {
                 "grade": 5.0,
                 "people": 1
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2309",
+        "semester": "2016WS",
+        "examType": "endterm",
+        "name": "Advanced Topics of Software Engineering",
+        "date": "2017-02-27 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 194,
+        "peopleFailed": 48,
+        "attemptsTotal": 149,
+        "attemptsFailedPercent": 0.3221476510067114,
+        "averageTotal": 3.440268456375839,
+        "averagePassed": 2.725742574257426,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 1.3,
+                "people": 4
+            },
+            {
+                "grade": 1.7,
+                "people": 9
+            },
+            {
+                "grade": 2.0,
+                "people": 9
+            },
+            {
+                "grade": 2.3,
+                "people": 13
+            },
+            {
+                "grade": 2.7,
+                "people": 21
+            },
+            {
+                "grade": 3.0,
+                "people": 16
+            },
+            {
+                "grade": 3.3,
+                "people": 6
+            },
+            {
+                "grade": 3.7,
+                "people": 12
+            },
+            {
+                "grade": 4.0,
+                "people": 9
+            },
+            {
+                "grade": 4.3,
+                "people": 3
+            },
+            {
+                "grade": 4.7,
+                "people": 2
+            },
+            {
+                "grade": 5.0,
+                "people": 43
+            },
+            {
+                "grade": 6.0,
+                "people": 45
             }
         ]
     },
@@ -35528,6 +40764,70 @@
             {
                 "grade": 4.3,
                 "people": 2
+            }
+        ]
+    },
+    {
+        "school": "SZ",
+        "code": "SZ0313",
+        "semester": "2013SS",
+        "examType": "endterm",
+        "name": "German as a Foreign Language B1 Intensive Course",
+        "date": "2022-02-06 23:00:00 +0000",
+        "ects": 8,
+        "hours": 6,
+        "mode": "written",
+        "lang": "de",
+        "peopleTotal": 24,
+        "peopleFailed": 5,
+        "attemptsTotal": 24,
+        "attemptsFailedPercent": 0.20833333333333334,
+        "averageTotal": 2.9916666666666667,
+        "averagePassed": 2.5473684210526315,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 3
+            },
+            {
+                "grade": 2.0,
+                "people": 5
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.0,
+                "people": 4
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 4.0,
+                "people": 3
+            },
+            {
+                "grade": 4.3,
+                "people": 1
+            },
+            {
+                "grade": 4.7,
+                "people": 3
+            },
+            {
+                "grade": 5.0,
+                "people": 1
             }
         ]
     },
