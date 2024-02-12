@@ -12,6 +12,7 @@ GEM
     ffi (1.15.5)
     ffi (1.15.5-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
+    google-protobuf (3.21.12)
     google-protobuf (3.21.12-x64-mingw-ucrt)
     google-protobuf (3.21.12-x86_64-linux)
     http_parser.rb (0.8.0)
@@ -62,6 +63,8 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
+    nokogiri (1.15.4-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.15.4-x64-mingw-ucrt)
       racc (~> 1.4)
     nokogiri (1.15.4-x86_64-linux)
@@ -77,6 +80,8 @@ GEM
     rouge (4.1.0)
     rubyzip (2.3.2)
     safe_yaml (1.0.5)
+    sass-embedded (1.58.0-arm64-darwin)
+      google-protobuf (~> 3.21)
     sass-embedded (1.58.0-x64-mingw-ucrt)
       google-protobuf (~> 3.21)
     sass-embedded (1.58.0-x86_64-linux-gnu)
@@ -92,6 +97,7 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  arm64-darwin-22
   x64-mingw-ucrt
   x86_64-linux
 
