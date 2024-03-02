@@ -54341,6 +54341,74 @@
     },
     {
         "school": "CIT",
+        "code": "IN2346",
+        "semester": "2023WS",
+        "examType": "endterm",
+        "name": "Introduction to Deep Learning",
+        "date": "2024-02-12 11:00:00 +0000",
+        "ects": 6,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 1076,
+        "peopleFailed": 281,
+        "attemptsTotal": 862,
+        "attemptsFailedPercent": 0.3259860788863109,
+        "averageTotal": 3.550232018561485,
+        "averagePassed": 2.8490533562822717,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 8
+            },
+            {
+                "grade": 1.3,
+                "people": 19
+            },
+            {
+                "grade": 1.7,
+                "people": 34
+            },
+            {
+                "grade": 2.0,
+                "people": 59
+            },
+            {
+                "grade": 2.3,
+                "people": 56
+            },
+            {
+                "grade": 2.7,
+                "people": 91
+            },
+            {
+                "grade": 3.0,
+                "people": 91
+            },
+            {
+                "grade": 3.3,
+                "people": 93
+            },
+            {
+                "grade": 3.7,
+                "people": 92
+            },
+            {
+                "grade": 4.0,
+                "people": 38
+            },
+            {
+                "grade": 5.0,
+                "people": 281
+            },
+            {
+                "grade": 6.0,
+                "people": 214
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2219",
         "semester": "2023WS",
         "examType": "endterm",
