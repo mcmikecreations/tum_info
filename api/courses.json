@@ -53657,6 +53657,82 @@
     },
     {
         "school": "CIT",
+        "code": "CIT4230004",
+        "semester": "2023SS",
+        "examType": "endterm",
+        "name": "Statistical Foundations of Learning",
+        "date": "2023-08-11 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 25,
+        "peopleFailed": 9,
+        "attemptsTotal": 13,
+        "attemptsFailedPercent": 0.6923076923076923,
+        "averageTotal": 4.3538461538461535,
+        "averagePassed": 3.075,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 0
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 0
+            },
+            {
+                "grade": 2.0,
+                "people": 0
+            },
+            {
+                "grade": 2.3,
+                "people": 0
+            },
+            {
+                "grade": 2.7,
+                "people": 0
+            },
+            {
+                "grade": 3.0,
+                "people": 1
+            },
+            {
+                "grade": 3.3,
+                "people": 0
+            },
+            {
+                "grade": 3.7,
+                "people": 0
+            },
+            {
+                "grade": 4.0,
+                "people": 2
+            },
+            {
+                "grade": 4.3,
+                "people": 1
+            },
+            {
+                "grade": 4.7,
+                "people": 0
+            },
+            {
+                "grade": 5.0,
+                "people": 8
+            },
+            {
+                "grade": 6.0,
+                "people": 12
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2010",
         "semester": "2023SS",
         "examType": "endterm",
