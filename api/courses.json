@@ -51717,6 +51717,82 @@
     },
     {
         "school": "CIT",
+        "code": "IN2375",
+        "semester": "2023WS",
+        "examType": "retake",
+        "name": "Computer Vision III: Detection, Segmentation, and Tracking",
+        "date": "2023-02-24 11:00:00 +0000",
+        "ects": 6,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 99,
+        "peopleFailed": 12,
+        "attemptsTotal": 53,
+        "attemptsFailedPercent": 0.22641509433962265,
+        "averageTotal": 3.360377358490566,
+        "averagePassed": 2.9634146341463414,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 1
+            },
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 1.7,
+                "people": 2
+            },
+            {
+                "grade": 2.0,
+                "people": 2
+            },
+            {
+                "grade": 2.3,
+                "people": 4
+            },
+            {
+                "grade": 2.7,
+                "people": 7
+            },
+            {
+                "grade": 3.0,
+                "people": 4
+            },
+            {
+                "grade": 3.3,
+                "people": 5
+            },
+            {
+                "grade": 3.7,
+                "people": 7
+            },
+            {
+                "grade": 4.0,
+                "people": 7
+            },
+            {
+                "grade": 4.3,
+                "people": 4
+            },
+            {
+                "grade": 4.7,
+                "people": 2
+            },
+            {
+                "grade": 5.0,
+                "people": 6
+            },
+            {
+                "grade": 6.0,
+                "people": 46
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2358",
         "semester": "2022WS",
         "examType": "endterm",
