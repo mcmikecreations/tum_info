@@ -78,11 +78,14 @@ const round = function(x, digits)
   return Math.round(x * pow) / pow;
 }
 
+const attemptsTotalSafe = attemptsTotal === 0 ? 1 : attemptsTotal;
+const passedAttemptsSafe = (attemptsTotal - failedAttemptsTotal) === 0 ? 1 : (attemptsTotal - failedAttemptsTotal);
+
 d3.select('#course-people-total').text(peopleTotal);
 d3.select('#course-attempts-total').text(attemptsTotal);
-d3.select('#course-failed-percent').text(`${round(failedAttemptsTotal / attemptsTotal * 100, 2)}%`);
-d3.select('#course-grade-avg').text(round(gradeTotal / attemptsTotal, 2));
-d3.select('#course-grade-avg-passed').text(round(gradePassed / (attemptsTotal - failedAttemptsTotal), 2));
+d3.select('#course-failed-percent').text(`${round(failedAttemptsTotal / attemptsTotalSafe * 100, 2)}%`);
+d3.select('#course-grade-avg').text(round(gradeTotal / attemptsTotalSafe, 2));
+d3.select('#course-grade-avg-passed').text(round(gradePassed / passedAttemptsSafe, 2));
 
 const barColor = function (d)
 {
@@ -114,7 +117,7 @@ const plot = Plot.plot({
     Plot.text(gradesDisplay, {
       x: 'people',
       y: 'text',
-      text: d => `${round(d.people / attemptsTotal * 100.0, 2)}% #${d.people}`,
+      text: d => `${round(Math.min(d.people / attemptsTotalSafe, 1.0) * 100.0, 2)}% #${d.people}`,
       fill: 'var(--minima-text-color)',
       dx: plotMarginRight / 2.0})
   ],
