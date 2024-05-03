@@ -56,6 +56,12 @@ You can quickly jump to {% for dep in page.deps %}
     {% endif %}
   {% endfor %}
   {% assign people_passed = attempts_total | minus: people_failed %}
+  {% if people_passed < 1 %}
+    {% assign people_passed = 1 %}
+  {% endif %}
+  {% if attempts_total < 1 %}
+    {% assign attempts_total = 1 %}
+  {% endif %}
   <tr id="{{ course_latest.code }}">
     <td><b>
       {% if course_reviews.size > 0 %}
