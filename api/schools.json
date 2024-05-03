@@ -18,6 +18,11 @@
                 "code": "MA",
                 "link": "https://www.ma.tum.de/en/",
                 "name": "Mathematics"
+            },
+            {
+                "code": "CIT",
+                "link": "https://www.cit.tum.de/en/",
+                "name": "School-wide courses"
             }
         ]
     },
@@ -91,6 +96,11 @@
                 "code": "WI",
                 "link": "https://www.ep.mgt.tum.de/en/",
                 "name": "Economics &amp; Policy"
+            },
+            {
+                "code": "MGT",
+                "link": "https://www.mgt.tum.de/",
+                "name": "School-wide courses"
             }
         ]
     },
