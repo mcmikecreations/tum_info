@@ -19,6 +19,7 @@ grades:
   - { grade: 1.3, people: 2 }
   - { grade: 1.7, people: 5 }
   - { grade: 2.0, people: 3 }
+  - { grade: 7.0, people: 4 }
 
 ---
 

@@ -4,11 +4,19 @@ layout: page
 
 {% assign people_total = 0 %}
 {% assign attempts_total = 0 %}
+{% assign attempts_total_global = 0 %}
 {% assign grade_sum = 0.0 %}
 {% assign people_failed = 0 %}
+{% assign people_failed_global = 0 %}
 {% assign grade_sum_passed = 0.0 %}
 {% for item in page.grades %}
   {% assign people_total = people_total | plus: item.people %}
+  {% if item.grade != 6.0 %}
+    {% assign attempts_total_global = attempts_total_global | plus: item.people %}
+    {% if item.grade > 7.0 or item.grade > 4.0 and item.grade < 7.0 %}
+      {% assign people_failed_global = people_failed_global | plus: item.people %}
+    {% endif %}
+  {% endif %}
   {% if item.grade < 6.0 %}
     {% assign attempts_total = attempts_total | plus: item.people %}
     {% assign grade_sum = item.people | times: item.grade | plus: grade_sum %}
@@ -32,14 +40,14 @@ layout: page
     </tr>
     <tr>
       <td><b>Attempt made/counted:</b></td>
-      <td id="course-attempts-total">{{ attempts_total }}</td>
+      <td id="course-attempts-total">{{ attempts_total_global }}</td>
     </tr>
 {% if attempts_total < 1 %}
 {% assign attempts_total = 1 %}
 {% endif %}
     <tr>
       <td><b>Percent. of exams assessed as failed:</b></td>
-      <td id="course-failed-percent">{{ people_failed | times: 100.0 | divided_by: attempts_total | round: 2 }}%</td>
+      <td id="course-failed-percent">{{ people_failed_global | times: 100.0 | divided_by: attempts_total_global | round: 2 }}%</td>
     </tr>
     <tr>
       <td><b>Average total:</b></td>
