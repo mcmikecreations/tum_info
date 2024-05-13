@@ -4,7 +4,7 @@ layout: course
 school: "CIT"
 code: "IN2147"
 semester: "2014SS" # refers to the year of the semester start
-exam_type: "endterm"
+exam_type: "retake"
 name: "Parallel Programming"
 date: "2014-10-12 12:00:00 +0100"
 
@@ -13,7 +13,7 @@ hours: 4.0 # semester hours
 mode: "written"
 lang: "en"
 
-title: "Parallel Programming 2014SS Endterm"
+title: "Parallel Programming 2014SS Retake"
 grades:
   - { grade: 1.0, people: 7 }
   - { grade: 1.1, people: 2 }

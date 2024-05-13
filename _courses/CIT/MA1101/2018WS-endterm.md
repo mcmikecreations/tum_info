@@ -6,7 +6,7 @@ code: "MA1101"
 semester: "2018WS" # refers to the year of the semester start
 exam_type: "endterm"
 name: "Linear Algebra and Discrete Structures 1"
-date: "2019-04-17 00:00:00 +0100"
+date: "2019-04-16 00:00:00 +0100"
 
 ects: 10
 hours: 7 # semester hours

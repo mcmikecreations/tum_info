@@ -315,9 +315,15 @@ def perform_exam(auth, achievement, logger, verbose):
         achievement['withdrew'] += 1
         continue
       elif short_name == 'B':
-        continue
+        if 'pass' not in achievement:
+          achievement['pass'] = 0
+        achievement['pass'] += 1
+        value = 7.0
       elif short_name == 'N':
-        continue
+        if 'fail' not in achievement:
+          achievement['fail'] = 0
+        achievement['fail'] += 1
+        value = 8.0
       else:
         logger('TODO: report to mcmikecreations - unknown type {}'.format(short_name))
         continue
@@ -362,6 +368,10 @@ def achievement_save(achievement, logger, verbose):
     text_desc += '{} people withdrew. Not present on the plot. '.format(achievement['withdrew'])
   if 'rejected' in achievement:
     text_desc += '{} people rejected. Added to 5.0 column. '.format(achievement['rejected'])
+  if 'pass' in achievement:
+    text_desc += '{} people passed without a grade. Added to 7.0 column. '.format(achievement['pass'])
+  if 'fail' in achievement:
+    text_desc += '{} people failed without a grade. Added to 8.0 column. '.format(achievement['fail'])
   text_file = '''---
 layout: course
 
