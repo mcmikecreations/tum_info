@@ -79,24 +79,28 @@ const peopleTotal = grades.reduce((partialSum, a) => partialSum + a.people, 0);
 const attempts = grades.filter(x => x.grade < 6.0);
 const gradesDisplay = localStorage.getItem('course-plot-absent') === 'false' ? attempts : grades;
 const attemptsTotal = attempts.reduce((partialSum, a) => partialSum + a.people, 0);
+const attemptsTotalGlobal = grades.filter(x => x.grade !== 6.0).reduce((partialSum, a) => partialSum + a.people, 0);
 const failedAttempts = attempts.filter(x => x.grade > 4.0);
+const failedAttemptsGlobal = grades.filter(x => (x.grade > 4.0 && x.grade < 7.0) || x.grade > 7.0);
 const failedAttemptsTotal = failedAttempts.reduce((partialSum, a) => partialSum + a.people, 0);
+const failedAttemptsGlobalTotal = failedAttemptsGlobal.reduce((partialSum, a) => partialSum + a.people, 0);
 const gradeTotal = attempts.reduce((partialSum, a) => partialSum + a.people * a.grade, 0);
 const passedAttempts = attempts.filter(x => x.grade <= 4.0);
 const gradePassed = passedAttempts.reduce((partialSum, a) => partialSum + a.people * a.grade, 0);
 
 const round = function(x, digits)
 {
-  const pow = Math.pow(10, digits);
-  return Math.round(x * pow) / pow;
+  const result = Number.parseFloat(x).toFixed(digits);
+  return result.endsWith('0') ? Number.parseFloat(x).toFixed(digits - 1) : result;
 }
 
 const attemptsTotalSafe = attemptsTotal === 0 ? 1 : attemptsTotal;
+const attemptsTotalGlobalSafe = attemptsTotalGlobal === 0 ? 1 : attemptsTotalGlobal;
 const passedAttemptsSafe = (attemptsTotal - failedAttemptsTotal) === 0 ? 1 : (attemptsTotal - failedAttemptsTotal);
 
 d3.select('#course-people-total').text(peopleTotal);
-d3.select('#course-attempts-total').text(attemptsTotal);
-d3.select('#course-failed-percent').text(`${round(failedAttemptsTotal / attemptsTotalSafe * 100, 2)}%`);
+d3.select('#course-attempts-total').text(attemptsTotalGlobal);
+d3.select('#course-failed-percent').text(`${round(failedAttemptsGlobalTotal / attemptsTotalGlobalSafe * 100, 2)}%`);
 d3.select('#course-grade-avg').text(round(gradeTotal / attemptsTotalSafe, 2));
 d3.select('#course-grade-avg-passed').text(round(gradePassed / passedAttemptsSafe, 2));
 
@@ -132,13 +136,19 @@ const plotContainer = document.getElementById('course-plot');
 const plotMarginRight = 60.0;
 const plotMarginLeft = langMapping.marginLeft;
 
+function getGradePlotLegend(d) {
+  const div = Math.min(d.people / attemptsTotalGlobalSafe, 1.0);
+  const parts = round(div * 100.0, 2);
+  return `${parts}% #${d.people}`;
+}
+
 const plot = Plot.plot({
   marks: [
     Plot.barX(gradesDisplay, {x: 'people', y: 'text', fill: barColor}),
     Plot.text(gradesDisplay, {
       x: 'people',
       y: 'text',
-      text: d => `${round(Math.min(d.people / attemptsTotalSafe, 1.0) * 100.0, 2)}% #${d.people}`,
+      text: getGradePlotLegend,
       fill: 'var(--minima-text-color)',
       dx: plotMarginRight / 2.0})
   ],

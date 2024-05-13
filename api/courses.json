@@ -24326,7 +24326,7 @@
         "hours": 0.5,
         "mode": "written",
         "lang": "en",
-        "peopleTotal": 15,
+        "peopleTotal": 19,
         "peopleFailed": 0,
         "attemptsTotal": 15,
         "attemptsFailedPercent": 0.0,
@@ -24348,6 +24348,10 @@
             {
                 "grade": 2.0,
                 "people": 3
+            },
+            {
+                "grade": 7.0,
+                "people": 4
             }
         ]
     },
