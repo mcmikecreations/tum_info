@@ -93,7 +93,11 @@ def process_grades(achievement, grade_list):
       achievement['withdrew'] = grade_people
       continue
     elif 'B' in grade_value_text:
-      continue
+      grade_value = 7.0
+      achievement['pass'] = grade_people
+    elif 'N' in grade_value_text:
+      grade_value = 8.0
+      achievement['fail'] = grade_people
     else:
       try:
         grade_value = float(grade_value_text.replace(',', '.'))

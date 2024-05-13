@@ -808,6 +808,30 @@
         ]
     },
     {
+        "school": "ED",
+        "code": "MW2016",
+        "semester": "2012WS",
+        "examType": "endterm",
+        "name": "Basics of Machines Drawing and Computer Aided Design I",
+        "date": "2013-02-07 11:00:00 +0000",
+        "ects": 3,
+        "hours": 2.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 1276,
+        "peopleFailed": 0,
+        "attemptsTotal": 0,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 0.0,
+        "averagePassed": 0.0,
+        "grades": [
+            {
+                "grade": 7.0,
+                "people": 1276
+            }
+        ]
+    },
+    {
         "school": "CIT",
         "code": "IN0003",
         "semester": "2012WS",
@@ -2140,6 +2164,30 @@
             {
                 "grade": 6.0,
                 "people": 15
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN9007",
+        "semester": "2013WS",
+        "examType": "endterm",
+        "name": "SET-Tutor",
+        "date": "2013-10-01 11:00:00 +0000",
+        "ects": 3,
+        "hours": 2.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 77,
+        "peopleFailed": 0,
+        "attemptsTotal": 0,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 0.0,
+        "averagePassed": 0.0,
+        "grades": [
+            {
+                "grade": 7.0,
+                "people": 77
             }
         ]
     },
@@ -3680,6 +3728,30 @@
         ]
     },
     {
+        "school": "NAT",
+        "code": "PH0009",
+        "semester": "2014SS",
+        "examType": "endterm",
+        "name": "Exam to Lab Course Part 1",
+        "date": "2014-06-24 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 7,
+        "peopleFailed": 0,
+        "attemptsTotal": 0,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 0.0,
+        "averagePassed": 0.0,
+        "grades": [
+            {
+                "grade": 7.0,
+                "people": 7
+            }
+        ]
+    },
+    {
         "school": "CIT",
         "code": "IN2102",
         "semester": "2014SS",
@@ -4839,7 +4911,7 @@
         "school": "CIT",
         "code": "IN2147",
         "semester": "2014SS",
-        "examType": "endterm",
+        "examType": "retake",
         "name": "Parallel Programming",
         "date": "2014-10-12 11:00:00 +0000",
         "ects": 5,
@@ -9632,6 +9704,30 @@
         ]
     },
     {
+        "school": "SOT",
+        "code": "CLA10512",
+        "semester": "2016SS",
+        "examType": "endterm",
+        "name": "Getting More Effective - on My Own and in a Team",
+        "date": "2016-05-09 11:00:00 +0000",
+        "ects": 1,
+        "hours": 0.5,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 21,
+        "peopleFailed": 0,
+        "attemptsTotal": 0,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 0.0,
+        "averagePassed": 0.0,
+        "grades": [
+            {
+                "grade": 7.0,
+                "people": 21
+            }
+        ]
+    },
+    {
         "school": "CIT",
         "code": "EI0601",
         "semester": "2016SS",
@@ -13924,6 +14020,30 @@
         ]
     },
     {
+        "school": "SZ",
+        "code": "SZ0418",
+        "semester": "2017WS",
+        "examType": "endterm",
+        "name": "English - English Through Cinema C1",
+        "date": "2018-01-25 11:00:00 +0000",
+        "ects": 3,
+        "hours": 2.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 15,
+        "peopleFailed": 0,
+        "attemptsTotal": 0,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 0.0,
+        "averagePassed": 0.0,
+        "grades": [
+            {
+                "grade": 7.0,
+                "people": 15
+            }
+        ]
+    },
+    {
         "school": "CIT",
         "code": "IN9028",
         "semester": "2017WS",
@@ -13964,6 +14084,38 @@
             {
                 "grade": 2.7,
                 "people": 1
+            }
+        ]
+    },
+    {
+        "school": "SOT",
+        "code": "CLA11200",
+        "semester": "2017WS",
+        "examType": "endterm",
+        "name": "Towns of the Future",
+        "date": "2018-02-07 11:00:00 +0000",
+        "ects": 2,
+        "hours": 1.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 82,
+        "peopleFailed": 0,
+        "attemptsTotal": 1,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.0,
+        "averagePassed": 1.0,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 1
+            },
+            {
+                "grade": 7.0,
+                "people": 74
+            },
+            {
+                "grade": 8.0,
+                "people": 7
             }
         ]
     },
@@ -18641,6 +18793,30 @@
     },
     {
         "school": "CIT",
+        "code": "IN9007",
+        "semester": "2018WS",
+        "examType": "endterm",
+        "name": "SET-Tutor",
+        "date": "2018-11-02 11:00:00 +0000",
+        "ects": 3,
+        "hours": 2.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 48,
+        "peopleFailed": 0,
+        "attemptsTotal": 0,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 0.0,
+        "averagePassed": 0.0,
+        "grades": [
+            {
+                "grade": 7.0,
+                "people": 48
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN4751",
         "semester": "2018WS",
         "examType": "endterm",
@@ -20541,6 +20717,34 @@
     },
     {
         "school": "CIT",
+        "code": "IN9028",
+        "semester": "2018WS",
+        "examType": "endterm",
+        "name": "Pedagogical Training in Didactics for Tutors",
+        "date": "2019-02-28 11:00:00 +0000",
+        "ects": 3,
+        "hours": 2.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 65,
+        "peopleFailed": 0,
+        "attemptsTotal": 0,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 0.0,
+        "averagePassed": 0.0,
+        "grades": [
+            {
+                "grade": 7.0,
+                "people": 63
+            },
+            {
+                "grade": 8.0,
+                "people": 2
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2062",
         "semester": "2018WS",
         "examType": "endterm",
@@ -21109,6 +21313,66 @@
     },
     {
         "school": "CIT",
+        "code": "MA1101",
+        "semester": "2018WS",
+        "examType": "endterm",
+        "name": "Linear Algebra and Discrete Structures 1",
+        "date": "2019-04-15 23:00:00 +0000",
+        "ects": 10,
+        "hours": 7,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 53,
+        "peopleFailed": 14,
+        "attemptsTotal": 30,
+        "attemptsFailedPercent": 0.4666666666666667,
+        "averageTotal": 3.9633333333333334,
+        "averagePassed": 3.33125,
+        "grades": [
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 2
+            },
+            {
+                "grade": 3.0,
+                "people": 2
+            },
+            {
+                "grade": 3.3,
+                "people": 4
+            },
+            {
+                "grade": 3.7,
+                "people": 2
+            },
+            {
+                "grade": 4.0,
+                "people": 5
+            },
+            {
+                "grade": 4.3,
+                "people": 2
+            },
+            {
+                "grade": 4.7,
+                "people": 10
+            },
+            {
+                "grade": 5.0,
+                "people": 2
+            },
+            {
+                "grade": 6.0,
+                "people": 23
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2097",
         "semester": "2018WS",
         "examType": "endterm",
@@ -21172,66 +21436,6 @@
             {
                 "grade": 6.0,
                 "people": 11
-            }
-        ]
-    },
-    {
-        "school": "CIT",
-        "code": "MA1101",
-        "semester": "2018WS",
-        "examType": "endterm",
-        "name": "Linear Algebra and Discrete Structures 1",
-        "date": "2019-04-16 23:00:00 +0000",
-        "ects": 10,
-        "hours": 7,
-        "mode": "written",
-        "lang": "en",
-        "peopleTotal": 53,
-        "peopleFailed": 14,
-        "attemptsTotal": 30,
-        "attemptsFailedPercent": 0.4666666666666667,
-        "averageTotal": 3.9633333333333334,
-        "averagePassed": 3.33125,
-        "grades": [
-            {
-                "grade": 1.3,
-                "people": 1
-            },
-            {
-                "grade": 2.7,
-                "people": 2
-            },
-            {
-                "grade": 3.0,
-                "people": 2
-            },
-            {
-                "grade": 3.3,
-                "people": 4
-            },
-            {
-                "grade": 3.7,
-                "people": 2
-            },
-            {
-                "grade": 4.0,
-                "people": 5
-            },
-            {
-                "grade": 4.3,
-                "people": 2
-            },
-            {
-                "grade": 4.7,
-                "people": 10
-            },
-            {
-                "grade": 5.0,
-                "people": 2
-            },
-            {
-                "grade": 6.0,
-                "people": 23
             }
         ]
     },
@@ -24432,6 +24636,30 @@
             {
                 "grade": 5.0,
                 "people": 2
+            }
+        ]
+    },
+    {
+        "school": "ED",
+        "code": "MW2411-2",
+        "semester": "2019WS",
+        "examType": "endterm",
+        "name": "Tutorial Concepts and Software Design for Cyber-Physical Systems",
+        "date": "2020-02-06 11:00:00 +0000",
+        "ects": 2,
+        "hours": 1.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 27,
+        "peopleFailed": 0,
+        "attemptsTotal": 0,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 0.0,
+        "averagePassed": 0.0,
+        "grades": [
+            {
+                "grade": 7.0,
+                "people": 27
             }
         ]
     },
@@ -33128,6 +33356,30 @@
         ]
     },
     {
+        "school": "CIT",
+        "code": "IN9007",
+        "semester": "2020WS",
+        "examType": "endterm",
+        "name": "SET-Tutor",
+        "date": "2020-11-02 11:00:00 +0000",
+        "ects": 3,
+        "hours": 2.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 72,
+        "peopleFailed": 0,
+        "attemptsTotal": 0,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 0.0,
+        "averagePassed": 0.0,
+        "grades": [
+            {
+                "grade": 7.0,
+                "people": 72
+            }
+        ]
+    },
+    {
         "school": "SOT",
         "code": "CLA21213",
         "semester": "2020WS",
@@ -41326,6 +41578,70 @@
     {
         "school": "SZ",
         "code": "SZ0313",
+        "semester": "2021WS",
+        "examType": "endterm",
+        "name": "German as a Foreign Language B1 Intensive Course",
+        "date": "2022-02-06 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6.0,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 24,
+        "peopleFailed": 5,
+        "attemptsTotal": 24,
+        "attemptsFailedPercent": 0.20833333333333334,
+        "averageTotal": 2.9916666666666667,
+        "averagePassed": 2.5473684210526315,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 1
+            },
+            {
+                "grade": 1.7,
+                "people": 3
+            },
+            {
+                "grade": 2.0,
+                "people": 5
+            },
+            {
+                "grade": 2.3,
+                "people": 1
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.0,
+                "people": 4
+            },
+            {
+                "grade": 3.3,
+                "people": 1
+            },
+            {
+                "grade": 4.0,
+                "people": 3
+            },
+            {
+                "grade": 4.3,
+                "people": 1
+            },
+            {
+                "grade": 4.7,
+                "people": 3
+            },
+            {
+                "grade": 5.0,
+                "people": 1
+            }
+        ]
+    },
+    {
+        "school": "SZ",
+        "code": "SZ0313",
         "semester": "2013SS",
         "examType": "endterm",
         "name": "German as a Foreign Language B1 Intensive Course",
@@ -41636,7 +41952,7 @@
         "code": "IN4267",
         "semester": "2021WS",
         "examType": "endterm",
-        "name": "Master-Praktikum - Machine Learning in Crowd Modeling &amp; Simulation",
+        "name": "Master-Praktikum - Machine Learning in Crowd Modeling and Simulation",
         "date": "2022-02-10 11:00:00 +0000",
         "ects": 8,
         "hours": 6.0,

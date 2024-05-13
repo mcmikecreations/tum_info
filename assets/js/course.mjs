@@ -9,6 +9,8 @@ const langMappings = {
     yLabel: 'note',
     xLabel: 'leute',
     labels: [
+      { grade: 8.0, text: ' N fail' },
+      { grade: 7.0, text: ' B pass' },
       { grade: 6.0, text: ' × Nicht erschienen - nicht ausreichend' },
       { grade: 4.1, text: ' nicht ausreichend' },
       { grade: 3.4, text: ' ausreichend' },
@@ -22,6 +24,8 @@ const langMappings = {
     yLabel: 'grade',
     xLabel: 'people',
     labels: [
+      { grade: 8.0, text: ' N fail' },
+      { grade: 7.0, text: ' B pass' },
       { grade: 6.0, text: ' × Didn\'t show up - not sufficient' },
       { grade: 4.1, text: ' not sufficient' },
       { grade: 3.4, text: ' sufficient' },
@@ -35,6 +39,8 @@ const langMappings = {
     yLabel: 'grade',
     xLabel: 'people',
     labels: [
+      { grade: 8.0, text: '' },
+      { grade: 7.0, text: '' },
       { grade: 6.0, text: ' ×' },
       { grade: 4.1, text: '' },
       { grade: 3.4, text: '' },
@@ -52,6 +58,13 @@ const langLabels = langMapping.labels;
 function getGradeLabel(grade) {
   for (let key of langLabels) {
     if (grade >= key.grade) {
+      if (grade > 7.0) {
+        return 'N';
+      }
+      else if (grade > 6.0) {
+        return 'B';
+      }
+
       const gradeVal = grade > 5.0 ? 5.0 : grade;
       return `${gradeVal.toFixed(1)}${key.text}`;
     }
@@ -99,6 +112,14 @@ const barColor = function (d)
   {
     const hue = (5.0 - v) * 25.0 + 25.0;
     return `hsl(0, 100%, ${hue}%)`;
+  }
+  else if (v >= 8.0)
+  {
+    return 'hsl(0, 100%, 50%)';
+  }
+  else if (v >= 7.0)
+  {
+    return 'hsl(120, 100%, 50%)';
   }
   return 'hsl(0, 0%, 25%)';
 };
