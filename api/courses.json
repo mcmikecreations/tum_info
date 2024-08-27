@@ -55265,6 +55265,82 @@
     },
     {
         "school": "CIT",
+        "code": "IN2101",
+        "semester": "2023WS",
+        "examType": "endterm",
+        "name": "Network Security",
+        "date": "2024-02-15 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 437,
+        "peopleFailed": 37,
+        "attemptsTotal": 333,
+        "attemptsFailedPercent": 0.1111111111111111,
+        "averageTotal": 2.5357357357357357,
+        "averagePassed": 2.261824324324324,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 40
+            },
+            {
+                "grade": 1.3,
+                "people": 35
+            },
+            {
+                "grade": 1.7,
+                "people": 32
+            },
+            {
+                "grade": 2.0,
+                "people": 34
+            },
+            {
+                "grade": 2.3,
+                "people": 41
+            },
+            {
+                "grade": 2.7,
+                "people": 28
+            },
+            {
+                "grade": 3.0,
+                "people": 32
+            },
+            {
+                "grade": 3.3,
+                "people": 23
+            },
+            {
+                "grade": 3.7,
+                "people": 14
+            },
+            {
+                "grade": 4.0,
+                "people": 17
+            },
+            {
+                "grade": 4.3,
+                "people": 11
+            },
+            {
+                "grade": 4.7,
+                "people": 8
+            },
+            {
+                "grade": 5.0,
+                "people": 18
+            },
+            {
+                "grade": 6.0,
+                "people": 104
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "CIT5230000",
         "semester": "2023WS",
         "examType": "endterm",
