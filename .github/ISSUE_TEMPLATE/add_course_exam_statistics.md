@@ -36,7 +36,9 @@ assignees: ''
 - grade: 4.3 people: 1
 - grade: 4.7 people: 1
 - grade: 5.0 people: 1
-- grade: 6.0 people: 1
+- grade: 6.0 people: 1 # X didn't show up
+- grade: 7.0 people: 0 # B passed without grade
+- grade: 8.0 people: 0 # N didn't pass without grade
 
 ## Description
 
