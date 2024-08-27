@@ -55199,10 +55199,10 @@
         "mode": "written",
         "lang": "en",
         "peopleTotal": 420,
-        "peopleFailed": 215,
-        "attemptsTotal": 420,
-        "attemptsFailedPercent": 0.5119047619047619,
-        "averageTotal": 3.8826190476190474,
+        "peopleFailed": 59,
+        "attemptsTotal": 264,
+        "attemptsFailedPercent": 0.22348484848484848,
+        "averageTotal": 3.2223484848484847,
         "averagePassed": 2.765853658536585,
         "grades": [
             {
@@ -55255,11 +55255,11 @@
             },
             {
                 "grade": 5.0,
-                "people": 192
+                "people": 36
             },
             {
                 "grade": 6.0,
-                "people": 0
+                "people": 156
             }
         ]
     },
