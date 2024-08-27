@@ -53504,6 +53504,82 @@
         ]
     },
     {
+        "school": "CIT",
+        "code": "IN2073",
+        "semester": "2023SS",
+        "examType": "endterm",
+        "name": "Cloud Computing",
+        "date": "2023-07-24 11:00:00 +0000",
+        "ects": 4,
+        "hours": 3,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 326,
+        "peopleFailed": 89,
+        "attemptsTotal": 237,
+        "attemptsFailedPercent": 0.3755274261603376,
+        "averageTotal": 3.5059071729957805,
+        "averagePassed": 2.9817567567567567,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 1.3,
+                "people": 8
+            },
+            {
+                "grade": 1.7,
+                "people": 4
+            },
+            {
+                "grade": 2.0,
+                "people": 10
+            },
+            {
+                "grade": 2.3,
+                "people": 11
+            },
+            {
+                "grade": 2.7,
+                "people": 19
+            },
+            {
+                "grade": 3.0,
+                "people": 23
+            },
+            {
+                "grade": 3.3,
+                "people": 26
+            },
+            {
+                "grade": 3.7,
+                "people": 31
+            },
+            {
+                "grade": 4.0,
+                "people": 14
+            },
+            {
+                "grade": 4.3,
+                "people": 74
+            },
+            {
+                "grade": 4.7,
+                "people": 12
+            },
+            {
+                "grade": 5.0,
+                "people": 3
+            },
+            {
+                "grade": 6.0,
+                "people": 89
+            }
+        ]
+    },
+    {
         "school": "MGT",
         "code": "WI000728",
         "semester": "2023SS",
