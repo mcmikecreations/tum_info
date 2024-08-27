@@ -27,8 +27,8 @@ grades:
   - { grade: 4.0, people: 16 }
   - { grade: 4.3, people: 11 }
   - { grade: 4.7, people: 12 }
-  - { grade: 5.0, people: 192 }
-  - { grade: 6.0, people: 0 }
+  - { grade: 5.0, people: 36 }
+  - { grade: 6.0, people: 156 }
 ---
 
 ![Screen Shot 2024-08-02 at 16 51 37](https://github.com/user-attachments/assets/69f0002a-e2a2-4520-a531-f2faa18de384)
