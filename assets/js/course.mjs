@@ -39,8 +39,8 @@ const langMappings = {
     yLabel: 'grade',
     xLabel: 'people',
     labels: [
-      { grade: 8.0, text: '' },
-      { grade: 7.0, text: '' },
+      { grade: 8.0, text: 'N' },
+      { grade: 7.0, text: 'B' },
       { grade: 6.0, text: ' ×' },
       { grade: 4.1, text: '' },
       { grade: 3.4, text: '' },
@@ -58,11 +58,8 @@ const langLabels = langMapping.labels;
 function getGradeLabel(grade) {
   for (let key of langLabels) {
     if (grade >= key.grade) {
-      if (grade > 7.0) {
-        return 'N';
-      }
-      else if (grade > 6.0) {
-        return 'B';
+      if (grade > 6.0) {
+        return key.text;
       }
 
       const gradeVal = grade > 5.0 ? 5.0 : grade;
@@ -75,18 +72,9 @@ grades.forEach((element) => {
   element.text = getGradeLabel(element.grade);
 });
 
-const peopleTotal = grades.reduce((partialSum, a) => partialSum + a.people, 0);
 const attempts = grades.filter(x => x.grade < 6.0);
 const gradesDisplay = localStorage.getItem('course-plot-absent') === 'false' ? attempts : grades;
-const attemptsTotal = attempts.reduce((partialSum, a) => partialSum + a.people, 0);
 const attemptsTotalGlobal = grades.filter(x => x.grade !== 6.0).reduce((partialSum, a) => partialSum + a.people, 0);
-const failedAttempts = attempts.filter(x => x.grade > 4.0);
-const failedAttemptsGlobal = grades.filter(x => (x.grade > 4.0 && x.grade < 7.0) || x.grade > 7.0);
-const failedAttemptsTotal = failedAttempts.reduce((partialSum, a) => partialSum + a.people, 0);
-const failedAttemptsGlobalTotal = failedAttemptsGlobal.reduce((partialSum, a) => partialSum + a.people, 0);
-const gradeTotal = attempts.reduce((partialSum, a) => partialSum + a.people * a.grade, 0);
-const passedAttempts = attempts.filter(x => x.grade <= 4.0);
-const gradePassed = passedAttempts.reduce((partialSum, a) => partialSum + a.people * a.grade, 0);
 
 const round = function(x, digits)
 {
@@ -94,15 +82,7 @@ const round = function(x, digits)
   return result.endsWith('0') ? Number.parseFloat(x).toFixed(digits - 1) : result;
 }
 
-const attemptsTotalSafe = attemptsTotal === 0 ? 1 : attemptsTotal;
 const attemptsTotalGlobalSafe = attemptsTotalGlobal === 0 ? 1 : attemptsTotalGlobal;
-const passedAttemptsSafe = (attemptsTotal - failedAttemptsTotal) === 0 ? 1 : (attemptsTotal - failedAttemptsTotal);
-
-d3.select('#course-people-total').text(peopleTotal);
-d3.select('#course-attempts-total').text(attemptsTotalGlobal);
-d3.select('#course-failed-percent').text(`${round(failedAttemptsGlobalTotal / attemptsTotalGlobalSafe * 100, 2)}%`);
-d3.select('#course-grade-avg').text(round(gradeTotal / attemptsTotalSafe, 2));
-d3.select('#course-grade-avg-passed').text(round(gradePassed / passedAttemptsSafe, 2));
 
 const barColor = function (d)
 {
