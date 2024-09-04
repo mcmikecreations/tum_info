@@ -1,6 +1,7 @@
 ![Build Website](https://github.com/mcmikecreations/tum_info/actions/workflows/jekyll-gh-pages.yml/badge.svg)
 
 A bunch of useful information I've collected while studying at the Technical University of Munich.
+This includes TUM course statistics or TUM exam statistics, schools, departments and more!
 
 The contributors imagined/came up with all of the course information in this repo randomly, including the grades.
 All matches with real courses and grades are purely coincidental.

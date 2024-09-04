@@ -10,7 +10,7 @@ layout: page
 
 You can quickly jump to {% for dep in page.deps %}
 <a href="#{{ dep.code }}">{{ dep.code }}</a>{% if forloop.last != true %}, {% else %}.{% endif %}
-{% endfor %}
+{% endfor %} Below is a list of TUM {{ page.code }} exam statistics or TUM {{ page.code }} course statistics with grade distributions.
 
 {% for dep in page.deps %}
 
@@ -40,11 +40,19 @@ You can quickly jump to {% for dep in page.deps %}
 
   {% assign people_total = 0 %}
   {% assign attempts_total = 0 %}
+  {% assign attempts_total_global = 0 %}
   {% assign grade_sum = 0.0 %}
   {% assign people_failed = 0 %}
+  {% assign people_failed_global = 0 %}
   {% assign grade_sum_passed = 0.0 %}
   {% for item in course_latest.grades %}
     {% assign people_total = people_total | plus: item.people %}
+    {% if item.grade != 6.0 %}
+      {% assign attempts_total_global = attempts_total_global | plus: item.people %}
+      {% if item.grade > 7.0 or item.grade > 4.0 and item.grade < 7.0 %}
+        {% assign people_failed_global = people_failed_global | plus: item.people %}
+      {% endif %}
+    {% endif %}
     {% if item.grade < 6.0 %}
       {% assign attempts_total = attempts_total | plus: item.people %}
       {% assign grade_sum = item.people | times: item.grade | plus: grade_sum %}
@@ -80,7 +88,7 @@ You can quickly jump to {% for dep in page.deps %}
     </td>
     <td>{{ grade_sum | divided_by: attempts_total | round: 2 }}</td>
     <td>{{ grade_sum_passed | divided_by: people_passed | round: 2 }}</td>
-    <td>{{ people_failed | times: 100.0 | divided_by: attempts_total | round: 2 }}%</td>
+    <td>{{ people_failed_global | times: 100.0 | divided_by: attempts_total_global | round: 2 }}%</td>
   </tr>
   {% endfor %}
 </table>

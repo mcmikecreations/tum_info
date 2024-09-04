@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Courses
+title: TUM Exam Statistics
+header: Courses
 permalink: /courses/
 ---
 
@@ -10,7 +11,7 @@ permalink: /courses/
 
 You can quickly jump to {% for school in schools %}
 <a href="#{{ school }}">{{ school }}</a>{% if forloop.last != true %}, {% else %}.{% endif %}
-{% endfor %}
+{% endfor %} Below is a list of TUM exam statistics or TUM course statistics with grade distributions.
 There are {{ site.courses.size }} entries in total.
 
 {% for school in schools %}
