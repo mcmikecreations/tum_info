@@ -54965,6 +54965,38 @@
     },
     {
         "school": "CIT",
+        "code": "IN2311",
+        "semester": "2023WS",
+        "examType": "endterm",
+        "name": "Turbulent Flow Simulation on HPC-Systems",
+        "date": "2024-02-12 11:00:00 +0000",
+        "ects": 5,
+        "hours": 3,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 15,
+        "peopleFailed": 0,
+        "attemptsTotal": 15,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.28,
+        "averagePassed": 1.28,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 5
+            },
+            {
+                "grade": 1.3,
+                "people": 7
+            },
+            {
+                "grade": 1.7,
+                "people": 3
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2346",
         "semester": "2023WS",
         "examType": "endterm",
