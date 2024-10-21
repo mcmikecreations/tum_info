@@ -50929,6 +50929,82 @@
     },
     {
         "school": "CIT",
+        "code": "IN0004",
+        "semester": "2022WS",
+        "examType": "endterm",
+        "name": "Introduction to Computer Organization and Technology - Computer Architecture",
+        "date": "2023-02-12 23:00:00 +0000",
+        "ects": 8,
+        "hours": 6,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 1012,
+        "peopleFailed": 363,
+        "attemptsTotal": 858,
+        "attemptsFailedPercent": 0.4230769230769231,
+        "averageTotal": 3.6452214452214453,
+        "averagePassed": 2.7745454545454544,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 32
+            },
+            {
+                "grade": 1.3,
+                "people": 27
+            },
+            {
+                "grade": 1.7,
+                "people": 44
+            },
+            {
+                "grade": 2.0,
+                "people": 39
+            },
+            {
+                "grade": 2.3,
+                "people": 50
+            },
+            {
+                "grade": 2.7,
+                "people": 38
+            },
+            {
+                "grade": 3.0,
+                "people": 52
+            },
+            {
+                "grade": 3.3,
+                "people": 67
+            },
+            {
+                "grade": 3.7,
+                "people": 84
+            },
+            {
+                "grade": 4.0,
+                "people": 62
+            },
+            {
+                "grade": 4.3,
+                "people": 62
+            },
+            {
+                "grade": 4.7,
+                "people": 58
+            },
+            {
+                "grade": 5.0,
+                "people": 243
+            },
+            {
+                "grade": 6.0,
+                "people": 154
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2124",
         "semester": "2022WS",
         "examType": "endterm",
@@ -51128,6 +51204,158 @@
             {
                 "grade": 6.0,
                 "people": 13
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN0002",
+        "semester": "2022WS",
+        "examType": "endterm",
+        "name": "Fundamentals of Programming (Exercises &amp; Laboratory)",
+        "date": "2023-02-16 23:00:00 +0000",
+        "ects": 6,
+        "hours": 4,
+        "mode": "assessed/continuous assessment",
+        "lang": "en",
+        "peopleTotal": 1618,
+        "peopleFailed": 469,
+        "attemptsTotal": 1604,
+        "attemptsFailedPercent": 0.29239401496259354,
+        "averageTotal": 2.9634663341645884,
+        "averagePassed": 2.147488986784141,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 442
+            },
+            {
+                "grade": 1.3,
+                "people": 51
+            },
+            {
+                "grade": 1.7,
+                "people": 69
+            },
+            {
+                "grade": 2.0,
+                "people": 61
+            },
+            {
+                "grade": 2.3,
+                "people": 69
+            },
+            {
+                "grade": 2.7,
+                "people": 73
+            },
+            {
+                "grade": 3.0,
+                "people": 69
+            },
+            {
+                "grade": 3.3,
+                "people": 77
+            },
+            {
+                "grade": 3.7,
+                "people": 77
+            },
+            {
+                "grade": 4.0,
+                "people": 147
+            },
+            {
+                "grade": 4.3,
+                "people": 29
+            },
+            {
+                "grade": 4.7,
+                "people": 29
+            },
+            {
+                "grade": 5.0,
+                "people": 411
+            },
+            {
+                "grade": 6.0,
+                "people": 14
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN0001",
+        "semester": "2022WS",
+        "examType": "endterm",
+        "name": "Introduction to Informatics",
+        "date": "2023-02-19 23:00:00 +0000",
+        "ects": 6,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 1477,
+        "peopleFailed": 359,
+        "attemptsTotal": 1265,
+        "attemptsFailedPercent": 0.2837944664031621,
+        "averageTotal": 3.4234782608695653,
+        "averagePassed": 2.9312362030905077,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 36
+            },
+            {
+                "grade": 1.3,
+                "people": 48
+            },
+            {
+                "grade": 1.7,
+                "people": 65
+            },
+            {
+                "grade": 2.0,
+                "people": 62
+            },
+            {
+                "grade": 2.3,
+                "people": 70
+            },
+            {
+                "grade": 2.7,
+                "people": 93
+            },
+            {
+                "grade": 3.0,
+                "people": 104
+            },
+            {
+                "grade": 3.3,
+                "people": 98
+            },
+            {
+                "grade": 3.7,
+                "people": 149
+            },
+            {
+                "grade": 4.0,
+                "people": 181
+            },
+            {
+                "grade": 4.3,
+                "people": 111
+            },
+            {
+                "grade": 4.7,
+                "people": 141
+            },
+            {
+                "grade": 5.0,
+                "people": 107
+            },
+            {
+                "grade": 6.0,
+                "people": 212
             }
         ]
     },
@@ -52917,6 +53145,94 @@
     },
     {
         "school": "CIT",
+        "code": "IN0015",
+        "semester": "2022WS",
+        "examType": "endterm",
+        "name": "Discrete Structures",
+        "date": "2023-02-28 23:00:00 +0000",
+        "ects": 8,
+        "hours": 6,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 1469,
+        "peopleFailed": 431,
+        "attemptsTotal": 1205,
+        "attemptsFailedPercent": 0.35767634854771785,
+        "averageTotal": 3.490124481327801,
+        "averagePassed": 2.9180878552971574,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 36
+            },
+            {
+                "grade": 1.3,
+                "people": 1
+            },
+            {
+                "grade": 1.4,
+                "people": 32
+            },
+            {
+                "grade": 1.7,
+                "people": 30
+            },
+            {
+                "grade": 2.0,
+                "people": 58
+            },
+            {
+                "grade": 2.3,
+                "people": 8
+            },
+            {
+                "grade": 2.4,
+                "people": 67
+            },
+            {
+                "grade": 2.7,
+                "people": 79
+            },
+            {
+                "grade": 3.0,
+                "people": 95
+            },
+            {
+                "grade": 3.3,
+                "people": 29
+            },
+            {
+                "grade": 3.4,
+                "people": 127
+            },
+            {
+                "grade": 3.7,
+                "people": 145
+            },
+            {
+                "grade": 4.0,
+                "people": 67
+            },
+            {
+                "grade": 4.3,
+                "people": 232
+            },
+            {
+                "grade": 4.7,
+                "people": 152
+            },
+            {
+                "grade": 5.0,
+                "people": 47
+            },
+            {
+                "grade": 6.0,
+                "people": 264
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN0019",
         "semester": "2022WS",
         "examType": "endterm",
@@ -53885,6 +54201,78 @@
     },
     {
         "school": "CIT",
+        "code": "IN0006",
+        "semester": "2023SS",
+        "examType": "endterm",
+        "name": "Introduction to Software Engineering",
+        "date": "2023-07-31 23:00:00 +0000",
+        "ects": 6,
+        "hours": 5,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 1380,
+        "peopleFailed": 393,
+        "attemptsTotal": 1380,
+        "attemptsFailedPercent": 0.2847826086956522,
+        "averageTotal": 2.7447826086956524,
+        "averagePassed": 1.8768996960486322,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 304
+            },
+            {
+                "grade": 1.3,
+                "people": 128
+            },
+            {
+                "grade": 1.7,
+                "people": 155
+            },
+            {
+                "grade": 2.0,
+                "people": 62
+            },
+            {
+                "grade": 2.3,
+                "people": 79
+            },
+            {
+                "grade": 2.7,
+                "people": 92
+            },
+            {
+                "grade": 3.0,
+                "people": 72
+            },
+            {
+                "grade": 3.3,
+                "people": 33
+            },
+            {
+                "grade": 3.7,
+                "people": 28
+            },
+            {
+                "grade": 4.0,
+                "people": 34
+            },
+            {
+                "grade": 4.3,
+                "people": 33
+            },
+            {
+                "grade": 4.7,
+                "people": 22
+            },
+            {
+                "grade": 5.0,
+                "people": 338
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2346",
         "semester": "2023SS",
         "examType": "endterm",
@@ -54105,6 +54493,82 @@
     },
     {
         "school": "CIT",
+        "code": "MA0901",
+        "semester": "2023SS",
+        "examType": "endterm",
+        "name": "Linear Algebra for Informatics",
+        "date": "2023-08-03 23:00:00 +0000",
+        "ects": 8,
+        "hours": 6,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 1380,
+        "peopleFailed": 637,
+        "attemptsTotal": 1117,
+        "attemptsFailedPercent": 0.5702775290957923,
+        "averageTotal": 4.080304386750224,
+        "averagePassed": 3.0279166666666666,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 13
+            },
+            {
+                "grade": 1.3,
+                "people": 12
+            },
+            {
+                "grade": 1.7,
+                "people": 29
+            },
+            {
+                "grade": 2.0,
+                "people": 42
+            },
+            {
+                "grade": 2.3,
+                "people": 32
+            },
+            {
+                "grade": 2.7,
+                "people": 53
+            },
+            {
+                "grade": 3.0,
+                "people": 45
+            },
+            {
+                "grade": 3.3,
+                "people": 81
+            },
+            {
+                "grade": 3.7,
+                "people": 65
+            },
+            {
+                "grade": 4.0,
+                "people": 108
+            },
+            {
+                "grade": 4.3,
+                "people": 75
+            },
+            {
+                "grade": 4.7,
+                "people": 94
+            },
+            {
+                "grade": 5.0,
+                "people": 468
+            },
+            {
+                "grade": 6.0,
+                "people": 263
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2348",
         "semester": "2023SS",
         "examType": "endterm",
@@ -54200,6 +54664,82 @@
             {
                 "grade": 6.0,
                 "people": 83
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN0007",
+        "semester": "2023SS",
+        "examType": "endterm",
+        "name": "Fundamentals of Algorithms and Data Structures",
+        "date": "2023-08-08 23:00:00 +0000",
+        "ects": 6,
+        "hours": 5,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 1186,
+        "peopleFailed": 324,
+        "attemptsTotal": 940,
+        "attemptsFailedPercent": 0.3446808510638298,
+        "averageTotal": 3.4151063829787236,
+        "averagePassed": 2.685551948051948,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 55
+            },
+            {
+                "grade": 1.3,
+                "people": 36
+            },
+            {
+                "grade": 1.7,
+                "people": 46
+            },
+            {
+                "grade": 2.0,
+                "people": 43
+            },
+            {
+                "grade": 2.3,
+                "people": 60
+            },
+            {
+                "grade": 2.7,
+                "people": 75
+            },
+            {
+                "grade": 3.0,
+                "people": 77
+            },
+            {
+                "grade": 3.3,
+                "people": 78
+            },
+            {
+                "grade": 3.7,
+                "people": 82
+            },
+            {
+                "grade": 4.0,
+                "people": 64
+            },
+            {
+                "grade": 4.3,
+                "people": 59
+            },
+            {
+                "grade": 4.7,
+                "people": 76
+            },
+            {
+                "grade": 5.0,
+                "people": 189
+            },
+            {
+                "grade": 6.0,
+                "people": 246
             }
         ]
     },
@@ -54889,6 +55429,134 @@
     },
     {
         "school": "CIT",
+        "code": "IN0003",
+        "semester": "2023SS",
+        "examType": "endterm",
+        "name": "Functional Programming and Verification",
+        "date": "2023-10-09 23:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 614,
+        "peopleFailed": 291,
+        "attemptsTotal": 426,
+        "attemptsFailedPercent": 0.6830985915492958,
+        "averageTotal": 4.301408450704225,
+        "averagePassed": 3.0437037037037036,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 4
+            },
+            {
+                "grade": 1.3,
+                "people": 2
+            },
+            {
+                "grade": 1.7,
+                "people": 5
+            },
+            {
+                "grade": 2.0,
+                "people": 8
+            },
+            {
+                "grade": 2.3,
+                "people": 11
+            },
+            {
+                "grade": 2.7,
+                "people": 16
+            },
+            {
+                "grade": 3.0,
+                "people": 23
+            },
+            {
+                "grade": 3.3,
+                "people": 19
+            },
+            {
+                "grade": 3.7,
+                "people": 28
+            },
+            {
+                "grade": 4.0,
+                "people": 19
+            },
+            {
+                "grade": 4.3,
+                "people": 35
+            },
+            {
+                "grade": 4.7,
+                "people": 30
+            },
+            {
+                "grade": 5.0,
+                "people": 226
+            },
+            {
+                "grade": 6.0,
+                "people": 188
+            }
+        ]
+    },
+    {
+        "school": "MGT",
+        "code": "WI000285",
+        "semester": "2023WS",
+        "examType": "endterm",
+        "name": "Innovative Entrepreneurs - Leadership of High-Tech Organizations",
+        "date": "2024-01-06 23:00:00 +0000",
+        "ects": 3,
+        "hours": 2,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 397,
+        "peopleFailed": 0,
+        "attemptsTotal": 374,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.1863636363636363,
+        "averagePassed": 1.1863636363636363,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 240
+            },
+            {
+                "grade": 1.3,
+                "people": 78
+            },
+            {
+                "grade": 1.7,
+                "people": 42
+            },
+            {
+                "grade": 2.0,
+                "people": 8
+            },
+            {
+                "grade": 2.3,
+                "people": 4
+            },
+            {
+                "grade": 2.7,
+                "people": 1
+            },
+            {
+                "grade": 3.0,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 23
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2097",
         "semester": "2023WS",
         "examType": "endterm",
@@ -55128,6 +55796,82 @@
             {
                 "grade": 6.0,
                 "people": 32
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "MA0902",
+        "semester": "2023WS",
+        "examType": "endterm",
+        "name": "Analysis for Informatics",
+        "date": "2024-02-13 23:00:00 +0000",
+        "ects": 8,
+        "hours": 6,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 1333,
+        "peopleFailed": 342,
+        "attemptsTotal": 1074,
+        "attemptsFailedPercent": 0.31843575418994413,
+        "averageTotal": 3.2034450651769086,
+        "averagePassed": 2.6170765027322402,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 63
+            },
+            {
+                "grade": 1.3,
+                "people": 50
+            },
+            {
+                "grade": 1.7,
+                "people": 52
+            },
+            {
+                "grade": 2.0,
+                "people": 65
+            },
+            {
+                "grade": 2.3,
+                "people": 66
+            },
+            {
+                "grade": 2.7,
+                "people": 104
+            },
+            {
+                "grade": 3.0,
+                "people": 96
+            },
+            {
+                "grade": 3.3,
+                "people": 95
+            },
+            {
+                "grade": 3.7,
+                "people": 96
+            },
+            {
+                "grade": 4.0,
+                "people": 45
+            },
+            {
+                "grade": 4.3,
+                "people": 232
+            },
+            {
+                "grade": 4.7,
+                "people": 76
+            },
+            {
+                "grade": 5.0,
+                "people": 34
+            },
+            {
+                "grade": 6.0,
+                "people": 259
             }
         ]
     },
@@ -55373,6 +56117,94 @@
     },
     {
         "school": "CIT",
+        "code": "IN0008",
+        "semester": "2023WS",
+        "examType": "endterm",
+        "name": "Fundamentals of Databases",
+        "date": "2024-02-15 23:00:00 +0000",
+        "ects": 6,
+        "hours": 5,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 1233,
+        "peopleFailed": 206,
+        "attemptsTotal": 893,
+        "attemptsFailedPercent": 0.23068309070548712,
+        "averageTotal": 2.8920492721164615,
+        "averagePassed": 2.2982532751091704,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 104
+            },
+            {
+                "grade": 1.3,
+                "people": 15
+            },
+            {
+                "grade": 1.4,
+                "people": 60
+            },
+            {
+                "grade": 1.7,
+                "people": 72
+            },
+            {
+                "grade": 2.0,
+                "people": 78
+            },
+            {
+                "grade": 2.3,
+                "people": 39
+            },
+            {
+                "grade": 2.4,
+                "people": 41
+            },
+            {
+                "grade": 2.7,
+                "people": 72
+            },
+            {
+                "grade": 3.0,
+                "people": 61
+            },
+            {
+                "grade": 3.3,
+                "people": 33
+            },
+            {
+                "grade": 3.4,
+                "people": 25
+            },
+            {
+                "grade": 3.7,
+                "people": 48
+            },
+            {
+                "grade": 4.0,
+                "people": 39
+            },
+            {
+                "grade": 4.3,
+                "people": 29
+            },
+            {
+                "grade": 4.7,
+                "people": 20
+            },
+            {
+                "grade": 5.0,
+                "people": 157
+            },
+            {
+                "grade": 6.0,
+                "people": 340
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "CIT5230000",
         "semester": "2023WS",
         "examType": "endterm",
@@ -55520,6 +56352,94 @@
             {
                 "grade": 6.0,
                 "people": 156
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN0019",
+        "semester": "2023WS",
+        "examType": "endterm",
+        "name": "Numerical Programming",
+        "date": "2024-02-22 23:00:00 +0000",
+        "ects": 6,
+        "hours": 5,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 623,
+        "peopleFailed": 42,
+        "attemptsTotal": 487,
+        "attemptsFailedPercent": 0.08624229979466119,
+        "averageTotal": 2.5574948665297743,
+        "averagePassed": 2.3597752808988766,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 58
+            },
+            {
+                "grade": 1.3,
+                "people": 3
+            },
+            {
+                "grade": 1.4,
+                "people": 42
+            },
+            {
+                "grade": 1.7,
+                "people": 57
+            },
+            {
+                "grade": 2.0,
+                "people": 44
+            },
+            {
+                "grade": 2.3,
+                "people": 17
+            },
+            {
+                "grade": 2.4,
+                "people": 22
+            },
+            {
+                "grade": 2.7,
+                "people": 50
+            },
+            {
+                "grade": 3.0,
+                "people": 53
+            },
+            {
+                "grade": 3.3,
+                "people": 26
+            },
+            {
+                "grade": 3.4,
+                "people": 16
+            },
+            {
+                "grade": 3.7,
+                "people": 32
+            },
+            {
+                "grade": 4.0,
+                "people": 25
+            },
+            {
+                "grade": 4.3,
+                "people": 17
+            },
+            {
+                "grade": 4.7,
+                "people": 9
+            },
+            {
+                "grade": 5.0,
+                "people": 16
+            },
+            {
+                "grade": 6.0,
+                "people": 136
             }
         ]
     },
@@ -55753,6 +56673,158 @@
     },
     {
         "school": "CIT",
+        "code": "IN0009",
+        "semester": "2023WS",
+        "examType": "endterm",
+        "name": "Basic Principles: Operating Systems and System Software",
+        "date": "2024-02-27 23:00:00 +0000",
+        "ects": 5,
+        "hours": 5,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 1016,
+        "peopleFailed": 338,
+        "attemptsTotal": 810,
+        "attemptsFailedPercent": 0.41728395061728396,
+        "averageTotal": 3.4771604938271605,
+        "averagePassed": 2.5277542372881356,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 49
+            },
+            {
+                "grade": 1.3,
+                "people": 21
+            },
+            {
+                "grade": 1.7,
+                "people": 39
+            },
+            {
+                "grade": 2.0,
+                "people": 56
+            },
+            {
+                "grade": 2.3,
+                "people": 52
+            },
+            {
+                "grade": 2.7,
+                "people": 60
+            },
+            {
+                "grade": 3.0,
+                "people": 76
+            },
+            {
+                "grade": 3.3,
+                "people": 51
+            },
+            {
+                "grade": 3.7,
+                "people": 38
+            },
+            {
+                "grade": 4.0,
+                "people": 30
+            },
+            {
+                "grade": 4.3,
+                "people": 63
+            },
+            {
+                "grade": 4.7,
+                "people": 75
+            },
+            {
+                "grade": 5.0,
+                "people": 200
+            },
+            {
+                "grade": 6.0,
+                "people": 206
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN0042",
+        "semester": "2023WS",
+        "examType": "endterm",
+        "name": "IT-Security",
+        "date": "2024-02-29 23:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 958,
+        "peopleFailed": 235,
+        "attemptsTotal": 724,
+        "attemptsFailedPercent": 0.324585635359116,
+        "averageTotal": 3.3821823204419887,
+        "averagePassed": 2.7137014314928427,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 22
+            },
+            {
+                "grade": 1.3,
+                "people": 12
+            },
+            {
+                "grade": 1.7,
+                "people": 41
+            },
+            {
+                "grade": 2.0,
+                "people": 47
+            },
+            {
+                "grade": 2.3,
+                "people": 69
+            },
+            {
+                "grade": 2.7,
+                "people": 74
+            },
+            {
+                "grade": 3.0,
+                "people": 67
+            },
+            {
+                "grade": 3.3,
+                "people": 69
+            },
+            {
+                "grade": 3.7,
+                "people": 45
+            },
+            {
+                "grade": 4.0,
+                "people": 43
+            },
+            {
+                "grade": 4.3,
+                "people": 56
+            },
+            {
+                "grade": 4.7,
+                "people": 47
+            },
+            {
+                "grade": 5.0,
+                "people": 132
+            },
+            {
+                "grade": 6.0,
+                "people": 234
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2361",
         "semester": "2023WS",
         "examType": "retake",
@@ -55905,6 +56977,150 @@
     },
     {
         "school": "CIT",
+        "code": "IN4813",
+        "semester": "2024SS",
+        "examType": "endterm",
+        "name": "Seminar Course Cyber-Physical Systems",
+        "date": "2024-07-14 23:00:00 +0000",
+        "ects": 5,
+        "hours": 2,
+        "mode": "assessed/continuous assessment",
+        "lang": "en",
+        "peopleTotal": 18,
+        "peopleFailed": 0,
+        "attemptsTotal": 18,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.4055555555555554,
+        "averagePassed": 1.4055555555555554,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 3
+            },
+            {
+                "grade": 1.3,
+                "people": 11
+            },
+            {
+                "grade": 1.7,
+                "people": 2
+            },
+            {
+                "grade": 2.3,
+                "people": 2
+            }
+        ]
+    },
+    {
+        "school": "SZ",
+        "code": "SZ0488-2",
+        "semester": "2024SS",
+        "examType": "endterm",
+        "name": "English - English for Academic Purposes: Gateway to English Master&#39;s C1",
+        "date": "2024-07-18 23:00:00 +0000",
+        "ects": 3,
+        "hours": 2,
+        "mode": "assessed/continuous assessment",
+        "lang": "en",
+        "peopleTotal": 11,
+        "peopleFailed": 0,
+        "attemptsTotal": 11,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.4181818181818182,
+        "averagePassed": 1.4181818181818182,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 1
+            },
+            {
+                "grade": 1.3,
+                "people": 6
+            },
+            {
+                "grade": 1.7,
+                "people": 4
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN0011",
+        "semester": "2024SS",
+        "examType": "endterm",
+        "name": "Introduction to Theory of Computation",
+        "date": "2024-07-19 23:00:00 +0000",
+        "ects": 8,
+        "hours": 6,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 1210,
+        "peopleFailed": 569,
+        "attemptsTotal": 1017,
+        "attemptsFailedPercent": 0.5594886922320551,
+        "averageTotal": 4.089773844641101,
+        "averagePassed": 3.155357142857143,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 10
+            },
+            {
+                "grade": 1.3,
+                "people": 8
+            },
+            {
+                "grade": 1.7,
+                "people": 24
+            },
+            {
+                "grade": 2.0,
+                "people": 18
+            },
+            {
+                "grade": 2.3,
+                "people": 33
+            },
+            {
+                "grade": 2.7,
+                "people": 44
+            },
+            {
+                "grade": 3.0,
+                "people": 43
+            },
+            {
+                "grade": 3.3,
+                "people": 82
+            },
+            {
+                "grade": 3.7,
+                "people": 73
+            },
+            {
+                "grade": 4.0,
+                "people": 113
+            },
+            {
+                "grade": 4.3,
+                "people": 102
+            },
+            {
+                "grade": 4.7,
+                "people": 93
+            },
+            {
+                "grade": 5.0,
+                "people": 374
+            },
+            {
+                "grade": 6.0,
+                "people": 193
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2073",
         "semester": "2024SS",
         "examType": "endterm",
@@ -56049,6 +57265,158 @@
     },
     {
         "school": "CIT",
+        "code": "IN0010",
+        "semester": "2024SS",
+        "examType": "endterm",
+        "name": "Introduction to Computer Networking and Distributed Systems",
+        "date": "2024-07-28 23:00:00 +0000",
+        "ects": 6,
+        "hours": 5,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 1153,
+        "peopleFailed": 263,
+        "attemptsTotal": 869,
+        "attemptsFailedPercent": 0.30264672036823936,
+        "averageTotal": 3.1154200230149596,
+        "averagePassed": 2.3938943894389437,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 101
+            },
+            {
+                "grade": 1.3,
+                "people": 35
+            },
+            {
+                "grade": 1.7,
+                "people": 65
+            },
+            {
+                "grade": 2.0,
+                "people": 56
+            },
+            {
+                "grade": 2.3,
+                "people": 60
+            },
+            {
+                "grade": 2.7,
+                "people": 73
+            },
+            {
+                "grade": 3.0,
+                "people": 63
+            },
+            {
+                "grade": 3.3,
+                "people": 46
+            },
+            {
+                "grade": 3.7,
+                "people": 74
+            },
+            {
+                "grade": 4.0,
+                "people": 33
+            },
+            {
+                "grade": 4.3,
+                "people": 53
+            },
+            {
+                "grade": 4.7,
+                "people": 71
+            },
+            {
+                "grade": 5.0,
+                "people": 139
+            },
+            {
+                "grade": 6.0,
+                "people": 284
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2366",
+        "semester": "2024SS",
+        "examType": "endterm",
+        "name": "Modelling and Simulation (Focus Analysis)",
+        "date": "2024-07-30 23:00:00 +0000",
+        "ects": 9,
+        "hours": 7,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 141,
+        "peopleFailed": 23,
+        "attemptsTotal": 99,
+        "attemptsFailedPercent": 0.23232323232323232,
+        "averageTotal": 2.82020202020202,
+        "averagePassed": 2.2039473684210527,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 11
+            },
+            {
+                "grade": 1.3,
+                "people": 12
+            },
+            {
+                "grade": 1.7,
+                "people": 10
+            },
+            {
+                "grade": 2.0,
+                "people": 5
+            },
+            {
+                "grade": 2.3,
+                "people": 7
+            },
+            {
+                "grade": 2.7,
+                "people": 10
+            },
+            {
+                "grade": 3.0,
+                "people": 7
+            },
+            {
+                "grade": 3.3,
+                "people": 8
+            },
+            {
+                "grade": 3.7,
+                "people": 2
+            },
+            {
+                "grade": 4.0,
+                "people": 4
+            },
+            {
+                "grade": 4.3,
+                "people": 3
+            },
+            {
+                "grade": 4.7,
+                "people": 4
+            },
+            {
+                "grade": 5.0,
+                "people": 16
+            },
+            {
+                "grade": 6.0,
+                "people": 42
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN0024",
         "semester": "2024SS",
         "examType": "endterm",
@@ -56132,6 +57500,82 @@
             {
                 "grade": 6.0,
                 "people": 174
+            }
+        ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN0018",
+        "semester": "2024SS",
+        "examType": "endterm",
+        "name": "Discrete Probability Theory",
+        "date": "2024-08-08 23:00:00 +0000",
+        "ects": 6,
+        "hours": 5,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 879,
+        "peopleFailed": 277,
+        "attemptsTotal": 656,
+        "attemptsFailedPercent": 0.4222560975609756,
+        "averageTotal": 3.6397865853658535,
+        "averagePassed": 2.7715039577836413,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 27
+            },
+            {
+                "grade": 1.3,
+                "people": 23
+            },
+            {
+                "grade": 1.7,
+                "people": 18
+            },
+            {
+                "grade": 2.0,
+                "people": 29
+            },
+            {
+                "grade": 2.3,
+                "people": 41
+            },
+            {
+                "grade": 2.7,
+                "people": 37
+            },
+            {
+                "grade": 3.0,
+                "people": 40
+            },
+            {
+                "grade": 3.3,
+                "people": 65
+            },
+            {
+                "grade": 3.7,
+                "people": 66
+            },
+            {
+                "grade": 4.0,
+                "people": 33
+            },
+            {
+                "grade": 4.3,
+                "people": 42
+            },
+            {
+                "grade": 4.7,
+                "people": 61
+            },
+            {
+                "grade": 5.0,
+                "people": 174
+            },
+            {
+                "grade": 6.0,
+                "people": 223
             }
         ]
     }
