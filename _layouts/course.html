@@ -45,6 +45,9 @@ layout: page
 {% if attempts_total < 1 %}
 {% assign attempts_total = 1 %}
 {% endif %}
+{% if attempts_total_global < 1 %}
+{% assign attempts_total_global = 1 %}
+{% endif %}
     <tr>
       <td><b>Percent. of exams assessed as failed:</b></td>
       <td id="course-failed-percent">{{ people_failed_global | times: 100.0 | divided_by: attempts_total_global | round: 2 }}%</td>

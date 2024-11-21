@@ -4,7 +4,7 @@ permalink: /api/courses
 ---
 [
 {% for course in site.courses %}    {
-{% assign people_total = 0 %}{% assign attempts_total = 0 %}{% assign grade_sum = 0.0 %}{% assign people_failed = 0 %}{% assign grade_sum_passed = 0.0 %}{% for item in course.grades %}{% assign people_total = people_total | plus: item.people %}{% if item.grade < 6.0 %}{% assign attempts_total = attempts_total | plus: item.people %}{% assign grade_sum = item.people | times: item.grade | plus: grade_sum %}{% if item.grade > 4.0 %}{% assign people_failed = people_failed | plus: item.people %}{% else %}{% assign grade_sum_passed = item.people | times: item.grade | plus: grade_sum_passed %}{% endif %}{% endif %}{% endfor %}{% assign people_passed = attempts_total | minus: people_failed %}{% if people_passed < 1 %}{% assign people_passed = 1 %}{% endif %}        "school": "{{ course.school }}",
+{% assign people_total = 0 %}{% assign attempts_total = 0 %}{% assign attempts_total_global = 0 %}{% assign grade_sum = 0.0 %}{% assign people_failed = 0 %}{% assign people_failed_global = 0 %}{% assign grade_sum_passed = 0.0 %}{% for item in course.grades %}{% assign people_total = people_total | plus: item.people %}{% if item.grade != 6.0 %}{% assign attempts_total_global = attempts_total_global | plus: item.people %}{% if item.grade > 7.0 or item.grade > 4.0 and item.grade < 7.0 %}{% assign people_failed_global = people_failed_global | plus: item.people %}{% endif %}{% endif %}{% if item.grade < 6.0 %}{% assign attempts_total = attempts_total | plus: item.people %}{% assign grade_sum = item.people | times: item.grade | plus: grade_sum %}{% if item.grade > 4.0 %}{% assign people_failed = people_failed | plus: item.people %}{% else %}{% assign grade_sum_passed = item.people | times: item.grade | plus: grade_sum_passed %}{% endif %}{% endif %}{% endfor %}{% assign people_passed = attempts_total | minus: people_failed %}{% if people_passed < 1 %}{% assign people_passed = 1 %}{% endif %}        "school": "{{ course.school }}",
         "code": "{{ course.code }}",
         "semester": "{{ course.semester }}",
         "examType": "{{ course.exam_type }}",
@@ -16,8 +16,8 @@ permalink: /api/courses
         "lang": "{{ course.lang }}",
         "peopleTotal": {{ people_total }},
         "peopleFailed": {{ people_failed }},
-        "attemptsTotal": {{ attempts_total }},{% if attempts_total < 1 %}{% assign attempts_total = 1 %}{% endif %}
-        "attemptsFailedPercent": {{ people_failed | times: 1.0 | divided_by: attempts_total }},
+        "attemptsTotal": {{ attempts_total_global }},{% if attempts_total < 1 %}{% assign attempts_total = 1 %}{% endif %}{% if attempts_total_global < 1 %}{% assign attempts_total_global = 1 %}{% endif %}
+        "attemptsFailedPercent": {{ people_failed_global | times: 1.0 | divided_by: attempts_total_global }},
         "averageTotal": {{ grade_sum | divided_by: attempts_total }},
         "averagePassed": {{ grade_sum_passed | divided_by: people_passed }},
         "grades": [
