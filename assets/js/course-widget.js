@@ -129,6 +129,7 @@
             x: { label: langMapping.xLabel, grid: true }
           });
           
+          plot.style.backgroundColor = 'transparent';
           widgetContainer.append(plot);
     }
     catch (error) {
