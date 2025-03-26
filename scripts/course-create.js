@@ -15,7 +15,7 @@ module.exports = async ({github, context, core, exec, io}) => {
   const regexType = /^- exam type: (.+)$/m;
   const regexName = /^- name: (.+)$/m;
   const regexDate = /^- date: (.+)$/m;
-  const regexGrade = /^- grade: (\d+(?:\.\d+)?) people: (\d+)$/mg;
+  const regexGrade = /^- grade: (\d+(?:\.\d+)?) people: (\d+)( #.*)?$/mg;
   const matchSchool = body.match(regexSchool)[1].trim();
   const matchCode = body.match(regexCode)[1].trim().toUpperCase();
   const matchSemester = body.match(regexSemester)[1].trim().toUpperCase();
