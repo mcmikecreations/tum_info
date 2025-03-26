@@ -58462,5 +58462,89 @@
                 "people": 18
             }
         ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2028",
+        "semester": "2024WS",
+        "examType": "endterm",
+        "name": "Business Analytics and Machine Learning",
+        "date": "2025-02-27 11:00:00 +0000",
+        "ects": 6,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 774,
+        "peopleFailed": 170,
+        "attemptsTotal": 502,
+        "attemptsFailedPercent": 0.3386454183266932,
+        "averageTotal": 3.50199203187251,
+        "averagePassed": 2.819578313253012,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 19
+            },
+            {
+                "grade": 1.3,
+                "people": 11
+            },
+            {
+                "grade": 1.4,
+                "people": 2
+            },
+            {
+                "grade": 1.7,
+                "people": 16
+            },
+            {
+                "grade": 2.0,
+                "people": 24
+            },
+            {
+                "grade": 2.3,
+                "people": 28
+            },
+            {
+                "grade": 2.4,
+                "people": 15
+            },
+            {
+                "grade": 2.7,
+                "people": 48
+            },
+            {
+                "grade": 3.0,
+                "people": 43
+            },
+            {
+                "grade": 3.3,
+                "people": 34
+            },
+            {
+                "grade": 3.7,
+                "people": 48
+            },
+            {
+                "grade": 4.0,
+                "people": 44
+            },
+            {
+                "grade": 4.3,
+                "people": 26
+            },
+            {
+                "grade": 4.7,
+                "people": 33
+            },
+            {
+                "grade": 5.0,
+                "people": 111
+            },
+            {
+                "grade": 6.0,
+                "people": 272
+            }
+        ]
     }
 ]
