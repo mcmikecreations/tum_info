@@ -57581,6 +57581,90 @@
     },
     {
         "school": "CIT",
+        "code": "IN2390",
+        "semester": "2024SS",
+        "examType": "endterm",
+        "name": "Advanced Deep Learning for Computer Vision: Visual Computing",
+        "date": "2024-08-06 11:00:00 +0000",
+        "ects": 8,
+        "hours": 6,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 30,
+        "peopleFailed": 0,
+        "attemptsTotal": 27,
+        "attemptsFailedPercent": 0.0,
+        "averageTotal": 1.6851851851851851,
+        "averagePassed": 1.6851851851851851,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 2
+            },
+            {
+                "grade": 1.3,
+                "people": 8
+            },
+            {
+                "grade": 1.7,
+                "people": 6
+            },
+            {
+                "grade": 2.0,
+                "people": 8
+            },
+            {
+                "grade": 2.3,
+                "people": 3
+            },
+            {
+                "grade": 2.7,
+                "people": 0
+            },
+            {
+                "grade": 3.0,
+                "people": 0
+            },
+            {
+                "grade": 3.3,
+                "people": 0
+            },
+            {
+                "grade": 3.7,
+                "people": 0
+            },
+            {
+                "grade": 4.0,
+                "people": 0
+            },
+            {
+                "grade": 4.3,
+                "people": 0
+            },
+            {
+                "grade": 4.7,
+                "people": 0
+            },
+            {
+                "grade": 5.0,
+                "people": 0
+            },
+            {
+                "grade": 6.0,
+                "people": 3
+            },
+            {
+                "grade": 7.0,
+                "people": 0
+            },
+            {
+                "grade": 8.0,
+                "people": 0
+            }
+        ]
+    },
+    {
+        "school": "CIT",
         "code": "IN2228",
         "semester": "2024SS",
         "examType": "endterm",
