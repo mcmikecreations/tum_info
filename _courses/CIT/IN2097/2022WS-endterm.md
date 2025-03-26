@@ -27,8 +27,10 @@ grades:
   - { grade: 4.0, people: 4 }
   - { grade: 4.3, people: 2 }
   - { grade: 4.7, people: 5 }
-  - { grade: 5.0, people: 64 }
-  - { grade: 6.0, people: 1 }
+  - { grade: 5.0, people: 9 }
+  - { grade: 6.0, people: 56 }
 ---
+
+One person was graded "Q Rücktritt mit anerkanntem Grund - Q Keine Beurteilung". Added to 5.0 X column.
 
 ![Screen Shot 2024-08-02 at 16 35 54](https://github.com/user-attachments/assets/c1afe230-3c6e-4749-ba36-d57cb9bd9241)
