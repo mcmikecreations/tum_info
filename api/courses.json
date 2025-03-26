@@ -58386,5 +58386,81 @@
                 "people": 0
             }
         ]
+    },
+    {
+        "school": "CIT",
+        "code": "IN2157",
+        "semester": "2024W",
+        "examType": "endterm",
+        "name": "Fundamental Algorithms",
+        "date": "2025-02-19 11:00:00 +0000",
+        "ects": 5,
+        "hours": 4,
+        "mode": "written",
+        "lang": "en",
+        "peopleTotal": 60,
+        "peopleFailed": 2,
+        "attemptsTotal": 42,
+        "attemptsFailedPercent": 0.047619047619047616,
+        "averageTotal": 2.1523809523809523,
+        "averagePassed": 2.0175,
+        "grades": [
+            {
+                "grade": 1.0,
+                "people": 1
+            },
+            {
+                "grade": 1.3,
+                "people": 9
+            },
+            {
+                "grade": 1.7,
+                "people": 5
+            },
+            {
+                "grade": 2.0,
+                "people": 11
+            },
+            {
+                "grade": 2.3,
+                "people": 6
+            },
+            {
+                "grade": 2.7,
+                "people": 3
+            },
+            {
+                "grade": 3.0,
+                "people": 3
+            },
+            {
+                "grade": 3.3,
+                "people": 2
+            },
+            {
+                "grade": 3.7,
+                "people": 0
+            },
+            {
+                "grade": 4.0,
+                "people": 0
+            },
+            {
+                "grade": 4.3,
+                "people": 0
+            },
+            {
+                "grade": 4.7,
+                "people": 1
+            },
+            {
+                "grade": 5.0,
+                "people": 1
+            },
+            {
+                "grade": 6.0,
+                "people": 18
+            }
+        ]
     }
 ]
